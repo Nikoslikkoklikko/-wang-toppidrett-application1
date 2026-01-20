@@ -36,44 +36,46 @@ export default function HvorforWangPage() {
           {/* Previous attempt section */}
           <ContentBlock>
             <h2 className="font-serif text-3xl md:text-4xl text-[var(--text-primary)] mb-6">
-              Jeg ga aldri opp
+              Hvorfor søker jeg Wang Toppidrett?
             </h2>
             <p className="text-[var(--text-secondary)] leading-relaxed mb-4">
-              Jeg hadde planlagt å begynne på ungdomsskolen deres tidligere. Jeg brukte mye tid på
-              forberedelser og testing. Da jeg ikke kom inn den gangen, ga jeg ikke opp.
+              Jeg søker Wang fordi jeg vil omgi meg med folk som tenker likt – som vil noe, og som er villige til å
+              jobbe for det. På Wang jobber så meg med den mentale siden av idrett. Jeg trenger et miljø som forstår
+              balansen mellom idrett og akademia.
             </p>
             <p className="text-[var(--text-secondary)] leading-relaxed mb-4">
-              I stedet brukte jeg tiden til å bli bedre. Jeg flyttet til Spania for å trene på høyeste
-              nivå. Jeg jobbet med skolen. Jeg utviklet meg som person.
+              Ikke bare har jeg fokus på å bli bedre på wang jobber så med mye av det mentale, jeg er sikker på at jeg blir det.
+              Alt jeg lærer på tennisbanen kan jeg overføre til skolen deres. Presentasjonsangst, press og vilje – dette
+              tror jeg at jeg kan bidra positivt til miljøet deres.
             </p>
             <p className="text-[var(--text-secondary)] leading-relaxed">
-              <span className="text-[var(--accent)] font-semibold">Nå er jeg klar til å bevise at jeg har det som trengs.</span>
+              <span className="text-[var(--accent)] font-semibold">Jeg er klar. Jeg er motivert. Jeg er dedikert.</span>
             </p>
           </ContentBlock>
 
           {/* Why I apply one year later */}
           <QuoteBlock>
-            Jeg søker ett år senere fordi jeg hadde lyst til å bli så god som mulig først.
-            Jeg ville være sikker på at jeg var klar.
+            Jeg søker ett år senere fordi jeg hadde lyst å bli så god jeg kan.
+            Treneren min mener at jeg har et ekstremt nivå jeg kan nå.
           </QuoteBlock>
 
           {/* School track record section */}
           <ContentBlock delay={0.2}>
             <h2 className="font-serif text-3xl md:text-4xl text-[var(--text-primary)] mb-6">
-              10 år med skole
+              Akademisk og disiplin
             </h2>
             <p className="text-[var(--text-secondary)] leading-relaxed mb-4">
-              Gjennom hele skoleløpet mitt har jeg alltid tatt ansvar. Jeg leverer alltid leksene
-              mine i tide. Aldri én eneste dårlig foreldresamtale gjennom 10 år med skole.
+              Jeg jobber også hardt med skole. Jeg hadde et av de beste snittene i klassen, samtidig som jeg trener 3 til 4
+              timer hver dag. Jeg kommer til å bidra positivt til klassemiljøet fordi jeg alltid leder med eksempel.
             </p>
             <p className="text-[var(--text-secondary)] leading-relaxed mb-6">
-              Nordseter skole kan bekrefte dette. Mange vil se på meg som en "teacher's pet",
-              men det bryr jeg meg ikke om. Jeg vet at innsats og respekt for skolearbeidet
-              er viktig for å lykkes.
+              Jeg vet at timeplanen min er tett, så når jeg er på skolen, skal jeg fokusere fullt på skolearbeidet.
+              Nordseter skole, heter den Nordsetor skole. Jeg leverer alltid leksene mine i tide. Aldri én eneste
+              dårlige foreldresamtale gjennom 10 år med skole. Hvis dere ønsker å kontakte skolen, heter den Nordsetor skole.
             </p>
             <FeatureList
               items={[
-                "Karaktersnitt på 5.0 (opp fra 4.2 tidligere)",
+                "Karaktersnitt på 5,0 (opp fra 4,2 tidligere)",
                 "Leverer alltid leksene i tide",
                 "Aldri én dårlig foreldresamtale på 10 år",
                 "Bidrar positivt til klassemiljøet",
@@ -136,10 +138,12 @@ export default function HvorforWangPage() {
             className="glass-strong rounded-2xl p-10 text-center"
           >
             <h2 className="font-serif text-4xl md:text-5xl text-[var(--text-primary)] mb-6">
-              La meg bevise det
+              Derfor skal jeg gjøre alt jeg kan for å komme inn på skolen deres
             </h2>
             <p className="text-[var(--text-secondary)] text-lg leading-relaxed max-w-xl mx-auto mb-6">
-              Jeg er klar. Jeg er motivert. Jeg er dedikert.
+              Alt det jeg lærer på tennisbanen kan jeg overføre til skolen deres. Presentasjonsangst, press og vilje,
+              dette er bare noen av dem. Jeg liker også å lære fra andre og jeg vet at jeg alltid kan bli bedre,
+              både på tennisbanen og i klasserommet.
             </p>
             <p className="font-serif text-2xl md:text-3xl text-[var(--accent)]">
               La meg bevise at jeg hører hjemme på Wang Toppidrett.

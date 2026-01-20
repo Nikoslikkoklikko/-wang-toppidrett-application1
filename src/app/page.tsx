@@ -110,13 +110,14 @@ export default function Home() {
             className="max-w-2xl mx-auto"
           >
             <p className="text-lg md:text-xl text-[var(--text-secondary)] leading-relaxed mb-6">
-              Jeg spiller tennis, og veien min hit har ikke vært enkel. Men hver gang har jeg valgt å fortsette.
-              Ikke fordi jeg har mest talent, men fordi jeg har{" "}
-              <span className="text-[var(--accent)] font-semibold">bestemt meg for hvor jeg skal</span>.
+              Jeg har et stort ønske om å starte på Wang Toppidrett. Jeg hadde tenkt å begynne på ungdomsskolen deres,
+              og jeg brukte mye tid på å forberede meg og teste. I ettertid har jeg sett at det ikke var riktig timing –
+              men nå er jeg klar til å bevise at jeg{" "}
+              <span className="text-[var(--accent)] font-semibold">har det som trengs</span>.
             </p>
             <p className="text-base text-[var(--text-secondary)] leading-relaxed">
-              Jeg hadde planlagt å begynne på ungdomsskolen deres tidligere. Brukte mye tid på forberedelser og testing.
-              Da jeg ikke kom inn den gangen, ga jeg ikke opp. Nå er jeg klar til å bevise at jeg har det som trengs.
+              Tennis er min lidenskap. Det har aldri vært den enkleste veien, men jeg har valgt å fortsette –
+              ikke bare fordi jeg er god, men fordi jeg har bestemt meg for hvor jeg skal.
             </p>
           </motion.div>
 
@@ -157,7 +158,7 @@ export default function Home() {
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6">
             <StatCard value="5.0" label="Karaktersnitt" />
             <StatCard value="4-6" label="Timer daglig" suffix="t" />
-            <StatCard value="8" label="Anmerkninger" />
+            <StatCard value="0" label="Anmerkninger" />
             <StatCard value="10" label="År med skole" />
           </div>
         </div>
