@@ -110,14 +110,13 @@ export default function Home() {
             className="max-w-2xl mx-auto"
           >
             <p className="text-lg md:text-xl text-[var(--text-secondary)] leading-relaxed mb-6">
-              Jeg har et stort ønske om å starte på Wang Toppidrett. Jeg hadde tenkt å begynne på ungdomsskolen deres,
-              og jeg brukte mye tid på å forberede meg og teste. I ettertid har jeg sett at det ikke var riktig timing –
-              men nå er jeg klar til å bevise at jeg{" "}
-              <span className="text-[var(--accent)] font-semibold">har det som trengs</span>.
+              Mitt navn er Nikolai Tingstad, og jeg søker opptak til Wang Toppidrett. Tennis er min lidenskap,
+              og jeg ønsker å kombinere seriøs satsing på tennis med god akademisk utvikling.
             </p>
             <p className="text-base text-[var(--text-secondary)] leading-relaxed">
-              Tennis er min lidenskap. Det har aldri vært den enkleste veien, men jeg har valgt å fortsette –
-              ikke bare fordi jeg er god, men fordi jeg har bestemt meg for hvor jeg skal.
+              Jeg søkte til Wang Toppidrett for ett år siden, men kom ikke inn. I stedet for å gi opp brukte jeg det siste
+              året til å bli bedre. Jeg reiste til Spania for å trene tennis på heltid, og jeg har utviklet meg enormt
+              både som spiller og person. <span className="text-[var(--accent)] font-semibold">Nå er jeg klar til å vise at jeg har det som trengs</span>.
             </p>
           </motion.div>
 
@@ -158,7 +157,7 @@ export default function Home() {
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6">
             <StatCard value="5.0" label="Karaktersnitt" />
             <StatCard value="4-6" label="Timer daglig" suffix="t" />
-            <StatCard value="0" label="Anmerkninger" />
+            <StatCard value="8" label="Anmerkninger" />
             <StatCard value="10" label="År med skole" />
           </div>
         </div>

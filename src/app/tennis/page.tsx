@@ -24,11 +24,11 @@ export default function TennisPage() {
 
       <HeroSection
         icon="🎾"
-        title="Tennis"
-        subtitle="Mer enn bare en sport"
+        title="Min tennisreise"
+        subtitle="Fra utfordringer til utvikling"
       >
         <p className="text-lg md:text-xl text-[var(--text-secondary)] leading-relaxed">
-          Min reise har vært full av utfordringer, men hver gang har jeg valgt å stå opp igjen.
+          Tennisreisen min har ikke vært enkel, men den har gjort meg til spilleren jeg er i dag.
         </p>
       </HeroSection>
 
@@ -37,24 +37,26 @@ export default function TennisPage() {
           {/* Journey section */}
           <ContentBlock>
             <h2 className="font-serif text-3xl md:text-4xl text-[var(--text-primary)] mb-6">
-              Min reise
+              Bakgrunn
             </h2>
             <p className="text-[var(--text-secondary)] leading-relaxed mb-4">
-              Jeg spiller tennis, og min tenniskarriere har ikke vært den enkleste. Jeg har hatt skade på skade.
-              Men jeg har aldri gitt opp, selv om jeg har tenkt på det. Jeg har hatt mål om å bli bedre, og når
-              jeg har et mål, må jeg oppnå det.
+              Tennisreisen min har ikke vært enkel. Fra jeg startet tapte jeg mot alle på trening. Men i stedet for
+              å gi opp, brukte jeg det som drivkraft. Jeg tok meg alltid først til trening og dro sist. For mange
+              ville dette vært motløsende, men for meg ga det disiplin og en enorm mental styrke.
             </p>
             <p className="text-[var(--text-secondary)] leading-relaxed mb-4">
-              Jeg har vært ute av tennis i to år, fra jeg var 13 til 15, på grunn av skader. Dette ga motstanderne mine
-              en stor fordel. Jeg tapte mot alle de jeg tidligere pleide å slå. For mange ville dette vært nok til å stoppe.
-              Men jeg tenkte: folk kan folk, de trening, og jeg blir senere enn alle andre – men fordi jeg har et mål
-              de andre ikke har, fortsetter jeg.
+              Jeg har hatt skadeproblemer underveis som har satt meg tilbake, men jeg har aldri gitt opp.
+              I etterkant ser jeg at utfordringene har gjort meg til en sterkere spiller og person.
             </p>
             <p className="text-[var(--text-secondary)] leading-relaxed">
-              Jeg dro fra skolen nesten hver dag kl. 07 for å trene før skolen, og likevel greide jeg å holde gode karakterer.
-              Jeg kom hjem kl. 21 hver dag etter trening. Jeg har greid å gå ut av skolen med 5 i snitt og har aldri hatt lavere
-              enn 4,2 i snitt. Gjennom hele ungdomsskolen har jeg alltid kommet til timen og aldri glemt noe.
+              <strong>Min bakgrunn:</strong>
             </p>
+            <ul className="list-disc list-inside text-[var(--text-secondary)] leading-relaxed ml-4 space-y-2">
+              <li>Begynte å spille tennis som 13-åring</li>
+              <li>Spilte frem til jeg var 15 år</li>
+              <li>Har hatt skader underveis, men alltid kommet tilbake sterkere</li>
+              <li>Bor nå alene i Spania for å satse på tennis</li>
+            </ul>
           </ContentBlock>
 
           {/* Quote - dedication */}
@@ -63,10 +65,10 @@ export default function TennisPage() {
             men det bare økte min motivasjon.
           </QuoteBlock>
 
-          {/* Mental strength section - with prominent 50% quote */}
+          {/* Spain year section */}
           <ContentBlock delay={0.2}>
             <h2 className="font-serif text-3xl md:text-4xl text-[var(--text-primary)] mb-6">
-              Ikke bare fysikk, men også hodet
+              Året i Spania
             </h2>
 
             {/* Prominent mental quote */}
@@ -77,67 +79,66 @@ export default function TennisPage() {
               className="glass-strong rounded-2xl p-8 text-center mb-8"
             >
               <p className="font-serif text-3xl md:text-4xl text-[var(--accent)] mb-2">
-                Tennis er 50% mentalt
+                Tennis er like mye mental som fysisk
               </p>
               <p className="text-[var(--text-secondary)]">
-                Og jeg er sikker på at jeg blir det
+                Det mentale spillet er min største styrke
               </p>
             </motion.div>
 
             <p className="text-[var(--text-secondary)] leading-relaxed mb-4">
-              Ikke bare har jeg fokus på å bli bedre i tennis, men jeg jobber like mye med det mentale. Jeg er sikker
-              på at jeg blir det. Trener mellom 4 til 6 timer om dagen her i spania. Skadene mine er bra og jeg
-              "pusher grensene mine".
+              Dette året i Spania har vært avgjørende for min utvikling. Nivået på tennis her er helt annerledes
+              enn i Norge - både treningsmengde, intensitet og konkurransementalitet. Jeg trener 4-6 timer daglig,
+              og jeg ser tydelig fremgang.
             </p>
             <p className="text-[var(--text-secondary)] leading-relaxed mb-6">
-              Dette året i Spania har også gitt meg innsikt på det enorme nivå forskjellen på Norge og Spania.
-              Så de treningene og kampene har ofte et annet nivå. Man må også være mye mer mentalt sterk for å prestere.
-              Alle skriker hver gang de vinner ett eneste poeng. Og man må være forberedt på at de neste 2-3 timene
-              kommer til å suge.
+              Treneren min mener jeg har et ekstremt høyt potensial, og etter å ha trent her ser jeg selv at det stemmer.
+              Tennis er like mye mental som fysisk, og det mentale spillet er min største styrke.
             </p>
             <FeatureList
               items={[
-                "Mental trening er like viktig som fysisk trening",
-                "Håndterer press i tøffe kampsituasjoner",
-                "Utviklet mental styrke gjennom erfaringer i Spania",
                 "Trener 4-6 timer daglig på høyt internasjonalt nivå",
+                "Nivået i Spania er helt annerledes enn i Norge",
+                "Mental styrke er min største styrke",
+                "Ser tydelig fremgang i utviklingen min",
               ]}
             />
           </ContentBlock>
 
-          {/* Spain experience */}
+          {/* Work capacity and discipline */}
           <ContentBlock delay={0.4}>
             <h2 className="font-serif text-3xl md:text-4xl text-[var(--text-primary)] mb-6">
-              Livet i Spania
+              Arbeidskapasitet og disiplin
             </h2>
             <p className="text-[var(--text-secondary)] leading-relaxed mb-4">
-              Jeg søker at år senere fordi jeg hadde lyst å bli så god jeg kan. Treneren min mener at jeg har et ekstremt
-              nivå jeg kan nå – og vet dere hvorfor?
+              Suksess kommer ikke av talent alene. Jeg kompenserer for det jeg mangler i naturlig talent med
+              ekstrem arbeidsvilje og disiplin. Selv når jeg taper - én kamp eller hundre - går jeg tilbake
+              til grunnarbeidet og fortsetter å jobbe.
             </p>
             <p className="text-[var(--text-secondary)] leading-relaxed mb-4">
-              Det er fordi jeg har en ekstrem trengedisiplin. Ikke fordi jeg har mye talent (det har jeg heller ikke),
-              og ikke fordi jeg har en ekstrem god kropp for ballen. Det handler om en disiplin på et annet nivå.
-              Selv om jeg taper en kamp, kommer jeg tilbake. Kommer før treninger, kommer tilbake og jobber enda hardere.
+              <strong>Min hverdag i Norge (før Spania):</strong>
             </p>
+            <ul className="list-disc list-inside text-[var(--text-secondary)] leading-relaxed ml-4 space-y-2 mb-6">
+              <li>Droppet fra skolen kl. 07 for å trene før skoledagen</li>
+              <li>Kom hjem kl. 21 etter ettermiddagstrening</li>
+              <li>Trente 3-4 timer hver dag ved siden av skolen</li>
+              <li>Gikk ut av 10. klasse med 5,0 i snitt (opp fra 4,2 i snitt tidligere)</li>
+              <li>Diagnostisert med dysleksi i 10. klasse</li>
+              <li>Fikk kun 8 anmerkninger gjennom hele ungdomsskolen</li>
+              <li>Aldri kommet for sent eller skulket</li>
+            </ul>
             <p className="text-[var(--text-secondary)] leading-relaxed mb-4">
-              Jeg jobber også hardt med skole. Jeg hadde et av de beste snittene i klassen, samtidig som jeg trener 3 til 4
-              timer hver dag. Jeg kommer til å bidra positivt til klassemiljøet fordi jeg alltid følger med eksempel.
-              Jeg vet at timeplanen min er tett, så når jeg er på skolen, skal jeg fokusere fullt på skolearbeidet og lede
-              med eksempel. Mange vil se på meg som en "teacher's pet", men jeg brydder meg mindre om.
+              <strong>Min hverdag i Spania (nå):</strong>
             </p>
-            <p className="text-[var(--text-secondary)] leading-relaxed mb-6">
-              Folk kan ha meninger om meg, men dem bryr jeg meg ikke om. Jeg vet hva jeg vil. Jeg vet at tennis er 50 prosent
-              mentalt – og resten er å gjøre banen. I år bor jeg i Spania for å bli så god jeg kan. Treneren min mener at
-              jeg har et ekstremt nivå jeg kan nå.
+            <ul className="list-disc list-inside text-[var(--text-secondary)] leading-relaxed ml-4 space-y-2 mb-6">
+              <li>Trener 4-6 timer daglig</li>
+              <li>Fokuserer 100% på tennis og fysisk utvikling</li>
+              <li>Jobber også med mentale aspekter og selvstendig læring</li>
+            </ul>
+            <p className="text-[var(--text-secondary)] leading-relaxed">
+              Jeg søker ett år senere fordi jeg lyttet til rådet om å bli bedre først. Jeg har brukt dette året
+              på å utvikle meg, få bedre kontroll på skadene mine, og bevise at jeg har den disiplinen som kreves.
             </p>
-            <FeatureList
-              items={[
-                "Bor alene i Spania og tar fullt ansvar for meg selv",
-                "Trener på internasjonalt toppnivå daglig",
-                "Balanserer skole og idrett med høy disiplin",
-                "Utvikler både mental styrke og selvstendighet",
-              ]}
-            />
           </ContentBlock>
 
           {/* Video section */}

@@ -22,11 +22,11 @@ export default function SelvstendighetPage() {
 
       <HeroSection
         icon="🇪🇸"
-        title="Selvstendighet"
-        subtitle="Livet i Spania"
+        title="Selvstendighet og personlig utvikling"
+        subtitle="Å bo alene i Spania"
       >
         <p className="text-lg md:text-xl text-[var(--text-secondary)] leading-relaxed">
-          Å bo alene i et fremmed land som tenåring har lært meg mer enn jeg kunne forestilt meg.
+          Å bo alene i Spania som 16-åring har lært meg mye om ansvar og selvstendighet.
         </p>
       </HeroSection>
 
@@ -35,24 +35,28 @@ export default function SelvstendighetPage() {
           {/* Living alone section */}
           <ContentBlock>
             <h2 className="font-serif text-3xl md:text-4xl text-[var(--text-primary)] mb-6">
-              Bor alene i Spania
+              Selvstendighet og personlig utvikling
             </h2>
             <p className="text-[var(--text-secondary)] leading-relaxed mb-4">
-              For de fleste på min alder handler livet om skole, venner og fritid. For meg handler det også om
-              å vaske klær, handle mat, lage middag, og sørge for at jeg får nok søvn til neste dags trening.
+              Å bo alene i Spania som 16-åring har lært meg mye om ansvar og selvstendighet. Jeg håndterer alt fra
+              hverdagsøkonomi til måltider, treningsplanlegging og skolearbeid på egen hånd. Dette har gjort meg
+              betydelig mer moden og selvstendig enn jeg var for ett år siden.
             </p>
             <p className="text-[var(--text-secondary)] leading-relaxed mb-6">
-              Å bo alene i et fremmed land krever selvdisiplin og ansvar. Ingen forteller meg når jeg skal legge meg,
-              hva jeg skal spise, eller om jeg har gjort leksene mine. Det er bare meg – og det har gjort meg mye
-              mer moden enn mine jevnaldrende.
+              <strong>Overførbar læring:</strong>
+            </p>
+            <p className="text-[var(--text-secondary)] leading-relaxed mb-6">
+              Det jeg lærer på tennisbanen - å håndtere press, presentasjonsangst, motgang og konkurransesituasjoner -
+              kan jeg overføre direkte til skolen og livet ellers. Jeg liker å lære fra andre, og jeg vet at jeg alltid
+              kan bli bedre, både som tennisutøver, elev og person.
             </p>
             <FeatureList
               items={[
-                "Håndterer daglige gjøremål som matlaging og husarbeid",
-                "Budsjetterer og planlegger økonomi",
-                "Organiserer tid mellom trening, skole og hvile",
-                "Tar ansvar for egen helse og velvære",
-                "Navigerer i et fremmed land og kultur",
+                "Håndterer hverdagsøkonomi og daglige gjøremål",
+                "Planlegger måltider, trening og skolearbeid selvstendig",
+                "Tar ansvar for egen utvikling og læring",
+                "Utvikler mental styrke og modenhet",
+                "Lærer fra både suksesser og tilbakeslag",
               ]}
             />
           </ContentBlock>

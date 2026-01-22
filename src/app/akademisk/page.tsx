@@ -23,11 +23,11 @@ export default function AkademiskPage() {
 
       <HeroSection
         icon="📚"
-        title="Akademisk"
-        subtitle="Balanse mellom idrett og skole"
+        title="Skole og faglig utvikling"
+        subtitle="Balanse og fokus"
       >
         <p className="text-lg md:text-xl text-[var(--text-secondary)] leading-relaxed">
-          Gode karakterer handler ikke bare om intelligens – det handler om prioritering og innsats.
+          Skole er viktig for meg. Jeg hadde et av de beste snittene i klassen samtidig som jeg trente 3-4 timer hver dag.
         </p>
       </HeroSection>
 
@@ -36,7 +36,7 @@ export default function AkademiskPage() {
           {/* Stats overview */}
           <ContentBlock>
             <h2 className="font-serif text-3xl md:text-4xl text-[var(--text-primary)] mb-6">
-              Mine prestasjoner
+              Mine styrker som elev
             </h2>
             <div className="grid grid-cols-2 md:grid-cols-3 gap-4 mb-8">
               <StatCard value="5.0" label="Karaktersnitt" />
@@ -44,10 +44,20 @@ export default function AkademiskPage() {
               <StatCard value="0" label="Skulking" />
             </div>
             <p className="text-[var(--text-secondary)] leading-relaxed mb-4">
-              Jeg gikk ut av ungdomsskolen med et snitt på{" "}
-              <span className="text-[var(--accent)] font-semibold">5.0</span> (opp fra 4.2 tidligere),
-              til tross for at jeg først fikk vite at jeg har dysleksi i tiende klasse. Dette viser at jeg kan
-              prestere akademisk selv med utfordringer – og selv med en treningsplan som krever 4-6 timer daglig.
+              Dette har lært meg viktigheten av å prioritere og fokusere når jeg er på skolen.
+            </p>
+            <FeatureList
+              items={[
+                "Leverer alltid lekser i tide",
+                "Følger aktivt med i timene",
+                "Bidrar positivt til klassemiljøet",
+                "Aldri hatt en dårlig foreldresamtale gjennom 10 år med skole",
+                "Aldri kommet for sent til timen",
+              ]}
+            />
+            <p className="text-[var(--text-secondary)] leading-relaxed mt-6">
+              Jeg vet at timeplanen på Wang Toppidrett er krevende, men det har jeg erfaring med. Når jeg er på skolen,
+              fokuserer jeg 100% på skolearbeidet. Jeg tar ansvar for min egen læring og ber om hjelp når jeg trenger det.
             </p>
           </ContentBlock>
 

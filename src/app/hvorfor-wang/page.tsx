@@ -33,55 +33,46 @@ export default function HvorforWangPage() {
 
       <section className="relative z-10 py-12 px-6">
         <div className="max-w-3xl mx-auto space-y-12">
-          {/* Previous attempt section */}
+          {/* Why Wang */}
           <ContentBlock>
             <h2 className="font-serif text-3xl md:text-4xl text-[var(--text-primary)] mb-6">
-              Hvorfor søker jeg Wang Toppidrett?
+              Hvorfor Wang Toppidrett?
             </h2>
-            <p className="text-[var(--text-secondary)] leading-relaxed mb-4">
-              Jeg søker Wang fordi jeg vil omgi meg med folk som tenker likt – som vil noe, og som er villige til å
-              jobbe for det. På Wang jobber så meg med den mentale siden av idrett. Jeg trenger et miljø som forstår
-              balansen mellom idrett og akademia.
-            </p>
-            <p className="text-[var(--text-secondary)] leading-relaxed mb-4">
-              Ikke bare har jeg fokus på å bli bedre på wang jobber så med mye av det mentale, jeg er sikker på at jeg blir det.
-              Alt jeg lærer på tennisbanen kan jeg overføre til skolen deres. Presentasjonsangst, press og vilje – dette
-              tror jeg at jeg kan bidra positivt til miljøet deres.
-            </p>
-            <p className="text-[var(--text-secondary)] leading-relaxed">
-              <span className="text-[var(--accent)] font-semibold">Jeg er klar. Jeg er motivert. Jeg er dedikert.</span>
-            </p>
-          </ContentBlock>
-
-          {/* Why I apply one year later */}
-          <QuoteBlock>
-            Jeg søker ett år senere fordi jeg hadde lyst å bli så god jeg kan.
-            Treneren min mener at jeg har et ekstremt nivå jeg kan nå.
-          </QuoteBlock>
-
-          {/* School track record section */}
-          <ContentBlock delay={0.2}>
-            <h2 className="font-serif text-3xl md:text-4xl text-[var(--text-primary)] mb-6">
-              Akademisk og disiplin
-            </h2>
-            <p className="text-[var(--text-secondary)] leading-relaxed mb-4">
-              Jeg jobber også hardt med skole. Jeg hadde et av de beste snittene i klassen, samtidig som jeg trener 3 til 4
-              timer hver dag. Jeg kommer til å bidra positivt til klassemiljøet fordi jeg alltid leder med eksempel.
-            </p>
             <p className="text-[var(--text-secondary)] leading-relaxed mb-6">
-              Jeg vet at timeplanen min er tett, så når jeg er på skolen, skal jeg fokusere fullt på skolearbeidet.
-              Nordseter skole, heter den Nordsetor skole. Jeg leverer alltid leksene mine i tide. Aldri én eneste
-              dårlige foreldresamtale gjennom 10 år med skole. Hvis dere ønsker å kontakte skolen, heter den Nordsetor skole.
+              Wang Toppidrett tilbyr nøyaktig det jeg leter etter: muligheten til å kombinere seriøs satsing på tennis
+              med god akademisk utvikling, omgitt av andre som har den samme drivet og ambisjonen som meg.
+            </p>
+            <p className="text-[var(--text-secondary)] leading-relaxed mb-4">
+              <strong>Hva jeg kan bidra med:</strong>
             </p>
             <FeatureList
               items={[
-                "Karaktersnitt på 5,0 (opp fra 4,2 tidligere)",
-                "Leverer alltid leksene i tide",
-                "Aldri én dårlig foreldresamtale på 10 år",
-                "Bidrar positivt til klassemiljøet",
-                "Balanserer 4-6 timer daglig trening med skolearbeid",
+                "Ekstrem arbeidsvilje og disiplin",
+                "Positiv innstilling og vilje til å lære",
+                "Evne til å håndtere press og motgang",
+                "Ansvarsfølelse overfor både skole og idrett",
+                "Erfaring med høyt treningsmiljø fra Spania",
               ]}
             />
+          </ContentBlock>
+
+          {/* My goals */}
+          <ContentBlock delay={0.2}>
+            <h2 className="font-serif text-3xl md:text-4xl text-[var(--text-primary)] mb-6">
+              Mine mål
+            </h2>
+            <FeatureList
+              items={[
+                "Fortsette å utvikle meg som tennisutøver på høyt nivå",
+                "Opprettholde og forbedre mitt akademiske nivå",
+                "Være en god medspiller og klassekamerat",
+                "Vise at hard jobbing over tid gir resultater",
+              ]}
+            />
+            <p className="text-[var(--text-secondary)] leading-relaxed mt-6">
+              Jeg søker ett år senere enn planlagt fordi jeg ville bli bedre før jeg søkte på nytt.
+              Dette året har bevist for meg at jeg har den disiplinen, modenheten og drivet som kreves for å lykkes på Wang Toppidrett.
+            </p>
           </ContentBlock>
 
           {/* Why Wang specifically */}
@@ -138,15 +129,18 @@ export default function HvorforWangPage() {
             className="glass-strong rounded-2xl p-10 text-center"
           >
             <h2 className="font-serif text-4xl md:text-5xl text-[var(--text-primary)] mb-6">
-              Derfor skal jeg gjøre alt jeg kan for å komme inn på skolen deres
+              Avslutning
             </h2>
             <p className="text-[var(--text-secondary)] text-lg leading-relaxed max-w-xl mx-auto mb-6">
-              Alt det jeg lærer på tennisbanen kan jeg overføre til skolen deres. Presentasjonsangst, press og vilje,
-              dette er bare noen av dem. Jeg liker også å lære fra andre og jeg vet at jeg alltid kan bli bedre,
-              både på tennisbanen og i klasserommet.
+              Jeg er klar til å ta steget opp på et høyere nivå, både sportslig og akademisk. Året i Spania har vist
+              meg hva jeg er kapabel til når jeg virkelig satser, og jeg er motivert til å fortsette denne utviklingen
+              på Wang Toppidrett.
+            </p>
+            <p className="text-[var(--text-secondary)] text-lg leading-relaxed max-w-xl mx-auto mb-6">
+              For referanser kan dere gjerne kontakte <span className="text-[var(--accent)] font-semibold">Nordseter skole</span>, som var min ungdomsskole.
             </p>
             <p className="font-serif text-2xl md:text-3xl text-[var(--accent)]">
-              La meg bevise at jeg hører hjemme på Wang Toppidrett.
+              Jeg håper dere vil gi meg muligheten til å vise hva jeg kan bidra med.
             </p>
           </motion.div>
         </div>

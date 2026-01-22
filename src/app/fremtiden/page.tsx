@@ -69,35 +69,30 @@ export default function FremtidenPage() {
             </p>
           </ContentBlock>
 
-          {/* Technology and AI interests */}
+          {/* Technology and learning */}
           <ContentBlock delay={0.3}>
             <h2 className="font-serif text-3xl md:text-4xl text-[var(--text-primary)] mb-6">
-              Interesse for teknologi og AI
+              Læring utover tennisbanen
             </h2>
-            <p className="text-[var(--text-secondary)] leading-relaxed mb-4">
-              Jeg bor jeg i Spania alene. Jeg lærer og kommer til å lære mye nyttig for senere i livet når jeg er voksen.
-              Jeg lærer masse om AI. Jeg vet at skoler ikke er en stor fan av AI eller artificial general intelligence.
-            </p>
             <p className="text-[var(--text-secondary)] leading-relaxed mb-6">
-              Men det er fremtiden til min generasjon så det blir viktig få oss å lære hvordan det funker og hva det er.
-              Spesielt om AGI eller artificial general intelligence. Jeg vet at AI ikke er populært enda, men jeg tror
-              på at det blir viktig for mine generasjon at vi lærer hvordan det funker og hvordan vi kan bruke det på
-              en smart måte.
+              Treneren min gir meg også oppgaver som går utover tennis - blant annet om fremtidsteknologi som AI og
+              hvordan jeg kan bruke det som verktøy for læring og utvikling. Jeg tror det er viktig å være nysgjerrig
+              og åpen for nye måter å lære på.
             </p>
           </ContentBlock>
 
           {/* Goals section */}
           <ContentBlock delay={0.4}>
             <h2 className="font-serif text-3xl md:text-4xl text-[var(--text-primary)] mb-6">
-              Mine mål
+              Mine mål på Wang Toppidrett
             </h2>
             <FeatureList
               items={[
-                "Bli profesjonell tennisspiller på internasjonalt nivå",
-                "Fullføre videregående med gode karakterer",
-                "Balansere utdanning og toppidrett effektivt",
-                "Lære mer om teknologi, AI og fremtidens verktøy",
-                "Inspirere andre unge utøvere til å følge drømmene sine",
+                "Fortsette å utvikle meg som tennisutøver på høyt nivå",
+                "Opprettholde og forbedre mitt akademiske nivå",
+                "Være en god medspiller og klassekamerat",
+                "Vise at hard jobbing over tid gir resultater",
+                "Utvikle meg både som atlet og som person",
               ]}
             />
           </ContentBlock>
