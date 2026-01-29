@@ -3,6 +3,8 @@ import "./globals.css";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import PageTransition from "@/components/PageTransition";
+import { ThemeProvider } from "@/contexts/ThemeContext";
+import ThemeToggle from "@/components/ThemeToggle";
 
 export const metadata: Metadata = {
   title: "Nikolai Tingstad | Wang Toppidrett Søknad",
@@ -18,13 +20,16 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="no">
+    <html lang="no" suppressHydrationWarning>
       <body className="noise antialiased">
-        <Navigation />
-        <PageTransition>
-          {children}
-        </PageTransition>
-        <Footer />
+        <ThemeProvider>
+          <ThemeToggle />
+          <Navigation />
+          <PageTransition>
+            {children}
+          </PageTransition>
+          <Footer />
+        </ThemeProvider>
       </body>
     </html>
   );

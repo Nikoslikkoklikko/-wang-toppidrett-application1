@@ -13,11 +13,18 @@ interface HeroSectionProps {
 export default function HeroSection({ title, subtitle, children, icon }: HeroSectionProps) {
   return (
     <section className="relative min-h-[60vh] flex items-center justify-center overflow-hidden">
-      {/* Background gradient - light theme */}
+      {/* Background glow effects - dark theme */}
       <div
-        className="absolute top-0 left-1/4 w-[500px] h-[500px] rounded-full opacity-20 pointer-events-none"
+        className="absolute -top-1/4 left-1/4 w-[600px] h-[600px] rounded-full pointer-events-none"
         style={{
-          background: "radial-gradient(circle, rgba(45, 90, 39, 0.12) 0%, transparent 70%)",
+          background: "radial-gradient(circle, rgba(198, 241, 53, 0.12) 0%, transparent 60%)",
+          filter: "blur(100px)",
+        }}
+      />
+      <div
+        className="absolute bottom-0 right-1/4 w-[400px] h-[400px] rounded-full pointer-events-none"
+        style={{
+          background: "radial-gradient(circle, rgba(0, 212, 255, 0.08) 0%, transparent 60%)",
           filter: "blur(80px)",
         }}
       />
@@ -29,6 +36,9 @@ export default function HeroSection({ title, subtitle, children, icon }: HeroSec
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.5, ease: [0.22, 1, 0.36, 1] }}
             className="text-6xl md:text-7xl mb-8"
+            style={{
+              filter: "drop-shadow(0 0 30px rgba(198, 241, 53, 0.3))"
+            }}
           >
             {icon}
           </motion.div>
@@ -38,7 +48,7 @@ export default function HeroSection({ title, subtitle, children, icon }: HeroSec
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.1, ease: [0.22, 1, 0.36, 1] }}
-          className="font-serif text-4xl sm:text-5xl md:text-6xl lg:text-7xl mb-6 text-gradient-static"
+          className="font-serif text-4xl sm:text-5xl md:text-6xl lg:text-7xl mb-6 text-gradient"
         >
           {title}
         </motion.h1>

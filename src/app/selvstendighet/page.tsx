@@ -4,20 +4,30 @@ import HeroSection from "@/components/HeroSection";
 import ContentBlock from "@/components/ContentBlock";
 import QuoteBlock from "@/components/QuoteBlock";
 import FeatureList from "@/components/FeatureList";
+import IndependenceGrowthChart from "@/components/charts/IndependenceGrowthChart";
+import ResponsibilityWheel from "@/components/charts/ResponsibilityWheel";
+import SkillsTransferDiagram from "@/components/charts/SkillsTransferDiagram";
 
 export default function SelvstendighetPage() {
   return (
     <main className="relative min-h-screen">
-      {/* Background effects - light theme */}
+      {/* Background effects - dark theme */}
       <div className="fixed inset-0 pointer-events-none">
         <div
-          className="absolute bottom-1/4 left-1/3 w-[600px] h-[600px] rounded-full opacity-15"
+          className="absolute -top-1/4 -left-1/4 w-[700px] h-[700px] rounded-full"
           style={{
-            background: "radial-gradient(circle, rgba(45, 90, 39, 0.15) 0%, transparent 70%)",
+            background: "radial-gradient(circle, rgba(198, 241, 53, 0.1) 0%, transparent 60%)",
+            filter: "blur(100px)",
+          }}
+        />
+        <div
+          className="absolute bottom-1/4 right-0 w-[500px] h-[500px] rounded-full"
+          style={{
+            background: "radial-gradient(circle, rgba(0, 212, 255, 0.08) 0%, transparent 60%)",
             filter: "blur(80px)",
           }}
         />
-        <div className="absolute inset-0 grid-pattern opacity-30" />
+        <div className="absolute inset-0 grid-pattern opacity-40" />
       </div>
 
       <HeroSection
@@ -31,7 +41,7 @@ export default function SelvstendighetPage() {
       </HeroSection>
 
       <section className="relative z-10 py-12 px-6">
-        <div className="max-w-3xl mx-auto space-y-12">
+        <div className="max-w-5xl mx-auto space-y-12">
           {/* Living alone section */}
           <ContentBlock>
             <h2 className="font-serif text-3xl md:text-4xl text-[var(--text-primary)] mb-6">
@@ -61,14 +71,36 @@ export default function SelvstendighetPage() {
             />
           </ContentBlock>
 
+          {/* Growth Chart Section */}
+          <ContentBlock delay={0.1}>
+            <h2 className="font-serif text-3xl md:text-4xl text-[var(--text-primary)] mb-6">
+              Min vekst i tall
+            </h2>
+            <p className="text-[var(--text-secondary)] leading-relaxed mb-8">
+              Sammenligning av mine ferdigheter før og etter ett år med selvstendig liv i Spania.
+            </p>
+            <IndependenceGrowthChart />
+          </ContentBlock>
+
           {/* Maturity section */}
           <QuoteBlock>
             Selvstendighet er ikke noe man får – det er noe man tar.
             Og jeg har måttet ta det tidligere enn de fleste.
           </QuoteBlock>
 
-          {/* What I've learned section */}
+          {/* Responsibility Wheel Section */}
           <ContentBlock delay={0.2}>
+            <h2 className="font-serif text-3xl md:text-4xl text-[var(--text-primary)] mb-6">
+              Mitt ukentlige ansvar
+            </h2>
+            <p className="text-[var(--text-secondary)] leading-relaxed mb-8">
+              En oversikt over alle oppgavene jeg håndterer selv hver uke.
+            </p>
+            <ResponsibilityWheel />
+          </ContentBlock>
+
+          {/* What I've learned section */}
+          <ContentBlock delay={0.3}>
             <h2 className="font-serif text-3xl md:text-4xl text-[var(--text-primary)] mb-6">
               Hva jeg har lært
             </h2>
@@ -93,8 +125,19 @@ export default function SelvstendighetPage() {
             />
           </ContentBlock>
 
-          {/* AI and future skills section */}
+          {/* Skills Transfer Section */}
           <ContentBlock delay={0.4}>
+            <h2 className="font-serif text-3xl md:text-4xl text-[var(--text-primary)] mb-6">
+              Overførbare ferdigheter
+            </h2>
+            <p className="text-[var(--text-secondary)] leading-relaxed mb-8">
+              Alt jeg lærer på tennisbanen kan jeg bruke i resten av livet.
+            </p>
+            <SkillsTransferDiagram />
+          </ContentBlock>
+
+          {/* AI and future skills section */}
+          <ContentBlock delay={0.5}>
             <h2 className="font-serif text-3xl md:text-4xl text-[var(--text-primary)] mb-6">
               AI og fremtidige ferdigheter
             </h2>
@@ -109,21 +152,15 @@ export default function SelvstendighetPage() {
             </p>
           </ContentBlock>
 
-          {/* Transferable skills section */}
+          {/* Final quote */}
+          <QuoteBlock>
+            Selvstendighet, disiplin, og evnen til å håndtere press –
+            dette er ferdigheter som fungerer overalt, ikke bare på tennisbanen.
+          </QuoteBlock>
+
+          {/* Closing section */}
           <ContentBlock delay={0.6}>
-            <h2 className="font-serif text-3xl md:text-4xl text-[var(--text-primary)] mb-6">
-              Overførbare ferdigheter
-            </h2>
-            <p className="text-[var(--text-secondary)] leading-relaxed mb-4">
-              Alt jeg har lært gjennom å bo alene og trene på høyt nivå kan jeg ta med meg inn i
-              skolehverdagen på Wang Toppidrett. Alt jeg lærer på tennisbanen – presentasjonsangst,
-              press og vilje – kan jeg overføre til skolen.
-            </p>
-            <QuoteBlock>
-              Selvstendighet, disiplin, og evnen til å håndtere press –
-              dette er ferdigheter som fungerer overalt, ikke bare på tennisbanen.
-            </QuoteBlock>
-            <p className="text-[var(--text-secondary)] leading-relaxed mt-6">
+            <p className="text-[var(--text-secondary)] leading-relaxed">
               Jeg vet hvordan jeg skal strukturere dagen min, hvordan jeg skal prioritere mellom ulike krav,
               og hvordan jeg skal ta ansvar for mine egne valg. Dette er ferdigheter som vil tjene meg
               godt både i skolen og i livet fremover.

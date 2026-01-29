@@ -5,6 +5,9 @@ import ContentBlock from "@/components/ContentBlock";
 import QuoteBlock from "@/components/QuoteBlock";
 import FeatureList from "@/components/FeatureList";
 import StatCard from "@/components/StatCard";
+import ProgressChart from "@/components/charts/ProgressChart";
+import SkillsRadar from "@/components/charts/SkillsRadar";
+import { motion } from "framer-motion";
 
 export default function AkademiskPage() {
   return (
@@ -32,7 +35,18 @@ export default function AkademiskPage() {
       </HeroSection>
 
       <section className="relative z-10 py-12 px-6">
-        <div className="max-w-3xl mx-auto space-y-12">
+        <div className="max-w-5xl mx-auto space-y-12">
+          {/* Interactive Charts Section */}
+          <motion.div
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            viewport={{ once: true }}
+            className="grid md:grid-cols-2 gap-6 mb-12"
+          >
+            <ProgressChart />
+            <SkillsRadar />
+          </motion.div>
+
           {/* Stats overview */}
           <ContentBlock>
             <h2 className="font-serif text-3xl md:text-4xl text-[var(--text-primary)] mb-6">

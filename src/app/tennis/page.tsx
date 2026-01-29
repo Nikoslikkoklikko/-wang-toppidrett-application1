@@ -5,6 +5,9 @@ import ContentBlock from "@/components/ContentBlock";
 import QuoteBlock from "@/components/QuoteBlock";
 import FeatureList from "@/components/FeatureList";
 import VideoPlayer from "@/components/VideoPlayer";
+import JourneyTimeline from "@/components/charts/JourneyTimeline";
+import DailyScheduleChart from "@/components/charts/DailyScheduleChart";
+import DisciplineStats from "@/components/charts/DisciplineStats";
 import { motion } from "framer-motion";
 
 export default function TennisPage() {
@@ -33,14 +36,24 @@ export default function TennisPage() {
       </HeroSection>
 
       <section className="relative z-10 py-12 px-6">
-        <div className="max-w-3xl mx-auto space-y-12">
+        <div className="max-w-5xl mx-auto space-y-12">
+          {/* Interactive Journey Timeline */}
+          <motion.div
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            viewport={{ once: true }}
+            className="glass rounded-2xl p-6 mb-12"
+          >
+            <JourneyTimeline />
+          </motion.div>
+
           {/* Journey section */}
           <ContentBlock>
             <h2 className="font-serif text-3xl md:text-4xl text-[var(--text-primary)] mb-6">
               Bakgrunn
             </h2>
             <p className="text-[var(--text-secondary)] leading-relaxed mb-4">
-              Tennisreisen min har ikke vært enkel. Fra jeg startet tapte jeg mot alle på trening. Men i stedet for
+              Tennisreisen min har ikke vært enkel. Etter skaden min tapte jeg mot alle på trening. Men i stedet for
               å gi opp, brukte jeg det som drivkraft. Jeg tok meg alltid først til trening og dro sist. For mange
               ville dette vært motløsende, men for meg ga det disiplin og en enorm mental styrke.
             </p>
@@ -52,8 +65,8 @@ export default function TennisPage() {
               <strong>Min bakgrunn:</strong>
             </p>
             <ul className="list-disc list-inside text-[var(--text-secondary)] leading-relaxed ml-4 space-y-2">
-              <li>Begynte å spille tennis som 13-åring</li>
-              <li>Spilte frem til jeg var 15 år</li>
+              <li>Begynte å spille tennis som 6-åring</li>
+              <li>Har spilt tennis i over 10 år</li>
               <li>Har hatt skader underveis, men alltid kommet tilbake sterkere</li>
               <li>Bor nå alene i Spania for å satse på tennis</li>
             </ul>
@@ -61,7 +74,7 @@ export default function TennisPage() {
 
           {/* Quote - dedication */}
           <QuoteBlock>
-            Jeg tok meg alltid først på trening og var sist til å dra. Tapte mot alle på trening,
+            Jeg tok meg alltid først på trening og var sist til å dra. Etter skaden tapte jeg mot alle på trening,
             men det bare økte min motivasjon.
           </QuoteBlock>
 
@@ -110,32 +123,36 @@ export default function TennisPage() {
             <h2 className="font-serif text-3xl md:text-4xl text-[var(--text-primary)] mb-6">
               Arbeidskapasitet og disiplin
             </h2>
-            <p className="text-[var(--text-secondary)] leading-relaxed mb-4">
+            <p className="text-[var(--text-secondary)] leading-relaxed mb-8">
               Suksess kommer ikke av talent alene. Jeg kompenserer for det jeg mangler i naturlig talent med
               ekstrem arbeidsvilje og disiplin. Selv når jeg taper - én kamp eller hundre - går jeg tilbake
               til grunnarbeidet og fortsetter å jobbe.
             </p>
-            <p className="text-[var(--text-secondary)] leading-relaxed mb-4">
-              <strong>Min hverdag i Norge (før Spania):</strong>
-            </p>
-            <ul className="list-disc list-inside text-[var(--text-secondary)] leading-relaxed ml-4 space-y-2 mb-6">
-              <li>Droppet fra skolen kl. 07 for å trene før skoledagen</li>
-              <li>Kom hjem kl. 21 etter ettermiddagstrening</li>
-              <li>Trente 3-4 timer hver dag ved siden av skolen</li>
-              <li>Gikk ut av 10. klasse med 5,0 i snitt (opp fra 4,2 i snitt tidligere)</li>
-              <li>Diagnostisert med dysleksi i 10. klasse</li>
-              <li>Fikk kun 8 anmerkninger gjennom hele ungdomsskolen</li>
-              <li>Aldri kommet for sent eller skulket</li>
-            </ul>
-            <p className="text-[var(--text-secondary)] leading-relaxed mb-4">
-              <strong>Min hverdag i Spania (nå):</strong>
-            </p>
-            <ul className="list-disc list-inside text-[var(--text-secondary)] leading-relaxed ml-4 space-y-2 mb-6">
-              <li>Trener 4-6 timer daglig</li>
-              <li>Fokuserer 100% på tennis og fysisk utvikling</li>
-              <li>Jobber også med mentale aspekter og selvstendig læring</li>
-            </ul>
-            <p className="text-[var(--text-secondary)] leading-relaxed">
+
+            {/* Interactive Daily Schedule */}
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              className="mb-12"
+            >
+              <h3 className="font-serif text-2xl text-[var(--text-primary)] mb-6 text-center">
+                Min hverdag - sammenlign Norge vs Spania
+              </h3>
+              <DailyScheduleChart />
+            </motion.div>
+
+            {/* Discipline Stats */}
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              className="mb-8"
+            >
+              <DisciplineStats />
+            </motion.div>
+
+            <p className="text-[var(--text-secondary)] leading-relaxed text-center mt-8">
               Jeg søker ett år senere fordi jeg lyttet til rådet om å bli bedre først. Jeg har brukt dette året
               på å utvikle meg, få bedre kontroll på skadene mine, og bevise at jeg har den disiplinen som kreves.
             </p>

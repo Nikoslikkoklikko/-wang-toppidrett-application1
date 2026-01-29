@@ -4,21 +4,31 @@ import HeroSection from "@/components/HeroSection";
 import ContentBlock from "@/components/ContentBlock";
 import QuoteBlock from "@/components/QuoteBlock";
 import FeatureList from "@/components/FeatureList";
+import WangMatchDiagram from "@/components/charts/WangMatchDiagram";
+import ContributionShowcase from "@/components/charts/ContributionShowcase";
+import GoalsTimeline from "@/components/charts/GoalsTimeline";
 import { motion } from "framer-motion";
 
 export default function HvorforWangPage() {
   return (
     <main className="relative min-h-screen">
-      {/* Background effects */}
+      {/* Background effects - dark theme */}
       <div className="fixed inset-0 pointer-events-none">
         <div
-          className="absolute top-1/4 right-1/4 w-[600px] h-[600px] rounded-full opacity-15"
+          className="absolute top-0 right-1/4 w-[700px] h-[700px] rounded-full"
           style={{
-            background: "radial-gradient(circle, rgba(45, 90, 39, 0.2) 0%, transparent 70%)",
+            background: "radial-gradient(circle, rgba(198, 241, 53, 0.12) 0%, transparent 60%)",
+            filter: "blur(100px)",
+          }}
+        />
+        <div
+          className="absolute -bottom-1/4 -left-1/4 w-[600px] h-[600px] rounded-full"
+          style={{
+            background: "radial-gradient(circle, rgba(255, 51, 102, 0.06) 0%, transparent 60%)",
             filter: "blur(80px)",
           }}
         />
-        <div className="absolute inset-0 grid-pattern opacity-30" />
+        <div className="absolute inset-0 grid-pattern opacity-40" />
       </div>
 
       <HeroSection
@@ -32,7 +42,7 @@ export default function HvorforWangPage() {
       </HeroSection>
 
       <section className="relative z-10 py-12 px-6">
-        <div className="max-w-3xl mx-auto space-y-12">
+        <div className="max-w-5xl mx-auto space-y-12">
           {/* Why Wang */}
           <ContentBlock>
             <h2 className="font-serif text-3xl md:text-4xl text-[var(--text-primary)] mb-6">
@@ -42,37 +52,45 @@ export default function HvorforWangPage() {
               Wang Toppidrett tilbyr nøyaktig det jeg leter etter: muligheten til å kombinere seriøs satsing på tennis
               med god akademisk utvikling, omgitt av andre som har den samme drivet og ambisjonen som meg.
             </p>
-            <p className="text-[var(--text-secondary)] leading-relaxed mb-4">
-              <strong>Hva jeg kan bidra med:</strong>
-            </p>
-            <FeatureList
-              items={[
-                "Ekstrem arbeidsvilje og disiplin",
-                "Positiv innstilling og vilje til å lære",
-                "Evne til å håndtere press og motgang",
-                "Ansvarsfølelse overfor både skole og idrett",
-                "Erfaring med høyt treningsmiljø fra Spania",
-              ]}
-            />
           </ContentBlock>
 
-          {/* My goals */}
+          {/* Match Diagram */}
+          <ContentBlock delay={0.1}>
+            <h2 className="font-serif text-3xl md:text-4xl text-[var(--text-primary)] mb-6">
+              Perfekt match
+            </h2>
+            <p className="text-[var(--text-secondary)] leading-relaxed mb-8">
+              Se hvordan mine kvaliteter matcher med det Wang tilbyr.
+            </p>
+            <WangMatchDiagram />
+          </ContentBlock>
+
+          {/* Quote */}
+          <QuoteBlock>
+            Jeg søker ett år senere enn planlagt fordi jeg ville bli bedre før jeg søkte på nytt.
+            Dette året har bevist at jeg har disiplinen, modenheten og drivet som kreves.
+          </QuoteBlock>
+
+          {/* Goals Timeline */}
           <ContentBlock delay={0.2}>
             <h2 className="font-serif text-3xl md:text-4xl text-[var(--text-primary)] mb-6">
-              Mine mål
+              Mine mål på Wang
             </h2>
-            <FeatureList
-              items={[
-                "Fortsette å utvikle meg som tennisutøver på høyt nivå",
-                "Opprettholde og forbedre mitt akademiske nivå",
-                "Være en god medspiller og klassekamerat",
-                "Vise at hard jobbing over tid gir resultater",
-              ]}
-            />
-            <p className="text-[var(--text-secondary)] leading-relaxed mt-6">
-              Jeg søker ett år senere enn planlagt fordi jeg ville bli bedre før jeg søkte på nytt.
-              Dette året har bevist for meg at jeg har den disiplinen, modenheten og drivet som kreves for å lykkes på Wang Toppidrett.
+            <p className="text-[var(--text-secondary)] leading-relaxed mb-8">
+              En tydelig plan for hvert år på videregående.
             </p>
+            <GoalsTimeline />
+          </ContentBlock>
+
+          {/* Contribution Showcase */}
+          <ContentBlock delay={0.3}>
+            <h2 className="font-serif text-3xl md:text-4xl text-[var(--text-primary)] mb-6">
+              Hva jeg kan bidra med
+            </h2>
+            <p className="text-[var(--text-secondary)] leading-relaxed mb-8">
+              Alt jeg lærer på tennisbanen – presentasjonsangst, press og vilje – kan jeg overføre til skolen.
+            </p>
+            <ContributionShowcase />
           </ContentBlock>
 
           {/* Why Wang specifically */}
@@ -96,26 +114,6 @@ export default function HvorforWangPage() {
                 "Miljø med likesinnede, ambisiøse elever",
                 "Fleksibilitet for treningsopplegg",
                 "Mulighet for å utvikle meg både mentalt og fysisk",
-              ]}
-            />
-          </ContentBlock>
-
-          {/* What I bring */}
-          <ContentBlock delay={0.6}>
-            <h2 className="font-serif text-3xl md:text-4xl text-[var(--text-primary)] mb-6">
-              Hva jeg kan bidra med
-            </h2>
-            <p className="text-[var(--text-secondary)] leading-relaxed mb-6">
-              Alt jeg lærer på tennisbanen – presentasjonsangst, press og vilje – kan jeg overføre til skolen.
-              Jeg tror jeg kan bidra positivt til miljøet deres, både på banen og i klasserommet.
-            </p>
-            <FeatureList
-              items={[
-                "Disiplin og arbeidsmoral som inspirerer andre",
-                "Erfaring med å balansere idrett og skole på høyt nivå",
-                "Kunnskap om mental trening jeg kan dele",
-                "Positiv innstilling og godt klassemiljø-bidrag",
-                "Selvstendighet og modning fra erfaringer i Spania",
               ]}
             />
           </ContentBlock>

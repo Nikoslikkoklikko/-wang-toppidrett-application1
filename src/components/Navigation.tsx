@@ -24,8 +24,8 @@ export default function Navigation() {
       {/* Hamburger Button */}
       <motion.button
         onClick={() => setIsOpen(!isOpen)}
-        className="fixed top-8 right-8 z-[100] w-12 h-12 flex items-center justify-center rounded-full glass hover:border-[var(--border-hover)] transition-all duration-300"
-        whileHover={{ scale: 1.05 }}
+        className="fixed top-8 right-8 z-[100] w-12 h-12 flex items-center justify-center rounded-full glass hover:border-[var(--border-accent)] transition-all duration-300"
+        whileHover={{ scale: 1.05, boxShadow: "0 0 20px rgba(198, 241, 53, 0.3)" }}
         whileTap={{ scale: 0.95 }}
         aria-label="Toggle menu"
       >
@@ -57,14 +57,21 @@ export default function Navigation() {
             exit={{ opacity: 0 }}
             transition={{ duration: 0.3 }}
             className="fixed inset-0 z-[90] flex items-center justify-center"
-            style={{ backgroundColor: "rgba(255, 255, 255, 0.98)" }}
+            style={{ backgroundColor: "rgba(5, 5, 5, 0.98)" }}
           >
-            {/* Background gradient orb */}
+            {/* Background gradient orbs */}
             <div
-              className="absolute top-1/4 left-1/4 w-[600px] h-[600px] rounded-full opacity-30 pointer-events-none"
+              className="absolute top-1/4 left-1/4 w-[600px] h-[600px] rounded-full pointer-events-none"
               style={{
-                background: "radial-gradient(circle, rgba(45, 90, 39, 0.15) 0%, transparent 70%)",
+                background: "radial-gradient(circle, rgba(198, 241, 53, 0.15) 0%, transparent 60%)",
                 filter: "blur(100px)",
+              }}
+            />
+            <div
+              className="absolute bottom-1/4 right-1/4 w-[400px] h-[400px] rounded-full pointer-events-none"
+              style={{
+                background: "radial-gradient(circle, rgba(0, 212, 255, 0.1) 0%, transparent 60%)",
+                filter: "blur(80px)",
               }}
             />
 
@@ -93,7 +100,7 @@ export default function Navigation() {
                         <span
                           className={`font-serif text-4xl md:text-5xl lg:text-6xl block transition-all duration-300 ${
                             isActive
-                              ? "text-[var(--accent)]"
+                              ? "text-[var(--accent)] text-glow"
                               : "text-[var(--text-primary)] group-hover:text-[var(--accent)]"
                           }`}
                         >
@@ -102,10 +109,11 @@ export default function Navigation() {
 
                         {/* Underline animation */}
                         <motion.span
-                          className="absolute bottom-0 left-1/2 h-0.5 bg-[var(--accent)] rounded-full"
+                          className="absolute bottom-0 left-1/2 h-0.5 bg-gradient-to-r from-[var(--accent)] to-[var(--accent-secondary)] rounded-full"
                           initial={{ width: 0, x: "-50%" }}
                           whileHover={{ width: "80%" }}
                           transition={{ duration: 0.3 }}
+                          style={{ boxShadow: "0 0 10px var(--glow-primary)" }}
                         />
 
                         {/* Active indicator dot */}
@@ -116,6 +124,7 @@ export default function Navigation() {
                             initial={{ scale: 0 }}
                             animate={{ scale: 1 }}
                             transition={{ type: "spring", stiffness: 300, damping: 20 }}
+                            style={{ boxShadow: "0 0 15px var(--glow-primary)" }}
                           />
                         )}
                       </Link>
@@ -135,11 +144,12 @@ export default function Navigation() {
                 <div
                   className="w-14 h-14 rounded-full relative"
                   style={{
-                    background: "linear-gradient(135deg, #c5e84d 0%, #9fc439 50%, #7ea32d 100%)",
+                    background: "linear-gradient(135deg, #d4ff00 0%, #c6f135 50%, #9bc22a 100%)",
                     boxShadow: `
-                      inset -4px -4px 10px rgba(0,0,0,0.2),
-                      inset 2px 2px 5px rgba(255,255,255,0.4),
-                      0 4px 20px rgba(45, 90, 39, 0.2)
+                      inset -4px -4px 10px rgba(0,0,0,0.3),
+                      inset 2px 2px 5px rgba(255,255,255,0.5),
+                      0 0 40px rgba(198, 241, 53, 0.4),
+                      0 0 80px rgba(198, 241, 53, 0.2)
                     `,
                   }}
                 >
@@ -147,7 +157,7 @@ export default function Navigation() {
                   <div
                     className="absolute top-1/2 left-0 right-0 h-0.5 -translate-y-1/2"
                     style={{
-                      background: "rgba(255,255,255,0.6)",
+                      background: "rgba(255,255,255,0.8)",
                       transform: "translateY(-50%) rotate(-20deg) scaleX(1.2)",
                       borderRadius: "50%",
                       filter: "blur(0.3px)",
@@ -156,7 +166,7 @@ export default function Navigation() {
                   <div
                     className="absolute top-0 bottom-0 left-1/2 w-0.5 -translate-x-1/2"
                     style={{
-                      background: "rgba(255,255,255,0.4)",
+                      background: "rgba(255,255,255,0.6)",
                       transform: "translateX(-50%) rotate(20deg) scaleY(1.1)",
                       borderRadius: "50%",
                       filter: "blur(0.3px)",

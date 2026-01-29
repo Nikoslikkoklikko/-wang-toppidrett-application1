@@ -32,7 +32,7 @@ export default function FremtidenPage() {
       </HeroSection>
 
       <section className="relative z-10 py-12 px-6">
-        <div className="max-w-3xl mx-auto space-y-12">
+        <div className="max-w-5xl mx-auto space-y-12">
           {/* Vision section */}
           <ContentBlock>
             <h2 className="font-serif text-3xl md:text-4xl text-[var(--text-primary)] mb-6">
