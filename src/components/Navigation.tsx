@@ -11,7 +11,6 @@ const menuItems = [
   { href: "/disiplin", label: "Disiplin" },
   { href: "/akademisk", label: "Akademisk" },
   { href: "/selvstendighet", label: "Selvstendighet" },
-  { href: "/fremtiden", label: "Fremtiden" },
   { href: "/hvorfor-wang", label: "Hvorfor Wang?" },
 ];
 
