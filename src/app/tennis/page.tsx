@@ -35,6 +35,73 @@ export default function TennisPage() {
         </p>
       </HeroSection>
 
+      {/* Coach Recommendation Section */}
+      <section className="relative z-10 py-12 px-6">
+        <div className="max-w-5xl mx-auto">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            className="glass rounded-2xl p-8"
+            style={{ borderLeft: "4px solid var(--accent)" }}
+          >
+            <h2 className="font-serif text-3xl md:text-4xl text-[var(--text-primary)] mb-6">
+              Anbefaling fra Tomo - Nordstrand Tennisklubb (NTK)
+            </h2>
+
+            <div className="space-y-4 text-[var(--text-secondary)] leading-relaxed">
+              <p>
+                Nikolai har vært en del av Nordstrand Tennisklubb siden sommeren 2020, og i løpet av disse årene
+                har jeg hatt gleden av å følge hans utvikling både som spiller og som person. Han startet i
+                klubben som en ivrig og nysgjerrig gutt med mye energi, og har siden den gang vokst til å bli
+                en dedikert og reflektert ung mann.
+              </p>
+
+              <p>
+                Vinteren 2023 ble en tøff periode for Nikolai da han pådro seg en skade i nedre rygg. Denne
+                utfordringen testet ikke bare hans fysiske kapasitet, men også hans mentale styrke. Det som
+                imponerte meg mest, var måten han håndterte situasjonen på. I stedet for å miste motivasjonen,
+                viste han en modenhet og tålmodighet som går langt utover hans alder. Han fulgte
+                rehabiliteringsplanen nøye og kom tilbake på banen sterkere enn noen gang.
+              </p>
+
+              <p>
+                Tennismessig har Nikolai utviklet seg betydelig. Han har en sterk og presis serve, en aggressiv
+                og pålitelig forehand, og han har jobbet hardt med å forbedre sin evne til å dominere
+                grunnlinjespillet. Han har også vist stor fremgang i fysisk kapasitet, som er helt avgjørende
+                for å lykkes på høyt nivå i tennis.
+              </p>
+
+              <p>
+                Utenfor banen er Nikolai en hyggelig og respektfull person som alltid bidrar til et positivt
+                treningsmiljø. Han er en god lagspiller som støtter sine medspillere, og han har vist at han kan
+                ta ansvar og lære av sine feil.
+              </p>
+
+              <p>
+                Da Nikolai tok valget om å reise til Soto Tennis Academy i Spania for å trene på fulltid, var det
+                en beslutning jeg støttet fullt ut. Jeg mener dette var et viktig skritt for å ta utviklingen hans
+                til neste nivå, og jeg er trygg på at han har det som skal til for å lykkes der.
+              </p>
+
+              <p>
+                Jeg anbefaler Nikolai på det sterkeste og er overbevist om at han vil fortsette å imponere både
+                som utøver og som menneske i årene som kommer.
+              </p>
+            </div>
+
+            <div className="mt-8 pt-6 border-t border-[var(--text-secondary)]/20">
+              <p className="font-semibold text-[var(--text-primary)]">Tomislav Draganja</p>
+              <p className="text-[var(--text-secondary)] text-sm">
+                Ansvarlig trener for Konkurranse- og Toppidrettsgruppen
+              </p>
+              <p className="text-[var(--text-secondary)] text-sm">Nordstrand Tennisklubb</p>
+              <p className="text-[var(--text-secondary)] text-sm mt-2">29.01.2026</p>
+            </div>
+          </motion.div>
+        </div>
+      </section>
+
       <section className="relative z-10 py-12 px-6">
         <div className="max-w-5xl mx-auto space-y-12">
           {/* Interactive Journey Timeline */}
