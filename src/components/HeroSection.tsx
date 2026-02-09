@@ -17,14 +17,14 @@ export default function HeroSection({ title, subtitle, children, icon }: HeroSec
       <div
         className="absolute -top-1/4 left-1/4 w-[600px] h-[600px] rounded-full pointer-events-none"
         style={{
-          background: "radial-gradient(circle, rgba(198, 241, 53, 0.12) 0%, transparent 60%)",
+          background: "radial-gradient(circle, var(--glow-bg-accent-soft) 0%, transparent 60%)",
           filter: "blur(100px)",
         }}
       />
       <div
         className="absolute bottom-0 right-1/4 w-[400px] h-[400px] rounded-full pointer-events-none"
         style={{
-          background: "radial-gradient(circle, rgba(0, 212, 255, 0.08) 0%, transparent 60%)",
+          background: "radial-gradient(circle, var(--hero-glow-secondary) 0%, transparent 60%)",
           filter: "blur(80px)",
         }}
       />
@@ -37,7 +37,7 @@ export default function HeroSection({ title, subtitle, children, icon }: HeroSec
             transition={{ duration: 0.5, ease: [0.22, 1, 0.36, 1] }}
             className="text-6xl md:text-7xl mb-8"
             style={{
-              filter: "drop-shadow(0 0 30px rgba(198, 241, 53, 0.3))"
+              filter: "drop-shadow(0 0 30px var(--hero-icon-glow))"
             }}
           >
             {icon}

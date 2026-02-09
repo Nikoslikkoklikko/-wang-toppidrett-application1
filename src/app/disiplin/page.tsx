@@ -46,14 +46,14 @@ export default function DisiplinPage() {
         <div
           className="absolute top-1/3 left-0 w-[500px] h-[500px] rounded-full opacity-15"
           style={{
-            background: "radial-gradient(circle, rgba(45, 90, 39, 0.15) 0%, transparent 70%)",
+            background: "radial-gradient(circle, var(--glow-bg-green) 0%, transparent 70%)",
             filter: "blur(80px)",
           }}
         />
         <div
           className="absolute bottom-0 right-1/4 w-[400px] h-[400px] rounded-full opacity-10"
           style={{
-            background: "radial-gradient(circle, rgba(74, 143, 65, 0.2) 0%, transparent 70%)",
+            background: "radial-gradient(circle, var(--glow-bg-green-alt) 0%, transparent 70%)",
             filter: "blur(60px)",
           }}
         />

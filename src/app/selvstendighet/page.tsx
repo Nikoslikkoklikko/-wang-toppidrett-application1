@@ -16,14 +16,14 @@ export default function SelvstendighetPage() {
         <div
           className="absolute -top-1/4 -left-1/4 w-[700px] h-[700px] rounded-full"
           style={{
-            background: "radial-gradient(circle, rgba(198, 241, 53, 0.1) 0%, transparent 60%)",
+            background: "radial-gradient(circle, var(--glow-bg-accent-medium) 0%, transparent 60%)",
             filter: "blur(100px)",
           }}
         />
         <div
           className="absolute bottom-1/4 right-0 w-[500px] h-[500px] rounded-full"
           style={{
-            background: "radial-gradient(circle, rgba(0, 212, 255, 0.08) 0%, transparent 60%)",
+            background: "radial-gradient(circle, var(--hero-glow-secondary) 0%, transparent 60%)",
             filter: "blur(80px)",
           }}
         />

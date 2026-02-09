@@ -56,20 +56,20 @@ export default function Navigation() {
             exit={{ opacity: 0 }}
             transition={{ duration: 0.3 }}
             className="fixed inset-0 z-[90] flex items-center justify-center"
-            style={{ backgroundColor: "rgba(5, 5, 5, 0.98)" }}
+            style={{ backgroundColor: "var(--overlay-bg)" }}
           >
             {/* Background gradient orbs */}
             <div
               className="absolute top-1/4 left-1/4 w-[600px] h-[600px] rounded-full pointer-events-none"
               style={{
-                background: "radial-gradient(circle, rgba(198, 241, 53, 0.15) 0%, transparent 60%)",
+                background: "radial-gradient(circle, var(--glow-bg-accent) 0%, transparent 60%)",
                 filter: "blur(100px)",
               }}
             />
             <div
               className="absolute bottom-1/4 right-1/4 w-[400px] h-[400px] rounded-full pointer-events-none"
               style={{
-                background: "radial-gradient(circle, rgba(0, 212, 255, 0.1) 0%, transparent 60%)",
+                background: "radial-gradient(circle, var(--glow-bg-secondary) 0%, transparent 60%)",
                 filter: "blur(80px)",
               }}
             />

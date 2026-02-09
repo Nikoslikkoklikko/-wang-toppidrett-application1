@@ -72,7 +72,7 @@ export default function Home() {
         <div
           className="absolute -top-1/4 -left-1/4 w-[800px] h-[800px] rounded-full"
           style={{
-            background: "radial-gradient(circle, rgba(198, 241, 53, 0.15) 0%, transparent 60%)",
+            background: "radial-gradient(circle, var(--glow-bg-accent) 0%, transparent 60%)",
             filter: "blur(100px)",
           }}
         />
@@ -80,7 +80,7 @@ export default function Home() {
         <div
           className="absolute -bottom-1/4 -right-1/4 w-[600px] h-[600px] rounded-full"
           style={{
-            background: "radial-gradient(circle, rgba(0, 212, 255, 0.1) 0%, transparent 60%)",
+            background: "radial-gradient(circle, var(--glow-bg-secondary) 0%, transparent 60%)",
             filter: "blur(80px)",
           }}
         />
@@ -88,7 +88,7 @@ export default function Home() {
         <div
           className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[1000px] h-[1000px] rounded-full"
           style={{
-            background: "radial-gradient(circle, rgba(255, 51, 102, 0.05) 0%, transparent 50%)",
+            background: "radial-gradient(circle, var(--glow-bg-tertiary) 0%, transparent 50%)",
             filter: "blur(100px)",
           }}
         />
@@ -147,7 +147,7 @@ export default function Home() {
               animate={{ y: [0, 8, 0] }}
               transition={{ duration: 1.5, repeat: Infinity }}
               className="w-6 h-10 rounded-full border-2 border-[var(--accent)] flex justify-center pt-2"
-              style={{ boxShadow: "0 0 15px rgba(198, 241, 53, 0.3)" }}
+              style={{ boxShadow: "0 0 15px var(--glow-primary)" }}
             >
               <motion.div
                 animate={{ opacity: [1, 0, 1], y: [0, 6, 0] }}

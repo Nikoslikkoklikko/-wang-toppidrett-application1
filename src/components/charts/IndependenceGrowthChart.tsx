@@ -143,7 +143,7 @@ export default function IndependenceGrowthChart() {
                   animate={isInView ? { left: `${metric.after - 1}%`, opacity: [0, 1, 0] } : {}}
                   transition={{ duration: 1.2, delay: 0.4 + index * 0.1 }}
                   className="absolute inset-y-0 w-2 rounded-full"
-                  style={{ background: `linear-gradient(90deg, transparent, white, transparent)` }}
+                  style={{ background: `linear-gradient(90deg, transparent, var(--bar-glow-color), transparent)` }}
                 />
               </div>
             </motion.div>

@@ -17,7 +17,7 @@ export default function AkademiskPage() {
         <div
           className="absolute top-1/3 right-1/3 w-[600px] h-[600px] rounded-full opacity-15"
           style={{
-            background: "radial-gradient(circle, rgba(45, 90, 39, 0.15) 0%, transparent 70%)",
+            background: "radial-gradient(circle, var(--glow-bg-green) 0%, transparent 70%)",
             filter: "blur(80px)",
           }}
         />

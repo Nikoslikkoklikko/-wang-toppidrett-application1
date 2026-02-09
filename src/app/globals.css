@@ -60,6 +60,108 @@
   --glow-primary: rgba(198, 241, 53, 0.4);
   --glow-secondary: rgba(0, 212, 255, 0.3);
   --glow-tertiary: rgba(255, 51, 102, 0.3);
+
+  /* Accent light (for moon stars, etc.) */
+  --accent-light: #d4ff00;
+
+  /* Page background ambient glows */
+  --glow-bg-accent: rgba(198, 241, 53, 0.15);
+  --glow-bg-secondary: rgba(0, 212, 255, 0.1);
+  --glow-bg-tertiary: rgba(255, 51, 102, 0.05);
+  --glow-bg-green: rgba(45, 90, 39, 0.15);
+  --glow-bg-green-alt: rgba(74, 143, 65, 0.2);
+  --glow-bg-accent-soft: rgba(198, 241, 53, 0.12);
+  --glow-bg-accent-medium: rgba(198, 241, 53, 0.1);
+
+  /* Navigation overlay */
+  --overlay-bg: rgba(5, 5, 5, 0.98);
+
+  /* Glass card overlay */
+  --glass-overlay-start: rgba(255, 255, 255, 0.1);
+  --glass-overlay-end: rgba(0, 0, 0, 0.05);
+
+  /* Quote block */
+  --quote-bg-start: rgba(45, 90, 39, 0.06);
+  --quote-bg-end: rgba(74, 143, 65, 0.1);
+
+  /* Hero icon glow */
+  --hero-icon-glow: rgba(198, 241, 53, 0.3);
+  --hero-glow-secondary: rgba(0, 212, 255, 0.08);
+
+  /* Bar glow line */
+  --bar-glow-color: white;
+}
+
+/* Light theme overrides */
+[data-theme="light"] {
+  --bg-primary: #f8f9fa;
+  --bg-secondary: #eef0f2;
+  --bg-tertiary: #e2e5e9;
+  --bg-card: rgba(255, 255, 255, 0.85);
+  --bg-card-solid: #ffffff;
+
+  --text-primary: #1a1a2e;
+  --text-secondary: #555770;
+  --text-muted: #8e90a6;
+
+  /* Accent - deeper green for readability on light bg */
+  --accent: #2d8a4e;
+  --accent-bright: #22a352;
+  --accent-dim: #1e6b3a;
+  --accent-glow: rgba(45, 138, 78, 0.3);
+  --accent-light: #34a853;
+
+  --accent-secondary: #0077b6;
+  --accent-secondary-glow: rgba(0, 119, 182, 0.2);
+
+  --accent-tertiary: #d63384;
+  --accent-tertiary-glow: rgba(214, 51, 132, 0.2);
+
+  --border: rgba(0, 0, 0, 0.08);
+  --border-hover: rgba(0, 0, 0, 0.15);
+  --border-accent: rgba(45, 138, 78, 0.3);
+
+  --glass-bg: rgba(255, 255, 255, 0.6);
+  --glass-border: rgba(0, 0, 0, 0.08);
+  --glass-highlight: rgba(255, 255, 255, 0.8);
+
+  --bg-page: var(--bg-primary);
+  --bg-light: var(--bg-secondary);
+  --tennis-green: var(--accent);
+
+  --chart-accent: #1a1a2e;
+  --chart-bg: rgba(45, 138, 78, 0.08);
+  --chart-grid: rgba(0, 0, 0, 0.06);
+
+  --gradient-primary: linear-gradient(135deg, var(--accent) 0%, var(--accent-secondary) 100%);
+  --gradient-secondary: linear-gradient(135deg, var(--accent-secondary) 0%, var(--accent-tertiary) 100%);
+  --gradient-dark: linear-gradient(180deg, var(--bg-primary) 0%, var(--bg-secondary) 100%);
+
+  --glow-primary: rgba(45, 138, 78, 0.15);
+  --glow-secondary: rgba(0, 119, 182, 0.1);
+  --glow-tertiary: rgba(214, 51, 132, 0.1);
+
+  /* Page background ambient glows - softer for light theme */
+  --glow-bg-accent: rgba(45, 138, 78, 0.08);
+  --glow-bg-secondary: rgba(0, 119, 182, 0.06);
+  --glow-bg-tertiary: rgba(214, 51, 132, 0.03);
+  --glow-bg-green: rgba(45, 138, 78, 0.06);
+  --glow-bg-green-alt: rgba(45, 138, 78, 0.08);
+  --glow-bg-accent-soft: rgba(45, 138, 78, 0.06);
+  --glow-bg-accent-medium: rgba(45, 138, 78, 0.05);
+
+  --overlay-bg: rgba(248, 249, 250, 0.98);
+
+  --glass-overlay-start: rgba(0, 0, 0, 0.03);
+  --glass-overlay-end: rgba(255, 255, 255, 0.05);
+
+  --quote-bg-start: rgba(45, 138, 78, 0.04);
+  --quote-bg-end: rgba(45, 138, 78, 0.08);
+
+  --hero-icon-glow: rgba(45, 138, 78, 0.15);
+  --hero-glow-secondary: rgba(0, 119, 182, 0.05);
+
+  --bar-glow-color: rgba(45, 138, 78, 0.6);
 }
 
 @theme inline {
@@ -446,4 +548,123 @@ body {
     transparent 40%
   );
   pointer-events: none;
+}
+
+/* ===== Light theme overrides for component classes ===== */
+
+[data-theme="light"] .glass {
+  background: rgba(255, 255, 255, 0.6);
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  box-shadow:
+    0 2px 15px rgba(0, 0, 0, 0.06),
+    inset 0 1px 0 rgba(255, 255, 255, 0.8);
+}
+
+[data-theme="light"] .glass:hover {
+  border-color: rgba(0, 0, 0, 0.12);
+  box-shadow:
+    0 4px 25px rgba(0, 0, 0, 0.1),
+    inset 0 1px 0 rgba(255, 255, 255, 0.8);
+}
+
+[data-theme="light"] .glass-strong {
+  background: rgba(255, 255, 255, 0.92);
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  box-shadow:
+    0 4px 20px rgba(0, 0, 0, 0.08),
+    0 0 0 1px rgba(0, 0, 0, 0.03) inset;
+}
+
+[data-theme="light"] .glass-accent {
+  background: rgba(45, 138, 78, 0.05);
+  border: 1px solid rgba(45, 138, 78, 0.15);
+  box-shadow:
+    0 2px 15px rgba(45, 138, 78, 0.06),
+    inset 0 1px 0 rgba(45, 138, 78, 0.05);
+}
+
+[data-theme="light"] .hover-lift:hover {
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.12), 0 0 20px var(--glow-primary);
+}
+
+[data-theme="light"] .grid-pattern {
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.03) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(0, 0, 0, 0.03) 1px, transparent 1px);
+}
+
+[data-theme="light"] .text-glow {
+  text-shadow: none;
+}
+
+[data-theme="light"] .card-glow:hover {
+  box-shadow:
+    0 0 0 1px var(--border-accent),
+    0 8px 30px rgba(0, 0, 0, 0.1),
+    0 0 15px var(--glow-primary);
+}
+
+[data-theme="light"] .timeline-dot {
+  box-shadow: 0 0 10px var(--glow-primary), 0 0 20px var(--glow-primary);
+}
+
+[data-theme="light"] .timeline-dot:hover {
+  box-shadow: 0 0 15px var(--glow-primary), 0 0 30px var(--glow-primary);
+}
+
+[data-theme="light"] ::selection {
+  background: var(--accent);
+  color: #ffffff;
+}
+
+[data-theme="light"] .animated-bg {
+  background: linear-gradient(
+    -45deg,
+    var(--bg-primary),
+    var(--bg-secondary),
+    rgba(45, 138, 78, 0.05),
+    var(--bg-tertiary)
+  );
+  background-size: 400% 400%;
+}
+
+[data-theme="light"] .noise-overlay {
+  opacity: 0.015;
+}
+
+[data-theme="light"] .spotlight::after {
+  background: radial-gradient(
+    circle at var(--mouse-x, 50%) var(--mouse-y, 50%),
+    rgba(45, 138, 78, 0.06) 0%,
+    transparent 40%
+  );
+}
+
+[data-theme="light"] .glow-sm {
+  box-shadow: 0 0 10px var(--glow-primary);
+}
+
+[data-theme="light"] .glow-md {
+  box-shadow: 0 0 15px var(--glow-primary), 0 0 30px var(--glow-secondary);
+}
+
+[data-theme="light"] .glow-lg {
+  box-shadow: 0 0 25px var(--glow-primary), 0 0 50px var(--glow-secondary);
+}
+
+[data-theme="light"] .neon-border:hover::before {
+  opacity: 0.6;
+}
+
+[data-theme="light"] .btn-outline:hover {
+  background: rgba(45, 138, 78, 0.08);
+}
+
+/* Light theme transition for smooth toggling */
+html {
+  transition: background-color 0.3s ease;
+}
+
+body {
+  transition: background-color 0.3s ease, color 0.3s ease;
 }

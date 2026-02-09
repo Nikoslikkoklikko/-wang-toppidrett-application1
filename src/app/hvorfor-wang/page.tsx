@@ -17,14 +17,14 @@ export default function HvorforWangPage() {
         <div
           className="absolute top-0 right-1/4 w-[700px] h-[700px] rounded-full"
           style={{
-            background: "radial-gradient(circle, rgba(198, 241, 53, 0.12) 0%, transparent 60%)",
+            background: "radial-gradient(circle, var(--glow-bg-accent-soft) 0%, transparent 60%)",
             filter: "blur(100px)",
           }}
         />
         <div
           className="absolute -bottom-1/4 -left-1/4 w-[600px] h-[600px] rounded-full"
           style={{
-            background: "radial-gradient(circle, rgba(255, 51, 102, 0.06) 0%, transparent 60%)",
+            background: "radial-gradient(circle, var(--glow-bg-tertiary) 0%, transparent 60%)",
             filter: "blur(80px)",
           }}
         />
