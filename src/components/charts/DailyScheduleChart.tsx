@@ -13,7 +13,6 @@ interface ScheduleBlock {
 }
 
 const norwaySchedule: ScheduleBlock[] = [
-  { start: 5, end: 7, activity: "Morgentrening", color: "linear-gradient(135deg, #00d4aa 0%, #00b894 100%)", icon: "🎾", isTraining: true },
   { start: 7, end: 8, activity: "Frokost & reise", color: "linear-gradient(135deg, #636e72 0%, #4a5568 100%)", icon: "🚌" },
   { start: 8, end: 15, activity: "Skole", color: "linear-gradient(135deg, #667eea 0%, #764ba2 100%)", icon: "📚" },
   { start: 15, end: 16, activity: "Reise & mat", color: "linear-gradient(135deg, #636e72 0%, #4a5568 100%)", icon: "🍎" },
