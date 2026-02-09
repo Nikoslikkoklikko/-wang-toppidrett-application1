@@ -41,8 +41,8 @@ export default function HvorforWangPage() {
         </p>
       </HeroSection>
 
-      <section className="relative z-10 py-12 px-6">
-        <div className="max-w-5xl mx-auto space-y-12">
+      <section className="relative z-10 px-6" style={{ paddingTop: "5rem", paddingBottom: "5rem" }}>
+        <div style={{ maxWidth: "64rem", marginLeft: "auto", marginRight: "auto" }} className="space-y-12">
           {/* Why Wang */}
           <ContentBlock>
             <h2 className="font-serif text-3xl md:text-4xl text-[var(--text-primary)] mb-6">

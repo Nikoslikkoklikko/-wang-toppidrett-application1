@@ -2,8 +2,8 @@
 
 export default function Footer() {
   return (
-    <footer className="relative z-10 py-12 px-6 border-t border-[var(--border)]">
-      <div className="max-w-3xl mx-auto text-center space-y-4">
+    <footer className="relative z-10 py-24 px-6 border-t border-[var(--border)]">
+      <div className="max-w-3xl mx-auto text-center space-y-6">
         <div className="flex flex-col md:flex-row items-center justify-center gap-6 text-sm text-[var(--text-secondary)]">
           <a
             href="mailto:nikolaitingstad@gmail.com"

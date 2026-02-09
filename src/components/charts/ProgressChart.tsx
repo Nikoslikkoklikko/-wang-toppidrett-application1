@@ -1,7 +1,6 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { useEffect, useState } from "react";
 import {
   AreaChart,
   Area,
@@ -49,13 +48,6 @@ function CustomTooltip({ active, payload, label }: CustomTooltipProps) {
 }
 
 export default function ProgressChart() {
-  const [isVisible, setIsVisible] = useState(false);
-
-  useEffect(() => {
-    const timer = setTimeout(() => setIsVisible(true), 500);
-    return () => clearTimeout(timer);
-  }, []);
-
   return (
     <motion.div
       initial={{ opacity: 0, y: 30 }}
@@ -71,9 +63,8 @@ export default function ProgressChart() {
         Karaktersnitt og treningstimer over tid
       </p>
 
-      <div className="h-[300px] w-full">
-        {isVisible && (
-          <ResponsiveContainer width="100%" height="100%">
+      <div style={{ width: "100%", height: 300, minHeight: 300 }}>
+          <ResponsiveContainer width="100%" height={300}>
             <AreaChart
               data={data}
               margin={{ top: 10, right: 10, left: -20, bottom: 0 }}
@@ -123,7 +114,6 @@ export default function ProgressChart() {
               />
             </AreaChart>
           </ResponsiveContainer>
-        )}
       </div>
 
       <div className="flex justify-center gap-6 mt-4">

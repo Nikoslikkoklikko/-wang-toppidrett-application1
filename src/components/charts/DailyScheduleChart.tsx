@@ -159,7 +159,7 @@ function MetricCard({ label, before, after, unit, change, changeType, delay }: M
 export default function DailyScheduleChart() {
   const [hoveredBlock, setHoveredBlock] = useState<ScheduleBlock | null>(null);
   const containerRef = useRef(null);
-  const isInView = useInView(containerRef, { once: true, margin: "-100px" });
+  const isInView = useInView(containerRef, { once: true });
 
   const totalHours = 18; // From 5am to 23pm
   const startHour = 5;

@@ -65,7 +65,7 @@ const skillTransfers: SkillTransfer[] = [
 
 export default function SkillsTransferDiagram() {
   const containerRef = useRef(null);
-  const isInView = useInView(containerRef, { once: true, margin: "-50px" });
+  const isInView = useInView(containerRef, { once: true });
   const [hoveredIndex, setHoveredIndex] = useState<number | null>(null);
 
   return (

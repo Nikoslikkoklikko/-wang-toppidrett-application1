@@ -160,18 +160,19 @@ export default function Home() {
       </section>
 
       {/* Stats Section */}
-      <section className="relative z-10 py-20 px-6">
-        <div className="max-w-5xl mx-auto">
+      <section className="relative z-10 px-8 md:px-16" style={{ paddingTop: "10rem", paddingBottom: "10rem" }}>
+        <div style={{ maxWidth: "56rem", marginLeft: "auto", marginRight: "auto" }}>
           <motion.h2
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
-            className="font-serif text-3xl md:text-4xl text-center mb-12 text-[var(--text-primary)]"
+            className="font-serif text-3xl md:text-4xl text-center text-[var(--text-primary)]"
+            style={{ marginBottom: "4rem" }}
           >
             I tall
           </motion.h2>
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6">
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-6 md:gap-8">
             <StatCard value="5.0" label="Karaktersnitt" />
             <StatCard value="4-6" label="Timer daglig" suffix="t" />
             <StatCard value="8" label="Anmerkninger" />
@@ -181,46 +182,47 @@ export default function Home() {
       </section>
 
       {/* Charts Section - Spectacular data visualization */}
-      <section className="relative z-10 py-20 px-6">
-        <div className="max-w-5xl mx-auto">
+      <section className="relative z-10 px-8 md:px-16" style={{ paddingTop: "10rem", paddingBottom: "10rem" }}>
+        <div style={{ maxWidth: "64rem", marginLeft: "auto", marginRight: "auto" }}>
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
-            className="text-center mb-12"
+            className="text-center"
+            style={{ marginBottom: "5rem" }}
           >
             <h2 className="font-serif text-3xl md:text-4xl text-[var(--text-primary)] mb-4">
               Min utvikling i tall
             </h2>
-            <p className="text-[var(--text-secondary)] max-w-xl mx-auto">
+            <p className="text-[var(--text-secondary)]" style={{ maxWidth: "36rem", marginLeft: "auto", marginRight: "auto" }}>
               Fra 4.2 til 5.0 i snitt, fra 2 til 5 timer daglig trening. Se min progresjon visualisert.
             </p>
           </motion.div>
 
-          <div className="grid md:grid-cols-2 gap-6">
+          <div className="grid md:grid-cols-2 gap-10">
             <ProgressChart />
             <SkillsRadar />
           </div>
 
           {/* Highlight cards */}
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mt-8">
-            <GlassCard glow className="p-4 text-center">
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-6" style={{ marginTop: "6rem" }}>
+            <GlassCard glow className="p-6 text-center">
               <div className="text-3xl mb-2">🧠</div>
               <div className="text-2xl font-bold text-[var(--accent)]">95%</div>
               <div className="text-xs text-[var(--text-secondary)]">Mental styrke</div>
             </GlassCard>
-            <GlassCard glow className="p-4 text-center">
+            <GlassCard glow className="p-6 text-center">
               <div className="text-3xl mb-2">📊</div>
               <div className="text-2xl font-bold text-[var(--accent)]">98%</div>
               <div className="text-xs text-[var(--text-secondary)]">Disiplin</div>
             </GlassCard>
-            <GlassCard glow className="p-4 text-center">
+            <GlassCard glow className="p-6 text-center">
               <div className="text-3xl mb-2">📚</div>
               <div className="text-2xl font-bold text-[var(--accent)]">5.0</div>
               <div className="text-xs text-[var(--text-secondary)]">Karaktersnitt</div>
             </GlassCard>
-            <GlassCard glow className="p-4 text-center">
+            <GlassCard glow className="p-6 text-center">
               <div className="text-3xl mb-2">🇪🇸</div>
               <div className="text-2xl font-bold text-[var(--accent)]">5t</div>
               <div className="text-xs text-[var(--text-secondary)]">Daglig trening</div>
@@ -230,8 +232,8 @@ export default function Home() {
       </section>
 
       {/* Navigation hint */}
-      <section className="relative z-10 py-24 px-6">
-        <div className="max-w-3xl mx-auto text-center">
+      <section className="relative z-10 px-8 md:px-16" style={{ paddingTop: "12rem", paddingBottom: "12rem" }}>
+        <div style={{ maxWidth: "48rem", marginLeft: "auto", marginRight: "auto", textAlign: "center" }}>
           <motion.div
             initial={{ opacity: 0, y: 40 }}
             whileInView={{ opacity: 1, y: 0 }}

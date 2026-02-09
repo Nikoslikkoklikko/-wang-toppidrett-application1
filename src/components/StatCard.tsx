@@ -5,7 +5,7 @@ import { useRef, useState, useEffect } from "react";
 
 function AnimatedCounter({ value, suffix = "" }: { value: string; suffix?: string }) {
   const ref = useRef(null);
-  const isInView = useInView(ref, { once: true, margin: "-100px" });
+  const isInView = useInView(ref, { once: true });
   const [displayValue, setDisplayValue] = useState("0");
 
   useEffect(() => {
@@ -53,7 +53,7 @@ interface StatCardProps {
 
 export default function StatCard({ value, label, suffix = "" }: StatCardProps) {
   const ref = useRef(null);
-  const isInView = useInView(ref, { once: true, margin: "-50px" });
+  const isInView = useInView(ref, { once: true });
 
   return (
     <motion.div

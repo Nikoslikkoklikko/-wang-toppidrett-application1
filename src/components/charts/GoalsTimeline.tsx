@@ -63,7 +63,7 @@ const longTermGoals = [
 
 export default function GoalsTimeline() {
   const containerRef = useRef(null);
-  const isInView = useInView(containerRef, { once: true, margin: "-50px" });
+  const isInView = useInView(containerRef, { once: true });
   const [activeGoal, setActiveGoal] = useState<number>(0);
 
   return (

@@ -59,7 +59,7 @@ const averageMatch = Math.round(matchItems.reduce((acc, item) => acc + item.matc
 
 export default function WangMatchDiagram() {
   const containerRef = useRef(null);
-  const isInView = useInView(containerRef, { once: true, margin: "-50px" });
+  const isInView = useInView(containerRef, { once: true });
   const [hoveredIndex, setHoveredIndex] = useState<number | null>(null);
 
   return (

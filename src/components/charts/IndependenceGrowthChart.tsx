@@ -22,7 +22,7 @@ const growthMetrics: GrowthMetric[] = [
 
 export default function IndependenceGrowthChart() {
   const containerRef = useRef(null);
-  const isInView = useInView(containerRef, { once: true, margin: "-50px" });
+  const isInView = useInView(containerRef, { once: true });
   const [hoveredIndex, setHoveredIndex] = useState<number | null>(null);
 
   const averageBefore = Math.round(growthMetrics.reduce((acc, m) => acc + m.before, 0) / growthMetrics.length);

@@ -10,7 +10,7 @@ import { useRef } from "react";
 
 function TrainingBlock({ time, activity, description, index }: { time: string; activity: string; description: string; index: number }) {
   const ref = useRef(null);
-  const isInView = useInView(ref, { once: true, margin: "-50px" });
+  const isInView = useInView(ref, { once: true });
 
   return (
     <motion.div
@@ -72,8 +72,8 @@ export default function DisiplinPage() {
       </HeroSection>
 
       {/* Stats Section */}
-      <section className="relative z-10 py-12 px-6">
-        <div className="max-w-5xl mx-auto">
+      <section className="relative z-10 px-6" style={{ paddingTop: "5rem", paddingBottom: "5rem" }}>
+        <div style={{ maxWidth: "64rem", marginLeft: "auto", marginRight: "auto" }}>
           <div className="grid grid-cols-2 md:grid-cols-3 gap-4 mb-12">
             <StatCard value="4-6" label="Timer daglig" suffix="t" />
             <StatCard value="6" label="Dager i uken" />
@@ -83,8 +83,8 @@ export default function DisiplinPage() {
       </section>
 
       {/* Training Routine */}
-      <section className="relative z-10 py-12 px-6">
-        <div className="max-w-5xl mx-auto">
+      <section className="relative z-10 px-6" style={{ paddingTop: "5rem", paddingBottom: "5rem" }}>
+        <div style={{ maxWidth: "64rem", marginLeft: "auto", marginRight: "auto" }}>
           <ContentBlock>
             <h2 className="font-serif text-3xl md:text-4xl text-[var(--text-primary)] mb-6">
               En typisk dag
@@ -147,8 +147,8 @@ export default function DisiplinPage() {
       </section>
 
       {/* Discipline Philosophy */}
-      <section className="relative z-10 py-12 px-6">
-        <div className="max-w-5xl mx-auto">
+      <section className="relative z-10 px-6" style={{ paddingTop: "5rem", paddingBottom: "5rem" }}>
+        <div style={{ maxWidth: "64rem", marginLeft: "auto", marginRight: "auto" }}>
           <ContentBlock>
             <h2 className="font-serif text-3xl md:text-4xl text-[var(--text-primary)] mb-6">
               Hva disiplin betyr for meg
@@ -184,8 +184,8 @@ export default function DisiplinPage() {
       </section>
 
       {/* Never Give Up */}
-      <section className="relative z-10 py-16 px-6">
-        <div className="max-w-5xl mx-auto">
+      <section className="relative z-10 px-6" style={{ paddingTop: "6rem", paddingBottom: "6rem" }}>
+        <div style={{ maxWidth: "64rem", marginLeft: "auto", marginRight: "auto" }}>
           <motion.div
             initial={{ opacity: 0, scale: 0.95 }}
             whileInView={{ opacity: 1, scale: 1 }}

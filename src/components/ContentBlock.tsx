@@ -11,7 +11,7 @@ interface ContentBlockProps {
 
 export default function ContentBlock({ children, delay = 0 }: ContentBlockProps) {
   const ref = useRef(null);
-  const isInView = useInView(ref, { once: true, margin: "-50px" });
+  const isInView = useInView(ref, { once: true });
 
   return (
     <motion.div

@@ -1,7 +1,6 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { useEffect, useState } from "react";
 import {
   RadarChart,
   PolarGrid,
@@ -43,13 +42,6 @@ function CustomTooltip({ active, payload }: CustomTooltipProps) {
 }
 
 export default function SkillsRadar() {
-  const [isVisible, setIsVisible] = useState(false);
-
-  useEffect(() => {
-    const timer = setTimeout(() => setIsVisible(true), 500);
-    return () => clearTimeout(timer);
-  }, []);
-
   return (
     <motion.div
       initial={{ opacity: 0, scale: 0.9 }}
@@ -65,9 +57,8 @@ export default function SkillsRadar() {
         En oversikt over mine ferdigheter og egenskaper
       </p>
 
-      <div className="h-[350px] w-full">
-        {isVisible && (
-          <ResponsiveContainer width="100%" height="100%">
+      <div style={{ width: "100%", height: 350, minHeight: 350 }}>
+          <ResponsiveContainer width="100%" height={350}>
             <RadarChart cx="50%" cy="50%" outerRadius="70%" data={data}>
               <PolarGrid stroke="var(--chart-grid)" />
               <PolarAngleAxis
@@ -91,7 +82,6 @@ export default function SkillsRadar() {
               <Tooltip content={<CustomTooltip />} />
             </RadarChart>
           </ResponsiveContainer>
-        )}
       </div>
 
       {/* Legend with skill details */}

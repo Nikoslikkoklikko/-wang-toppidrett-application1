@@ -36,8 +36,8 @@ export default function TennisPage() {
       </HeroSection>
 
       {/* Coach Recommendation Section */}
-      <section className="relative z-10 py-12 px-6">
-        <div className="max-w-5xl mx-auto">
+      <section className="relative z-10 px-6" style={{ paddingTop: "5rem", paddingBottom: "5rem" }}>
+        <div style={{ maxWidth: "64rem", marginLeft: "auto", marginRight: "auto" }}>
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -102,8 +102,8 @@ export default function TennisPage() {
         </div>
       </section>
 
-      <section className="relative z-10 py-12 px-6">
-        <div className="max-w-5xl mx-auto space-y-12">
+      <section className="relative z-10 px-6" style={{ paddingTop: "5rem", paddingBottom: "5rem" }}>
+        <div style={{ maxWidth: "64rem", marginLeft: "auto", marginRight: "auto" }} className="space-y-12">
           {/* Interactive Journey Timeline */}
           <motion.div
             initial={{ opacity: 0 }}

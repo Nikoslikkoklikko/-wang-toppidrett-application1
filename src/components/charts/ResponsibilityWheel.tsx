@@ -60,7 +60,7 @@ const totalHours = responsibilities.reduce((acc, r) => acc + r.hoursPerWeek, 0);
 
 export default function ResponsibilityWheel() {
   const containerRef = useRef(null);
-  const isInView = useInView(containerRef, { once: true, margin: "-50px" });
+  const isInView = useInView(containerRef, { once: true });
   const [selectedCategory, setSelectedCategory] = useState<Responsibility | null>(null);
 
   return (

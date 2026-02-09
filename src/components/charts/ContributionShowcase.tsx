@@ -69,7 +69,7 @@ const impactValues = {
 
 export default function ContributionShowcase() {
   const containerRef = useRef(null);
-  const isInView = useInView(containerRef, { once: true, margin: "-50px" });
+  const isInView = useInView(containerRef, { once: true });
   const [selectedContribution, setSelectedContribution] = useState<Contribution | null>(null);
 
   return (
