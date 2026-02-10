@@ -190,7 +190,7 @@ export default function TennisPage() {
             <h2 className="font-serif text-3xl md:text-4xl text-[var(--text-primary)] mb-6">
               Arbeidskapasitet og disiplin
             </h2>
-            <p className="text-[var(--text-secondary)] leading-relaxed mb-8">
+            <p className="text-[var(--text-secondary)] leading-relaxed mb-16">
               Suksess kommer ikke av talent alene. Jeg kompenserer for det jeg mangler i naturlig talent med
               ekstrem arbeidsvilje og disiplin. Selv når jeg taper - én kamp eller hundre - går jeg tilbake
               til grunnarbeidet og fortsetter å jobbe.
@@ -201,7 +201,7 @@ export default function TennisPage() {
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
-              className="mb-12"
+              className="mb-20"
             >
               <h3 className="font-serif text-2xl text-[var(--text-primary)] mb-6 text-center">
                 Min hverdag - sammenlign Norge vs Spania
@@ -214,12 +214,12 @@ export default function TennisPage() {
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
-              className="mb-8"
+              className="mb-16"
             >
               <DisciplineStats />
             </motion.div>
 
-            <p className="text-[var(--text-secondary)] leading-relaxed text-center mt-8">
+            <p className="text-[var(--text-secondary)] leading-relaxed text-center mt-16">
               Jeg søker ett år senere fordi jeg lyttet til rådet om å bli bedre først. Jeg har brukt dette året
               på å utvikle meg, få bedre kontroll på skadene mine, og bevise at jeg har den disiplinen som kreves.
             </p>
