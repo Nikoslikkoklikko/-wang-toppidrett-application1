@@ -192,7 +192,7 @@ export default function DailyScheduleChart() {
   const trainingIncrease = Math.round(((spainTraining - norwayTraining) / norwayTraining) * 100);
 
   return (
-    <div ref={containerRef} className="space-y-8">
+    <div ref={containerRef} className="space-y-12">
       {/* Dual Schedule View */}
       {isInView && (
         <div className="space-y-4">

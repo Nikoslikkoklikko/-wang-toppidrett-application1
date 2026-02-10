@@ -148,9 +148,9 @@ function StatCard({ stat, index }: { stat: StatItem; index: number }) {
 
 export default function DisciplineStats() {
   return (
-    <div className="space-y-6">
-      <div className="text-center mb-8">
-        <h4 className="text-xl font-semibold text-[var(--text-primary)] mb-2">
+    <div className="space-y-10">
+      <div className="text-center mb-10">
+        <h4 className="text-2xl font-semibold text-[var(--text-primary)] mb-3">
           Disiplin i tall
         </h4>
         <p className="text-[var(--text-secondary)] text-sm">
@@ -158,7 +158,7 @@ export default function DisciplineStats() {
         </p>
       </div>
 
-      <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+      <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
         {stats.map((stat, index) => (
           <StatCard key={index} stat={stat} index={index} />
         ))}
@@ -169,7 +169,7 @@ export default function DisciplineStats() {
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
-        className="glass-strong rounded-2xl p-6 text-center mt-8"
+        className="glass-strong rounded-2xl p-8 text-center mt-12"
       >
         <div className="flex items-center justify-center gap-4 flex-wrap">
           <span className="text-3xl">🏆</span>
