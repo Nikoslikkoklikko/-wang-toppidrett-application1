@@ -36,7 +36,7 @@ export default function HvorforWangPage() {
         title="Hvorfor Wang?"
         subtitle="Min motivasjon"
       >
-        <p className="text-lg md:text-xl text-[var(--text-secondary)] leading-relaxed">
+        <p className="text-lg md:text-xl text-[var(--text-secondary)] leading-loose">
           Jeg er klar. Jeg er motivert. Jeg er dedikert.
         </p>
       </HeroSection>
@@ -48,7 +48,7 @@ export default function HvorforWangPage() {
             <h2 className="font-serif text-3xl md:text-4xl text-[var(--text-primary)] mb-6">
               Hvorfor Wang Toppidrett?
             </h2>
-            <p className="text-[var(--text-secondary)] leading-relaxed mb-6">
+            <p className="text-lg md:text-xl text-[var(--text-secondary)] leading-loose mb-6">
               Wang Toppidrett tilbyr nøyaktig det jeg leter etter: muligheten til å kombinere seriøs satsing på tennis
               med god akademisk utvikling, omgitt av andre som har den samme drivet og ambisjonen som meg.
             </p>
@@ -59,7 +59,7 @@ export default function HvorforWangPage() {
             <h2 className="font-serif text-3xl md:text-4xl text-[var(--text-primary)] mb-6">
               Perfekt match
             </h2>
-            <p className="text-[var(--text-secondary)] leading-relaxed mb-8">
+            <p className="text-lg md:text-xl text-[var(--text-secondary)] leading-loose mb-8">
               Se hvordan mine kvaliteter matcher med det Wang tilbyr.
             </p>
             <WangMatchDiagram />
@@ -76,7 +76,7 @@ export default function HvorforWangPage() {
             <h2 className="font-serif text-3xl md:text-4xl text-[var(--text-primary)] mb-6">
               Mine mål på Wang
             </h2>
-            <p className="text-[var(--text-secondary)] leading-relaxed mb-8">
+            <p className="text-lg md:text-xl text-[var(--text-secondary)] leading-loose mb-8">
               En tydelig plan for hvert år på videregående.
             </p>
             <GoalsTimeline />
@@ -87,7 +87,7 @@ export default function HvorforWangPage() {
             <h2 className="font-serif text-3xl md:text-4xl text-[var(--text-primary)] mb-6">
               Hva jeg kan bidra med
             </h2>
-            <p className="text-[var(--text-secondary)] leading-relaxed mb-8">
+            <p className="text-lg md:text-xl text-[var(--text-secondary)] leading-loose mb-8">
               Alt jeg lærer på tennisbanen – presentasjonsangst, press og vilje – kan jeg overføre til skolen.
             </p>
             <ContributionShowcase />
@@ -98,12 +98,12 @@ export default function HvorforWangPage() {
             <h2 className="font-serif text-3xl md:text-4xl text-[var(--text-primary)] mb-6">
               Hvorfor akkurat Wang Toppidrett?
             </h2>
-            <p className="text-[var(--text-secondary)] leading-relaxed mb-4">
+            <p className="text-lg md:text-xl text-[var(--text-secondary)] leading-loose mb-4">
               Jeg søker Wang fordi jeg vil omgi meg med folk som tenker likt – som vil noe,
               og som er villige til å jobbe for det. Jeg trenger et miljø som forstår balansen
               mellom idrett og akademia.
             </p>
-            <p className="text-[var(--text-secondary)] leading-relaxed mb-6">
+            <p className="text-lg md:text-xl text-[var(--text-secondary)] leading-loose mb-6">
               Wang Toppidrett representerer alt jeg søker: et sterkt akademisk miljø kombinert med
               forståelse for kravene til toppidrett. Her kan jeg utvikle meg både som student og som atlet.
             </p>

@@ -65,7 +65,7 @@ export default function DisiplinPage() {
         title="Disiplin"
         subtitle="Det som skiller drømmer fra resultater"
       >
-        <p className="text-lg md:text-xl text-[var(--text-secondary)] leading-relaxed">
+        <p className="text-lg md:text-xl text-[var(--text-secondary)] leading-loose">
           Talent er ikke nok. Det er de daglige valgene, de tidlige morgenene,
           og viljen til å gjøre det som må gjøres – selv når ingen ser på.
         </p>
@@ -89,11 +89,11 @@ export default function DisiplinPage() {
             <h2 className="font-serif text-3xl md:text-4xl text-[var(--text-primary)] mb-6">
               En typisk dag
             </h2>
-            <p className="text-[var(--text-secondary)] leading-relaxed mb-4">
+            <p className="text-lg md:text-xl text-[var(--text-secondary)] leading-loose mb-4">
               Jeg dropper fra skolen kl. 07 for morgentrening og kommer hjem kl. 21 etter ettermiddagstrening.
               Min treningsrutine i Spania er krevende, men det er det som skal til for å bli bedre hver dag.
             </p>
-            <p className="text-[var(--text-secondary)] leading-relaxed mb-8">
+            <p className="text-lg md:text-xl text-[var(--text-secondary)] leading-loose mb-8">
               Jeg kompenserer med ren disiplin og arbeidsvilje. Skadene mine er nå under kontroll,
               og jeg "pusher grensene mine" hver eneste dag.
             </p>
@@ -153,7 +153,7 @@ export default function DisiplinPage() {
             <h2 className="font-serif text-3xl md:text-4xl text-[var(--text-primary)] mb-6">
               Hva disiplin betyr for meg
             </h2>
-            <p className="text-[var(--text-secondary)] leading-relaxed mb-6">
+            <p className="text-lg md:text-xl text-[var(--text-secondary)] leading-loose mb-6">
               Disiplin handler ikke om å tvinge seg selv til å gjøre noe man hater.
               Det handler om å bygge vaner som bringer deg nærmere målet ditt, dag etter dag.
             </p>
@@ -164,7 +164,7 @@ export default function DisiplinPage() {
           </QuoteBlock>
 
           <ContentBlock delay={0.2}>
-            <p className="text-[var(--text-secondary)] leading-relaxed mb-6">
+            <p className="text-lg md:text-xl text-[var(--text-secondary)] leading-loose mb-6">
               Når andre tar snarveier, velger jeg den lange veien. Når andre gir opp etter et tap,
               bruker jeg det som motivasjon til å trene hardere. Dette er ikke noe jeg gjør for å imponere andre –
               det er hvem jeg er.

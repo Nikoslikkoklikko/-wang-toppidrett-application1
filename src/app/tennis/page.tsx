@@ -30,7 +30,7 @@ export default function TennisPage() {
         title="Min tennisreise"
         subtitle="Fra utfordringer til utvikling"
       >
-        <p className="text-lg md:text-xl text-[var(--text-secondary)] leading-relaxed">
+        <p className="text-lg md:text-xl text-[var(--text-secondary)] leading-loose">
           Tennisreisen min har ikke vært enkel, men den har gjort meg til spilleren jeg er i dag.
         </p>
       </HeroSection>
@@ -119,16 +119,16 @@ export default function TennisPage() {
             <h2 className="font-serif text-3xl md:text-4xl text-[var(--text-primary)] mb-6">
               Bakgrunn
             </h2>
-            <p className="text-[var(--text-secondary)] leading-relaxed mb-4">
+            <p className="text-lg md:text-xl text-[var(--text-secondary)] leading-loose mb-4">
               Tennisreisen min har ikke vært enkel. Etter skaden min tapte jeg mot alle på trening. Men i stedet for
               å gi opp, brukte jeg det som drivkraft. Jeg tok meg alltid først til trening og dro sist. For mange
               ville dette vært motløsende, men for meg ga det disiplin og en enorm mental styrke.
             </p>
-            <p className="text-[var(--text-secondary)] leading-relaxed mb-4">
+            <p className="text-lg md:text-xl text-[var(--text-secondary)] leading-loose mb-4">
               Jeg har hatt skadeproblemer underveis som har satt meg tilbake, men jeg har aldri gitt opp.
               I etterkant ser jeg at utfordringene har gjort meg til en sterkere spiller og person.
             </p>
-            <p className="text-[var(--text-secondary)] leading-relaxed">
+            <p className="text-lg md:text-xl text-[var(--text-secondary)] leading-loose">
               <strong>Min bakgrunn:</strong>
             </p>
             <ul className="list-disc list-inside text-[var(--text-secondary)] leading-relaxed ml-4 space-y-2">
@@ -166,12 +166,12 @@ export default function TennisPage() {
               </p>
             </motion.div>
 
-            <p className="text-[var(--text-secondary)] leading-relaxed mb-4">
+            <p className="text-lg md:text-xl text-[var(--text-secondary)] leading-loose mb-4">
               Dette året i Spania har vært avgjørende for min utvikling. Nivået på tennis her er helt annerledes
               enn i Norge - både treningsmengde, intensitet og konkurransementalitet. Jeg trener 4-6 timer daglig,
               og jeg ser tydelig fremgang.
             </p>
-            <p className="text-[var(--text-secondary)] leading-relaxed mb-6">
+            <p className="text-lg md:text-xl text-[var(--text-secondary)] leading-loose mb-6">
               Treneren min mener jeg har et ekstremt høyt potensial, og etter å ha trent her ser jeg selv at det stemmer.
               Tennis er like mye mental som fysisk, og det mentale spillet er min største styrke.
             </p>
@@ -233,7 +233,7 @@ export default function TennisPage() {
             <h2 className="font-serif text-3xl md:text-4xl text-[var(--text-primary)] mb-6">
               Se meg spille
             </h2>
-            <p className="text-[var(--text-secondary)] leading-relaxed mb-6">
+            <p className="text-lg md:text-xl text-[var(--text-secondary)] leading-loose mb-6">
               Her kan dere se meg i aksjon på tennisbanen. Videoene viser min spillestil, teknikk og kampmentalitet.
             </p>
             <VideoPlayer src="/tennis-video-1.mp4" caption="Trening i Spania 2026" />
