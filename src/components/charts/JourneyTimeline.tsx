@@ -30,9 +30,9 @@ const milestones: Milestone[] = [
   {
     year: 2023,
     age: 15,
-    title: "Første Wang-søknad",
-    description: "Søkte til Wang Toppidrett for første gang, men kom ikke inn. I stedet for å gi opp, brukte jeg avslaget som motivasjon til å bli bedre.",
-    icon: "📝",
+    title: "Ny treningstilnærming",
+    description: "Begynte å fokusere mer på mental styrke og taktikk i tillegg til teknikk. Dette endret spillet mitt.",
+    icon: "🧠",
   },
   {
     year: 2024,
