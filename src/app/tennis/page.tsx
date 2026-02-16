@@ -119,23 +119,14 @@ export default function TennisPage() {
             <h2 className="font-serif text-3xl md:text-4xl text-[var(--text-primary)] mb-6">
               Bakgrunn
             </h2>
-            <p className="text-lg md:text-xl text-[var(--text-secondary)] leading-loose mb-4">
-              Min tennisreise har på mange måter vært utfordrende. Etter skaden i ryggen tapte jeg mange kamper
-              både i turneringer og på trening. Men i stedet for å gi opp valgte jeg å bruke opptreningen som drivkraft.
-              Jeg krummet nakken og bestemte meg for å klare å komme tilbake 100%. Jeg kom alltid først på trening
-              og dro sist. For mange ville et tilsvarende tilbakeslag medføre motløshet, men for meg har det gitt
-              enda bedre disiplin og mental styrke. I etterkant ser jeg at utfordringene har gjort meg til en sterkere
-              spiller og person.
-            </p>
             <p className="text-lg md:text-xl text-[var(--text-secondary)] leading-loose">
-              <strong>Min bakgrunn:</strong>
+              Min tennisreise har på mange måter vært utfordrende. Etter skaden i ryggen tapte jeg mange
+              kamper både i turneringer og på trening. Men i stedet for å gi opp valgte jeg å bruke
+              opptreningen som drivkraft. Jeg krummet nakken og bestemte meg for å klare å komme
+              tilbake 100%. Jeg kom alltid først på trening og dro sist. For mange ville et tilsvarende
+              tilbakeslag medføre motløshet, men for meg har det gitt enda bedre disiplin og mental styrke.
+              I etterkant ser jeg at utfordringene har gjort meg til en sterkere spiller og person.
             </p>
-            <ul className="list-disc list-inside text-[var(--text-secondary)] leading-relaxed ml-4 space-y-2">
-              <li>Jeg begynte å spille tennis da jeg var 6 år</li>
-              <li>Jeg har spilt tennis i over 10 år</li>
-              <li>Jeg har hatt skader på veien, men alltid kommet sterkere tilbake</li>
-              <li>Jeg bor nå alene i Spania for å satse på tennis og utvikle meg som spiller og menneske</li>
-            </ul>
           </ContentBlock>
 
           {/* Quote - dedication */}
