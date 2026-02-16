@@ -120,35 +120,34 @@ export default function TennisPage() {
               Bakgrunn
             </h2>
             <p className="text-lg md:text-xl text-[var(--text-secondary)] leading-loose mb-4">
-              Tennisreisen min har ikke vært enkel. Etter skaden min tapte jeg mot alle på trening. Men i stedet for
-              å gi opp, brukte jeg det som drivkraft. Jeg tok meg alltid først til trening og dro sist. For mange
-              ville dette vært motløsende, men for meg ga det disiplin og en enorm mental styrke.
-            </p>
-            <p className="text-lg md:text-xl text-[var(--text-secondary)] leading-loose mb-4">
-              Jeg har hatt skadeproblemer underveis som har satt meg tilbake, men jeg har aldri gitt opp.
-              I etterkant ser jeg at utfordringene har gjort meg til en sterkere spiller og person.
+              Min tennisreise har på mange måter vært utfordrende. Etter skaden i ryggen tapte jeg mange kamper
+              både i turneringer og på trening. Men i stedet for å gi opp valgte jeg å bruke opptreningen som drivkraft.
+              Jeg krummet nakken og bestemte meg for å klare å komme tilbake 100%. Jeg kom alltid først på trening
+              og dro sist. For mange ville et tilsvarende tilbakeslag medføre motløshet, men for meg har det gitt
+              enda bedre disiplin og mental styrke. I etterkant ser jeg at utfordringene har gjort meg til en sterkere
+              spiller og person.
             </p>
             <p className="text-lg md:text-xl text-[var(--text-secondary)] leading-loose">
               <strong>Min bakgrunn:</strong>
             </p>
             <ul className="list-disc list-inside text-[var(--text-secondary)] leading-relaxed ml-4 space-y-2">
-              <li>Begynte å spille tennis som 6-åring</li>
-              <li>Har spilt tennis i over 10 år</li>
-              <li>Har hatt skader underveis, men alltid kommet tilbake sterkere</li>
-              <li>Bor nå alene i Spania for å satse på tennis</li>
+              <li>Jeg begynte å spille tennis da jeg var 6 år</li>
+              <li>Jeg har spilt tennis i over 10 år</li>
+              <li>Jeg har hatt skader på veien, men alltid kommet sterkere tilbake</li>
+              <li>Jeg bor nå alene i Spania for å satse på tennis og utvikle meg som spiller og menneske</li>
             </ul>
           </ContentBlock>
 
           {/* Quote - dedication */}
           <QuoteBlock>
-            Jeg tok meg alltid først på trening og var sist til å dra. Etter skaden tapte jeg mot alle på trening,
-            men det bare økte min motivasjon.
+            Jeg kom alltid først på trening og dro sist. For mange ville et tilsvarende tilbakeslag medføre
+            motløshet, men for meg har det gitt enda bedre disiplin og mental styrke
           </QuoteBlock>
 
           {/* Spain year section */}
           <ContentBlock delay={0.2}>
             <h2 className="font-serif text-3xl md:text-4xl text-[var(--text-primary)] mb-6">
-              Året i Spania
+              Året på Soto Tennisakademi
             </h2>
 
             {/* Prominent mental quote */}
@@ -159,7 +158,7 @@ export default function TennisPage() {
               className="glass-strong rounded-2xl p-8 text-center mb-8"
             >
               <p className="font-serif text-3xl md:text-4xl text-[var(--accent)] mb-2">
-                Tennis er like mye mental som fysisk
+                Tennis er like mye en mental som en fysisk idrett
               </p>
               <p className="text-[var(--text-secondary)]">
                 Det mentale spillet er min største styrke
@@ -167,20 +166,23 @@ export default function TennisPage() {
             </motion.div>
 
             <p className="text-lg md:text-xl text-[var(--text-secondary)] leading-loose mb-4">
-              Dette året i Spania har vært avgjørende for min utvikling. Nivået på tennis her er helt annerledes
-              enn i Norge - både treningsmengde, intensitet og konkurransementalitet. Jeg trener 4-6 timer daglig,
-              og jeg ser tydelig fremgang.
+              Året på Soto Tennisakademi har vært avgjørende for min utvikling. Opplegget er fullstendig og omfatter
+              teknisk trening, fysisk trening, konkurransetrening og mental trening. Opplegget er omfattende hva angår
+              treningsmengde og intensitet. Jeg må disponere mine dager godt, og sørge for nok næring og hvile.
+              Jeg organiserer dagene selv og må forvalte døgnet på en så optimal måte som mulig. Det er i tillegg
+              mye reising i forbindelse med turneringer, der vi er på nye steder, og må dele rom og leiligheter,
+              sørge for mat og logistikk.
             </p>
             <p className="text-lg md:text-xl text-[var(--text-secondary)] leading-loose mb-6">
-              Treneren min mener jeg har et ekstremt høyt potensial, og etter å ha trent her ser jeg selv at det stemmer.
-              Tennis er like mye mental som fysisk, og det mentale spillet er min største styrke.
+              Min hovedtrener i Soto mener jeg har et ekstremt høyt potensiale, noe jeg etter tiden i Soto ser at er riktig.
+              Tennis er like mye en mental som en fysisk idrett, der det mentale nok er en styrke hos meg.
             </p>
             <FeatureList
               items={[
-                "Trener 4-6 timer daglig på høyt internasjonalt nivå",
-                "Nivået i Spania er helt annerledes enn i Norge",
-                "Mental styrke er min største styrke",
-                "Ser tydelig fremgang i utviklingen min",
+                "Jeg trener 4-6 timer daglig",
+                "Høyt nivå og hard konkurranse i Spania",
+                "Jeg er sterk mentalt",
+                "Jeg ser tydelig progresjon og utvikling",
               ]}
             />
           </ContentBlock>

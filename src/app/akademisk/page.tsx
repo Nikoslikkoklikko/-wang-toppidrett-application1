@@ -130,7 +130,7 @@ export default function AkademiskPage() {
             </h2>
             <p className="text-lg md:text-xl text-[var(--text-secondary)] leading-loose mb-4">
               På samme måte som jeg alltid søker å bli bedre på tennisbanen, søker jeg også vekst i klasserommet.
-              Jeg stiller spørsmål, søker hjelp når jeg trenger det, og jobber systematisk med stoffet.
+              Jeg stiller spørsmål, søker hjelp når jeg trenger det, og jobber systematisk med oppgavene.
             </p>
             <p className="text-lg md:text-xl text-[var(--text-secondary)] leading-loose">
               Det jeg lærer på tennisbanen tar jeg med meg inn i skolen: å håndtere press,

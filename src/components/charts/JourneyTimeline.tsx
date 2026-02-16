@@ -37,7 +37,7 @@ const milestones: Milestone[] = [
   {
     year: 2024,
     age: 15,
-    title: "Dysleksi & 5.0 snitt",
+    title: "Dysleksi og 5.0 snitt",
     description: "Fikk diagnosen dysleksi i 10. klasse, men lot det ikke stoppe meg. Gikk ut med 5.0 i snitt - en forbedring fra 4.2 i 8. klasse.",
     icon: "📚",
     highlight: true,

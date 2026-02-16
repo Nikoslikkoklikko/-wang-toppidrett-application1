@@ -89,20 +89,20 @@ export default function DisiplinPage() {
             <h2 className="font-serif text-3xl md:text-4xl text-[var(--text-primary)] mb-6">
               En typisk dag
             </h2>
-            <p className="text-lg md:text-xl text-[var(--text-secondary)] leading-loose mb-4">
-              Jeg dropper fra skolen kl. 07 for morgentrening og kommer hjem kl. 21 etter ettermiddagstrening.
-              Min treningsrutine i Spania er krevende, men det er det som skal til for å bli bedre hver dag.
-            </p>
             <p className="text-lg md:text-xl text-[var(--text-secondary)] leading-loose mb-8">
-              Jeg kompenserer med ren disiplin og arbeidsvilje. Skadene mine er nå under kontroll,
-              og jeg "pusher grensene mine" hver eneste dag.
+              Det har aldri vært problematisk for meg å stå opp tidligere enn andre for å trene før skolen.
+              Før jeg flyttet til Spania trente jeg ofte både før og etter skolen, med dager som startet kl. 06
+              og varte til kl. 21. I Spania starter vi med fysisk trening før solen står opp, og jeg har i tillegg
+              også ofte økter med mental trening før oppstart av fysisk trening. Mine dager i Spania er krevende,
+              men gir meg det som skal til for å bli stadig bedre. Jeg har svært god disiplin, er meget hardt
+              arbeidende og jeg presser mine egne grenser hver eneste dag.
             </p>
           </ContentBlock>
 
           <div className="space-y-4">
             <TrainingBlock
-              time="07:00"
-              activity="Oppvåkning"
+              time="06:00"
+              activity="Jeg står opp"
               description="Stå opp, spise frokost, mentalt forberede meg for dagen"
               index={0}
             />
