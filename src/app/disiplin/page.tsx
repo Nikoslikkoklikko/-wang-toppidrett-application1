@@ -72,7 +72,7 @@ export default function DisiplinPage() {
       </HeroSection>
 
       {/* Stats Section */}
-      <section className="relative z-10 px-6" style={{ paddingTop: "5rem", paddingBottom: "5rem" }}>
+      <section className="relative z-10 px-6" style={{ paddingTop: "8rem", paddingBottom: "8rem" }}>
         <div style={{ maxWidth: "64rem", marginLeft: "auto", marginRight: "auto" }}>
           <div className="grid grid-cols-2 md:grid-cols-3 gap-4 mb-12">
             <StatCard value="4-6" label="Timer daglig" suffix="t" />
@@ -83,10 +83,10 @@ export default function DisiplinPage() {
       </section>
 
       {/* Training Routine */}
-      <section className="relative z-10 px-6" style={{ paddingTop: "5rem", paddingBottom: "5rem" }}>
+      <section className="relative z-10 px-6" style={{ paddingTop: "8rem", paddingBottom: "8rem" }}>
         <div style={{ maxWidth: "64rem", marginLeft: "auto", marginRight: "auto" }}>
           <ContentBlock>
-            <h2 className="font-serif text-3xl md:text-4xl text-[var(--text-primary)] mb-6">
+            <h2 className="font-serif text-3xl md:text-4xl text-[var(--text-primary)] mb-10">
               En typisk dag
             </h2>
             <p className="text-lg md:text-xl text-[var(--text-secondary)] leading-loose mb-8">
@@ -147,10 +147,10 @@ export default function DisiplinPage() {
       </section>
 
       {/* Discipline Philosophy */}
-      <section className="relative z-10 px-6" style={{ paddingTop: "5rem", paddingBottom: "5rem" }}>
+      <section className="relative z-10 px-6" style={{ paddingTop: "8rem", paddingBottom: "8rem" }}>
         <div style={{ maxWidth: "64rem", marginLeft: "auto", marginRight: "auto" }}>
           <ContentBlock>
-            <h2 className="font-serif text-3xl md:text-4xl text-[var(--text-primary)] mb-6">
+            <h2 className="font-serif text-3xl md:text-4xl text-[var(--text-primary)] mb-10">
               Hva disiplin betyr for meg
             </h2>
             <p className="text-lg md:text-xl text-[var(--text-secondary)] leading-loose mb-6">
@@ -184,7 +184,7 @@ export default function DisiplinPage() {
       </section>
 
       {/* Never Give Up */}
-      <section className="relative z-10 px-6" style={{ paddingTop: "6rem", paddingBottom: "6rem" }}>
+      <section className="relative z-10 px-6" style={{ paddingTop: "10rem", paddingBottom: "10rem" }}>
         <div style={{ maxWidth: "64rem", marginLeft: "auto", marginRight: "auto" }}>
           <motion.div
             initial={{ opacity: 0, scale: 0.95 }}

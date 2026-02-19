@@ -34,8 +34,8 @@ export default function AkademiskPage() {
         </p>
       </HeroSection>
 
-      <section className="relative z-10 px-6" style={{ paddingTop: "5rem", paddingBottom: "5rem" }}>
-        <div style={{ maxWidth: "64rem", marginLeft: "auto", marginRight: "auto" }} className="space-y-12">
+      <section className="relative z-10 px-6" style={{ paddingTop: "8rem", paddingBottom: "8rem" }}>
+        <div style={{ maxWidth: "64rem", marginLeft: "auto", marginRight: "auto" }} className="space-y-20">
           {/* Interactive Charts Section */}
           <motion.div
             initial={{ opacity: 0 }}
@@ -49,7 +49,7 @@ export default function AkademiskPage() {
 
           {/* Stats overview */}
           <ContentBlock>
-            <h2 className="font-serif text-3xl md:text-4xl text-[var(--text-primary)] mb-6">
+            <h2 className="font-serif text-3xl md:text-4xl text-[var(--text-primary)] mb-10">
               Mine styrker som elev
             </h2>
             <div className="grid grid-cols-2 md:grid-cols-3 gap-4 mb-8">
@@ -77,7 +77,7 @@ export default function AkademiskPage() {
 
           {/* Overcoming dyslexia */}
           <ContentBlock delay={0.2}>
-            <h2 className="font-serif text-3xl md:text-4xl text-[var(--text-primary)] mb-6">
+            <h2 className="font-serif text-3xl md:text-4xl text-[var(--text-primary)] mb-10">
               Utfordringer overvunnet
             </h2>
             <p className="text-lg md:text-xl text-[var(--text-secondary)] leading-loose mb-4">
@@ -96,7 +96,7 @@ export default function AkademiskPage() {
 
           {/* School engagement */}
           <ContentBlock delay={0.4}>
-            <h2 className="font-serif text-3xl md:text-4xl text-[var(--text-primary)] mb-6">
+            <h2 className="font-serif text-3xl md:text-4xl text-[var(--text-primary)] mb-10">
               Engasjement og oppmøte
             </h2>
             <p className="text-lg md:text-xl text-[var(--text-secondary)] leading-loose mb-4">
@@ -125,7 +125,7 @@ export default function AkademiskPage() {
 
           {/* Learning mindset */}
           <ContentBlock delay={0.6}>
-            <h2 className="font-serif text-3xl md:text-4xl text-[var(--text-primary)] mb-6">
+            <h2 className="font-serif text-3xl md:text-4xl text-[var(--text-primary)] mb-10">
               Læringsinnstilling
             </h2>
             <p className="text-lg md:text-xl text-[var(--text-secondary)] leading-loose mb-4">

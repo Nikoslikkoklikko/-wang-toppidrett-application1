@@ -36,7 +36,7 @@ export default function TennisPage() {
       </HeroSection>
 
       {/* Coach Recommendation Section */}
-      <section className="relative z-10 px-6" style={{ paddingTop: "5rem", paddingBottom: "5rem" }}>
+      <section className="relative z-10 px-6" style={{ paddingTop: "8rem", paddingBottom: "8rem" }}>
         <div style={{ maxWidth: "64rem", marginLeft: "auto", marginRight: "auto" }}>
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -45,7 +45,7 @@ export default function TennisPage() {
             className="glass rounded-2xl p-8"
             style={{ borderLeft: "4px solid var(--accent)" }}
           >
-            <h2 className="font-serif text-3xl md:text-4xl text-[var(--text-primary)] mb-6">
+            <h2 className="font-serif text-3xl md:text-4xl text-[var(--text-primary)] mb-10">
               Anbefaling fra Tomo - Nordstrand Tennisklubb (NTK)
             </h2>
 
@@ -102,8 +102,8 @@ export default function TennisPage() {
         </div>
       </section>
 
-      <section className="relative z-10 px-6" style={{ paddingTop: "5rem", paddingBottom: "5rem" }}>
-        <div style={{ maxWidth: "64rem", marginLeft: "auto", marginRight: "auto" }} className="space-y-12">
+      <section className="relative z-10 px-6" style={{ paddingTop: "8rem", paddingBottom: "8rem" }}>
+        <div style={{ maxWidth: "64rem", marginLeft: "auto", marginRight: "auto" }} className="space-y-20">
           {/* Interactive Journey Timeline */}
           <motion.div
             initial={{ opacity: 0 }}
@@ -116,7 +116,7 @@ export default function TennisPage() {
 
           {/* Journey section */}
           <ContentBlock>
-            <h2 className="font-serif text-3xl md:text-4xl text-[var(--text-primary)] mb-6">
+            <h2 className="font-serif text-3xl md:text-4xl text-[var(--text-primary)] mb-10">
               Bakgrunn
             </h2>
             <p className="text-lg md:text-xl text-[var(--text-secondary)] leading-loose">
@@ -137,7 +137,7 @@ export default function TennisPage() {
 
           {/* Spain year section */}
           <ContentBlock delay={0.2}>
-            <h2 className="font-serif text-3xl md:text-4xl text-[var(--text-primary)] mb-6">
+            <h2 className="font-serif text-3xl md:text-4xl text-[var(--text-primary)] mb-10">
               Året på Soto Tennisakademi
             </h2>
 
@@ -223,7 +223,7 @@ export default function TennisPage() {
 
           {/* Video section */}
           <ContentBlock delay={0.6}>
-            <h2 className="font-serif text-3xl md:text-4xl text-[var(--text-primary)] mb-6">
+            <h2 className="font-serif text-3xl md:text-4xl text-[var(--text-primary)] mb-10">
               Se meg spille
             </h2>
             <p className="text-lg md:text-xl text-[var(--text-secondary)] leading-loose mb-6">
