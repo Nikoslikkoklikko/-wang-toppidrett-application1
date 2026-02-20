@@ -45,7 +45,7 @@ export default function TennisPage() {
             className="glass rounded-2xl p-8"
             style={{ borderLeft: "4px solid var(--accent)" }}
           >
-            <h2 className="font-serif text-3xl md:text-4xl text-[var(--text-primary)] mb-14">
+            <h2 className="font-serif text-3xl md:text-4xl text-[var(--text-primary)] mb-20">
               Anbefaling fra Tomo - Nordstrand Tennisklubb (NTK)
             </h2>
 
@@ -116,7 +116,7 @@ export default function TennisPage() {
 
           {/* Journey section */}
           <ContentBlock>
-            <h2 className="font-serif text-3xl md:text-4xl text-[var(--text-primary)] mb-14">
+            <h2 className="font-serif text-3xl md:text-4xl text-[var(--text-primary)] mb-20">
               Bakgrunn
             </h2>
             <p className="text-lg md:text-xl text-[var(--text-secondary)] leading-loose">
@@ -137,7 +137,7 @@ export default function TennisPage() {
 
           {/* Spain year section */}
           <ContentBlock delay={0.2}>
-            <h2 className="font-serif text-3xl md:text-4xl text-[var(--text-primary)] mb-14">
+            <h2 className="font-serif text-3xl md:text-4xl text-[var(--text-primary)] mb-20">
               Året på Soto Tennisakademi
             </h2>
 
@@ -223,7 +223,7 @@ export default function TennisPage() {
 
           {/* Video section */}
           <ContentBlock delay={0.6}>
-            <h2 className="font-serif text-3xl md:text-4xl text-[var(--text-primary)] mb-14">
+            <h2 className="font-serif text-3xl md:text-4xl text-[var(--text-primary)] mb-20">
               Se meg spille
             </h2>
             <p className="text-lg md:text-xl text-[var(--text-secondary)] leading-loose mb-6">
