@@ -233,23 +233,24 @@ export default function Home() {
 
       {/* Navigation hint */}
       <section className="relative z-10 px-8 md:px-16" style={{ paddingTop: "12rem", paddingBottom: "12rem" }}>
-        <div style={{ maxWidth: "48rem", marginLeft: "auto", marginRight: "auto", textAlign: "center" }}>
+        <div className="flex flex-col items-center justify-center text-center" style={{ maxWidth: "48rem", marginLeft: "auto", marginRight: "auto" }}>
           <motion.div
             initial={{ opacity: 0, y: 40 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.8 }}
+            className="flex flex-col items-center"
           >
-            <h2 className="font-serif text-4xl md:text-5xl mb-6 text-gradient">
+            <h2 className="font-serif text-4xl md:text-5xl mb-12 text-gradient">
               Utforsk min historie
             </h2>
-            <p className="text-lg md:text-xl text-[var(--text-secondary)] leading-loose mb-10 max-w-xl mx-auto">
+            <p className="text-lg md:text-xl text-[var(--text-secondary)] leading-loose mb-16 max-w-xl text-center">
               Bruk menyen i øvre høyre hjørne for å navigere gjennom min reise, fra tennis til akademiske prestasjoner.
             </p>
-            <div className="flex items-center justify-center gap-2 text-[var(--text-secondary)]">
+            <div className="flex items-center justify-center gap-3 text-[var(--text-secondary)]">
               <span>Klikk på</span>
-              <div className="w-8 h-8 flex items-center justify-center rounded-full glass">
-                <div className="w-4 h-3 flex flex-col justify-between">
+              <div className="w-10 h-10 flex items-center justify-center rounded-full glass">
+                <div className="w-5 h-4 flex flex-col justify-between">
                   <span className="w-full h-0.5 bg-[var(--text-primary)] rounded-full" />
                   <span className="w-full h-0.5 bg-[var(--text-primary)] rounded-full" />
                   <span className="w-full h-0.5 bg-[var(--text-primary)] rounded-full" />
