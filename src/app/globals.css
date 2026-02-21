@@ -190,6 +190,14 @@ body {
   overflow-x: hidden;
 }
 
+p {
+  margin-bottom: 1.5em;
+}
+
+p:last-child {
+  margin-bottom: 0;
+}
+
 /* Custom scrollbar */
 ::-webkit-scrollbar {
   width: 6px;
