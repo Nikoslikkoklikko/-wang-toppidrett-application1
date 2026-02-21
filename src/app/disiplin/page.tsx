@@ -72,7 +72,7 @@ export default function DisiplinPage() {
       </HeroSection>
 
       {/* Stats Section */}
-      <section className="relative z-10 px-6" style={{ paddingTop: "8rem", paddingBottom: "8rem" }}>
+      <section className="relative z-10 px-6" style={{ paddingTop: "12rem", paddingBottom: "12rem" }}>
         <div style={{ maxWidth: "64rem", marginLeft: "auto", marginRight: "auto" }}>
           <motion.h2
             initial={{ opacity: 0, y: 20 }}
@@ -96,7 +96,7 @@ export default function DisiplinPage() {
       </section>
 
       {/* Training Routine */}
-      <section className="relative z-10 px-6" style={{ paddingTop: "8rem", paddingBottom: "8rem" }}>
+      <section className="relative z-10 px-6" style={{ paddingTop: "12rem", paddingBottom: "12rem" }}>
         <div style={{ maxWidth: "64rem", marginLeft: "auto", marginRight: "auto" }}>
           <ContentBlock>
             <h2 className="font-serif text-3xl md:text-4xl text-[var(--text-primary)] mb-20 text-center">
@@ -160,7 +160,7 @@ export default function DisiplinPage() {
       </section>
 
       {/* Discipline Philosophy */}
-      <section className="relative z-10 px-6" style={{ paddingTop: "8rem", paddingBottom: "8rem" }}>
+      <section className="relative z-10 px-6" style={{ paddingTop: "12rem", paddingBottom: "12rem" }}>
         <div style={{ maxWidth: "64rem", marginLeft: "auto", marginRight: "auto" }}>
           <ContentBlock>
             <h2 className="font-serif text-3xl md:text-4xl text-[var(--text-primary)] mb-20 text-center">

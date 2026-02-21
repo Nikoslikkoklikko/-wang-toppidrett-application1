@@ -34,8 +34,8 @@ export default function AkademiskPage() {
         </p>
       </HeroSection>
 
-      <section className="relative z-10 px-6" style={{ paddingTop: "8rem", paddingBottom: "8rem" }}>
-        <div style={{ maxWidth: "64rem", marginLeft: "auto", marginRight: "auto" }} className="space-y-20">
+      <section className="relative z-10 px-6" style={{ paddingTop: "12rem", paddingBottom: "12rem" }}>
+        <div style={{ maxWidth: "64rem", marginLeft: "auto", marginRight: "auto" }} className="space-y-40">
           {/* Interactive Charts Section */}
           <motion.div
             initial={{ opacity: 0 }}

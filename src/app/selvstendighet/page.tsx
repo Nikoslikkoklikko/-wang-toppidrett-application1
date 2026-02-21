@@ -40,8 +40,8 @@ export default function SelvstendighetPage() {
         </p>
       </HeroSection>
 
-      <section className="relative z-10 px-6" style={{ paddingTop: "8rem", paddingBottom: "8rem" }}>
-        <div style={{ maxWidth: "64rem", marginLeft: "auto", marginRight: "auto" }} className="space-y-20">
+      <section className="relative z-10 px-6" style={{ paddingTop: "12rem", paddingBottom: "12rem" }}>
+        <div style={{ maxWidth: "64rem", marginLeft: "auto", marginRight: "auto" }} className="space-y-40">
           {/* Living alone section */}
           <ContentBlock>
             <h2 className="font-serif text-3xl md:text-4xl text-[var(--text-primary)] mb-20 text-center">
