@@ -45,7 +45,7 @@ export default function HvorforWangPage() {
         <div style={{ maxWidth: "64rem", marginLeft: "auto", marginRight: "auto" }} className="space-y-20">
           {/* Why Wang */}
           <ContentBlock>
-            <h2 className="font-serif text-3xl md:text-4xl text-[var(--text-primary)] mb-16 text-center">
+            <h2 className="font-serif text-3xl md:text-4xl text-[var(--text-primary)] mb-20 text-center">
               Hvorfor Wang Toppidrett?
             </h2>
             <p className="text-lg md:text-xl text-[var(--text-secondary)] leading-loose text-center mb-6">
@@ -56,7 +56,7 @@ export default function HvorforWangPage() {
 
           {/* Match Diagram */}
           <ContentBlock delay={0.1}>
-            <h2 className="font-serif text-3xl md:text-4xl text-[var(--text-primary)] mb-16 text-center">
+            <h2 className="font-serif text-3xl md:text-4xl text-[var(--text-primary)] mb-20 text-center">
               Perfekt match
             </h2>
             <p className="text-lg md:text-xl text-[var(--text-secondary)] leading-loose text-center mb-8">
@@ -73,7 +73,7 @@ export default function HvorforWangPage() {
 
           {/* Goals Timeline */}
           <ContentBlock delay={0.2}>
-            <h2 className="font-serif text-3xl md:text-4xl text-[var(--text-primary)] mb-16 text-center">
+            <h2 className="font-serif text-3xl md:text-4xl text-[var(--text-primary)] mb-20 text-center">
               Mine mål på Wang
             </h2>
             <p className="text-lg md:text-xl text-[var(--text-secondary)] leading-loose text-center mb-8">
@@ -84,7 +84,7 @@ export default function HvorforWangPage() {
 
           {/* Contribution Showcase */}
           <ContentBlock delay={0.3}>
-            <h2 className="font-serif text-3xl md:text-4xl text-[var(--text-primary)] mb-16 text-center">
+            <h2 className="font-serif text-3xl md:text-4xl text-[var(--text-primary)] mb-20 text-center">
               Hva jeg kan bidra med
             </h2>
             <p className="text-lg md:text-xl text-[var(--text-secondary)] leading-loose text-center mb-8">
@@ -95,7 +95,7 @@ export default function HvorforWangPage() {
 
           {/* Why Wang specifically */}
           <ContentBlock delay={0.4}>
-            <h2 className="font-serif text-3xl md:text-4xl text-[var(--text-primary)] mb-16 text-center">
+            <h2 className="font-serif text-3xl md:text-4xl text-[var(--text-primary)] mb-20 text-center">
               Hvorfor akkurat Wang Toppidrett?
             </h2>
             <p className="text-lg md:text-xl text-[var(--text-secondary)] leading-loose text-center mb-4">
@@ -126,7 +126,7 @@ export default function HvorforWangPage() {
             transition={{ duration: 0.6 }}
             className="glass-strong rounded-2xl p-10 text-center"
           >
-            <h2 className="font-serif text-4xl md:text-5xl text-[var(--text-primary)] mb-16 text-center">
+            <h2 className="font-serif text-4xl md:text-5xl text-[var(--text-primary)] mb-20 text-center">
               Avslutning
             </h2>
             <p className="text-[var(--text-secondary)] text-lg leading-relaxed max-w-xl mx-auto mb-6">

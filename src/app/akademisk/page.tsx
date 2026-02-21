@@ -49,7 +49,7 @@ export default function AkademiskPage() {
 
           {/* Stats overview */}
           <ContentBlock>
-            <h2 className="font-serif text-3xl md:text-4xl text-[var(--text-primary)] mb-16 text-center">
+            <h2 className="font-serif text-3xl md:text-4xl text-[var(--text-primary)] mb-20 text-center">
               Mine styrker som elev
             </h2>
             <div className="grid grid-cols-2 md:grid-cols-3 gap-4 mb-4">
@@ -80,7 +80,7 @@ export default function AkademiskPage() {
 
           {/* Overcoming dyslexia */}
           <ContentBlock delay={0.2}>
-            <h2 className="font-serif text-3xl md:text-4xl text-[var(--text-primary)] mb-16 text-center">
+            <h2 className="font-serif text-3xl md:text-4xl text-[var(--text-primary)] mb-20 text-center">
               Utfordringer overvunnet
             </h2>
             <p className="text-lg md:text-xl text-[var(--text-secondary)] leading-loose text-center mb-4">
@@ -99,7 +99,7 @@ export default function AkademiskPage() {
 
           {/* School engagement */}
           <ContentBlock delay={0.4}>
-            <h2 className="font-serif text-3xl md:text-4xl text-[var(--text-primary)] mb-16 text-center">
+            <h2 className="font-serif text-3xl md:text-4xl text-[var(--text-primary)] mb-20 text-center">
               Engasjement og oppmøte
             </h2>
             <p className="text-lg md:text-xl text-[var(--text-secondary)] leading-loose text-center mb-4">
@@ -128,7 +128,7 @@ export default function AkademiskPage() {
 
           {/* Learning mindset */}
           <ContentBlock delay={0.6}>
-            <h2 className="font-serif text-3xl md:text-4xl text-[var(--text-primary)] mb-16 text-center">
+            <h2 className="font-serif text-3xl md:text-4xl text-[var(--text-primary)] mb-20 text-center">
               Læringsinnstilling
             </h2>
             <p className="text-lg md:text-xl text-[var(--text-secondary)] leading-loose text-center mb-4">
