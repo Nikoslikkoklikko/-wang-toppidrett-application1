@@ -79,7 +79,7 @@ export default function DisiplinPage() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
-            className="font-serif text-3xl md:text-4xl text-center text-[var(--text-primary)] mb-16"
+            className="font-serif text-3xl md:text-4xl text-center text-[var(--text-primary)] mb-10"
           >
             Disiplin i tall
           </motion.h2>
@@ -99,7 +99,7 @@ export default function DisiplinPage() {
       <section className="relative z-10 px-6" style={{ paddingTop: "12rem", paddingBottom: "12rem" }}>
         <div style={{ maxWidth: "64rem", marginLeft: "auto", marginRight: "auto" }}>
           <ContentBlock>
-            <h2 className="font-serif text-3xl md:text-4xl text-[var(--text-primary)] mb-20 text-center">
+            <h2 className="font-serif text-3xl md:text-4xl text-[var(--text-primary)] mb-10 text-center">
               En typisk dag
             </h2>
             <p className="text-lg md:text-xl text-[var(--text-secondary)] leading-loose text-center mb-8">
@@ -163,7 +163,7 @@ export default function DisiplinPage() {
       <section className="relative z-10 px-6" style={{ paddingTop: "12rem", paddingBottom: "12rem" }}>
         <div style={{ maxWidth: "64rem", marginLeft: "auto", marginRight: "auto" }}>
           <ContentBlock>
-            <h2 className="font-serif text-3xl md:text-4xl text-[var(--text-primary)] mb-20 text-center">
+            <h2 className="font-serif text-3xl md:text-4xl text-[var(--text-primary)] mb-10 text-center">
               Hva disiplin betyr for meg
             </h2>
             <p className="text-lg md:text-xl text-[var(--text-secondary)] leading-loose text-center mb-6">
