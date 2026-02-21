@@ -47,15 +47,15 @@ export default function SelvstendighetPage() {
             <h2 className="font-serif text-3xl md:text-4xl text-[var(--text-primary)] mb-32 text-center">
               Selvstendighet og personlig utvikling
             </h2>
-            <p className="text-lg md:text-xl text-[var(--text-secondary)] leading-loose text-center mb-4">
+            <p className="text-lg md:text-xl text-[var(--text-secondary)] leading-loose text-center mb-8">
               Å bo alene i Spania som 16-åring har lært meg mye om ansvar og selvstendighet. Jeg håndterer alt fra
               hverdagsøkonomi til måltider, treningsplanlegging og skolearbeid på egen hånd. Dette har gjort meg
               betydelig mer moden og selvstendig enn jeg var for ett år siden.
             </p>
-            <p className="text-lg md:text-xl text-[var(--text-secondary)] leading-loose text-center mb-6">
+            <p className="text-lg md:text-xl text-[var(--text-secondary)] leading-loose text-center mb-8">
               <strong>Overførbar læring:</strong>
             </p>
-            <p className="text-lg md:text-xl text-[var(--text-secondary)] leading-loose text-center mb-6">
+            <p className="text-lg md:text-xl text-[var(--text-secondary)] leading-loose text-center mb-10">
               Det jeg lærer på tennisbanen - å håndtere press, presentasjonsangst, motgang og konkurransesituasjoner -
               kan jeg overføre direkte til skolen og livet ellers. Jeg liker å lære fra andre, og jeg vet at jeg alltid
               kan bli bedre, både som tennisutøver, elev og person.
@@ -104,12 +104,12 @@ export default function SelvstendighetPage() {
             <h2 className="font-serif text-3xl md:text-4xl text-[var(--text-primary)] mb-32 text-center">
               Hva jeg har lært
             </h2>
-            <p className="text-lg md:text-xl text-[var(--text-secondary)] leading-loose text-center mb-4">
+            <p className="text-lg md:text-xl text-[var(--text-secondary)] leading-loose text-center mb-8">
               Å bo alene har lært meg verdien av rutiner, planlegging og prioritering.
               Jeg har lært at frihet kommer med ansvar, og at selvstendighet ikke er det samme som
               å være alene – det handler om å kunne stole på seg selv.
             </p>
-            <p className="text-lg md:text-xl text-[var(--text-secondary)] leading-loose text-center mb-6">
+            <p className="text-lg md:text-xl text-[var(--text-secondary)] leading-loose text-center mb-10">
               Jeg har også lært å være komfortabel med ubehag. Når ting går galt, når jeg føler meg ensom,
               eller når utfordringene virker for store – da må jeg finne løsninger selv.
               Dette har gjort meg mentalt sterkere og mer selvsikker.
@@ -141,11 +141,11 @@ export default function SelvstendighetPage() {
             <h2 className="font-serif text-3xl md:text-4xl text-[var(--text-primary)] mb-32 text-center">
               AI og fremtidige ferdigheter
             </h2>
-            <p className="text-lg md:text-xl text-[var(--text-secondary)] leading-loose text-center mb-4">
+            <p className="text-lg md:text-xl text-[var(--text-secondary)] leading-loose text-center mb-8">
               I tillegg til tennis og skole, har jeg brukt tid på å lære meg om kunstig intelligens og teknologi.
               Jeg får oppgaver av treneren som handler om AI og selvstendighet – inkludert AGI (Artificial General Intelligence).
             </p>
-            <p className="text-lg md:text-xl text-[var(--text-secondary)] leading-loose text-center mb-6">
+            <p className="text-lg md:text-xl text-[var(--text-secondary)] leading-loose text-center mb-10">
               Denne nysgjerrigheten og viljen til å lære nye ting – enten det er AI, språk, eller nye
               tennisteknikker – kommer fra den selvstendigheten jeg har utviklet.
               Jeg vet at jeg må ta ansvar for min egen læring og utvikling.

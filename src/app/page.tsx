@@ -160,7 +160,7 @@ export default function Home() {
       </section>
 
       {/* Stats Section */}
-      <section className="relative z-10 px-8 md:px-16" style={{ paddingTop: "14rem", paddingBottom: "14rem" }}>
+      <section className="relative z-10 px-8 md:px-16" style={{ paddingTop: "8rem", paddingBottom: "8rem" }}>
         <div style={{ maxWidth: "56rem", marginLeft: "auto", marginRight: "auto" }}>
           <motion.h2
             initial={{ opacity: 0, y: 20 }}
@@ -182,7 +182,7 @@ export default function Home() {
       </section>
 
       {/* Charts Section - Spectacular data visualization */}
-      <section className="relative z-10 px-8 md:px-16" style={{ paddingTop: "14rem", paddingBottom: "14rem" }}>
+      <section className="relative z-10 px-8 md:px-16" style={{ paddingTop: "8rem", paddingBottom: "8rem" }}>
         <div style={{ maxWidth: "64rem", marginLeft: "auto", marginRight: "auto" }}>
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -232,7 +232,7 @@ export default function Home() {
       </section>
 
       {/* Navigation hint */}
-      <section className="relative z-10 px-8 md:px-16" style={{ paddingTop: "16rem", paddingBottom: "16rem" }}>
+      <section className="relative z-10 px-8 md:px-16" style={{ paddingTop: "10rem", paddingBottom: "10rem" }}>
         <div className="flex flex-col items-center justify-center text-center" style={{ maxWidth: "48rem", marginLeft: "auto", marginRight: "auto" }}>
           <motion.div
             initial={{ opacity: 0, y: 40 }}

@@ -60,7 +60,7 @@ export default function AkademiskPage() {
             <p className="text-sm text-[var(--text-secondary)] text-center italic mb-8">
               Alle 8 anmerkninger er for småforstyrrelser i timen
             </p>
-            <p className="text-lg md:text-xl text-[var(--text-secondary)] leading-loose text-center mb-4">
+            <p className="text-lg md:text-xl text-[var(--text-secondary)] leading-loose text-center mb-8">
               Dette har lært meg viktigheten av å prioritere og fokusere når jeg er på skolen.
             </p>
             <FeatureList
@@ -72,7 +72,7 @@ export default function AkademiskPage() {
                 "Aldri kommet for sent til timen",
               ]}
             />
-            <p className="text-lg md:text-xl text-[var(--text-secondary)] leading-loose text-center mt-6">
+            <p className="text-lg md:text-xl text-[var(--text-secondary)] leading-loose text-center mt-10">
               Jeg vet at timeplanen på Wang Toppidrett er krevende, men det har jeg erfaring med. Når jeg er på skolen,
               fokuserer jeg 100% på skolearbeidet. Jeg tar ansvar for min egen læring og ber om hjelp når jeg trenger det.
             </p>
@@ -83,7 +83,7 @@ export default function AkademiskPage() {
             <h2 className="font-serif text-3xl md:text-4xl text-[var(--text-primary)] mb-32 text-center">
               Utfordringer overvunnet
             </h2>
-            <p className="text-lg md:text-xl text-[var(--text-secondary)] leading-loose text-center mb-4">
+            <p className="text-lg md:text-xl text-[var(--text-secondary)] leading-loose text-center mb-8">
               Da jeg fikk diagnosen dysleksi i tiende klasse, forklarte det mange av utfordringene jeg hadde hatt
               med lesing og skriving. Men i stedet for å se det som en hindring, brukte jeg det som motivasjon
               til å jobbe enda hardere.
@@ -91,7 +91,7 @@ export default function AkademiskPage() {
             <QuoteBlock>
               Utfordringer er ikke årsaker til å gi opp – de er muligheter til å vise hva man er laget av.
             </QuoteBlock>
-            <p className="text-lg md:text-xl text-[var(--text-secondary)] leading-loose text-center mt-6">
+            <p className="text-lg md:text-xl text-[var(--text-secondary)] leading-loose text-center mt-10">
               Jeg lærte å tilpasse studieteknikker, bruke verktøy som hjalp meg, og sette av ekstra tid når det trengtes.
               Det samme mindsetet jeg bruker på tennisbanen – aldri gi opp, tilpass deg, og fortsett fremover.
             </p>
@@ -102,11 +102,11 @@ export default function AkademiskPage() {
             <h2 className="font-serif text-3xl md:text-4xl text-[var(--text-primary)] mb-32 text-center">
               Engasjement og oppmøte
             </h2>
-            <p className="text-lg md:text-xl text-[var(--text-secondary)] leading-loose text-center mb-4">
+            <p className="text-lg md:text-xl text-[var(--text-secondary)] leading-loose text-center mb-8">
               Når timeplanen er tett med både skole og trening, vet jeg at jeg må være hundre prosent
               til stede når jeg først er i klasserommet – og det er jeg. Jeg bidrar positivt til klassemiljøet.
             </p>
-            <p className="text-lg md:text-xl text-[var(--text-secondary)] leading-loose text-center mb-6">
+            <p className="text-lg md:text-xl text-[var(--text-secondary)] leading-loose text-center mb-10">
               Mange vil se på meg som en "teacher's pet", men det bryr jeg meg ikke om.
               Jeg vet at innsats og respekt for skolearbeidet er viktig for å lykkes.
             </p>
@@ -120,7 +120,7 @@ export default function AkademiskPage() {
                 "Balanserer 4-6 timer daglig trening med skolearbeid",
               ]}
             />
-            <p className="text-lg md:text-xl text-[var(--text-secondary)] leading-loose text-center mt-6">
+            <p className="text-lg md:text-xl text-[var(--text-secondary)] leading-loose text-center mt-10">
               Nordseter skole kan bekrefte dette. Jeg tar skolearbeidet mitt på alvor, og jeg forstår at
               utdannelse er like viktig som idrett for min fremtid.
             </p>
@@ -131,7 +131,7 @@ export default function AkademiskPage() {
             <h2 className="font-serif text-3xl md:text-4xl text-[var(--text-primary)] mb-32 text-center">
               Læringsinnstilling
             </h2>
-            <p className="text-lg md:text-xl text-[var(--text-secondary)] leading-loose text-center mb-4">
+            <p className="text-lg md:text-xl text-[var(--text-secondary)] leading-loose text-center mb-8">
               På samme måte som jeg alltid søker å bli bedre på tennisbanen, søker jeg også vekst i klasserommet.
               Jeg stiller spørsmål, søker hjelp når jeg trenger det, og jobber systematisk med oppgavene.
             </p>

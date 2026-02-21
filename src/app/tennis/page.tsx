@@ -49,7 +49,7 @@ export default function TennisPage() {
               Anbefaling fra Tomo - Nordstrand Tennisklubb (NTK)
             </h2>
 
-            <div className="space-y-4 text-[var(--text-secondary)] leading-relaxed">
+            <div className="space-y-6 text-[var(--text-secondary)] leading-relaxed">
               <p>
                 Nikolai har vært en del av Nordstrand Tennisklubb siden sommeren 2020, og i løpet av disse årene
                 har jeg hatt gleden av å følge hans utvikling både som spiller og som person. Han startet i
@@ -156,7 +156,7 @@ export default function TennisPage() {
               </p>
             </motion.div>
 
-            <p className="text-lg md:text-xl text-[var(--text-secondary)] leading-loose text-center mb-4 text-center">
+            <p className="text-lg md:text-xl text-[var(--text-secondary)] leading-loose text-center mb-8 text-center">
               Året på Soto Tennisakademi har vært avgjørende for min utvikling. Opplegget er fullstendig
               og omfatter teknisk trening, fysisk trening, konkurransetrening og mental trening. Opplegget
               er omfattende hva angår treningsmengde og intensitet. Jeg må disponerer mine dager godt,
@@ -164,7 +164,7 @@ export default function TennisPage() {
               så optimal måte som mulig. Det er i tillegg mye reising i forbindelse med turneringer, der vi er
               på nye steder, og må dele rom og leiligheter, sørge for mat og logistikk.
             </p>
-            <p className="text-lg md:text-xl text-[var(--text-secondary)] leading-loose text-center mb-6 text-center">
+            <p className="text-lg md:text-xl text-[var(--text-secondary)] leading-loose text-center mb-10 text-center">
               Min hovedtrener i Soto mener jeg har et ekstremt høyt potensiale, noe jeg etter tiden i Soto
               ser at er riktig. Tennis er like mye en mental som en fysisk idrett, der det mentale nok er en
               styrke hos meg.
