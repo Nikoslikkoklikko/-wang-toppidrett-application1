@@ -124,20 +124,20 @@ export default function HvorforWangPage() {
             whileInView={{ opacity: 1, scale: 1 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
-            className="glass-strong rounded-2xl p-10 text-center"
+            className="glass-strong rounded-2xl p-10 text-center flex flex-col items-center justify-center"
           >
-            <h2 className="font-serif text-4xl md:text-5xl text-[var(--text-primary)] mb-32 text-center">
+            <h2 className="font-serif text-4xl md:text-5xl text-[var(--text-primary)] mb-8 text-center">
               Avslutning
             </h2>
-            <p className="text-[var(--text-secondary)] text-lg leading-relaxed max-w-xl mx-auto mb-6">
+            <p className="text-[var(--text-secondary)] text-lg leading-relaxed max-w-xl text-center mb-6">
               Jeg er klar til å ta steget opp på et høyere nivå, både sportslig og akademisk. Året i Spania har vist
               meg hva jeg er kapabel til når jeg virkelig satser, og jeg er motivert til å fortsette denne utviklingen
               på Wang Toppidrett.
             </p>
-            <p className="text-[var(--text-secondary)] text-lg leading-relaxed max-w-xl mx-auto mb-6">
+            <p className="text-[var(--text-secondary)] text-lg leading-relaxed max-w-xl text-center mb-6">
               For referanser kan dere gjerne kontakte <span className="text-[var(--accent)] font-semibold">Nordseter skole</span>, som var min ungdomsskole.
             </p>
-            <p className="font-serif text-2xl md:text-3xl text-[var(--accent)]">
+            <p className="font-serif text-2xl md:text-3xl text-[var(--accent)] text-center">
               Jeg håper dere vil gi meg muligheten til å vise hva jeg kan bidra med.
             </p>
           </motion.div>
