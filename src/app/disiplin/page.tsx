@@ -72,14 +72,14 @@ export default function DisiplinPage() {
       </HeroSection>
 
       {/* Stats Section */}
-      <section className="relative z-10 px-6" style={{ paddingTop: "12rem", paddingBottom: "12rem" }}>
+      <section className="relative z-10 px-6" style={{ paddingTop: "6rem", paddingBottom: "6rem" }}>
         <div style={{ maxWidth: "64rem", marginLeft: "auto", marginRight: "auto" }}>
           <motion.h2
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
-            className="font-serif text-3xl md:text-4xl text-center text-[var(--text-primary)] mb-10"
+            className="font-serif text-3xl md:text-4xl text-center text-[var(--text-primary)] mb-6"
           >
             Disiplin i tall
           </motion.h2>
@@ -96,13 +96,13 @@ export default function DisiplinPage() {
       </section>
 
       {/* Training Routine */}
-      <section className="relative z-10 px-6" style={{ paddingTop: "12rem", paddingBottom: "12rem" }}>
+      <section className="relative z-10 px-6" style={{ paddingTop: "6rem", paddingBottom: "6rem" }}>
         <div style={{ maxWidth: "64rem", marginLeft: "auto", marginRight: "auto" }}>
           <ContentBlock>
-            <h2 className="font-serif text-3xl md:text-4xl text-[var(--text-primary)] mb-10 text-center">
+            <h2 className="font-serif text-3xl md:text-4xl text-[var(--text-primary)] mb-6 text-center">
               En typisk dag
             </h2>
-            <p className="text-lg md:text-xl text-[var(--text-secondary)] leading-loose text-center mb-8">
+            <p className="text-lg md:text-xl text-[var(--text-secondary)] leading-loose text-center mb-4">
               Det har aldri vært problematisk for meg å stå opp tidligere enn andre for å trene før skolen.
               Før jeg flyttet til Spania trente jeg ofte både før og etter skolen, med dager som startet kl. 06
               og varte til kl. 21. I Spania stater vi med fysisk trening før solen står opp, og jeg har i tillegg
@@ -160,10 +160,10 @@ export default function DisiplinPage() {
       </section>
 
       {/* Discipline Philosophy */}
-      <section className="relative z-10 px-6" style={{ paddingTop: "12rem", paddingBottom: "12rem" }}>
+      <section className="relative z-10 px-6" style={{ paddingTop: "6rem", paddingBottom: "6rem" }}>
         <div style={{ maxWidth: "64rem", marginLeft: "auto", marginRight: "auto" }}>
           <ContentBlock>
-            <h2 className="font-serif text-3xl md:text-4xl text-[var(--text-primary)] mb-10 text-center">
+            <h2 className="font-serif text-3xl md:text-4xl text-[var(--text-primary)] mb-6 text-center">
               Hva disiplin betyr for meg
             </h2>
             <p className="text-lg md:text-xl text-[var(--text-secondary)] leading-loose text-center mb-6">
@@ -197,7 +197,7 @@ export default function DisiplinPage() {
       </section>
 
       {/* Never Give Up */}
-      <section className="relative z-10 px-6" style={{ paddingTop: "10rem", paddingBottom: "10rem" }}>
+      <section className="relative z-10 px-6" style={{ paddingTop: "6rem", paddingBottom: "6rem" }}>
         <div style={{ maxWidth: "64rem", marginLeft: "auto", marginRight: "auto" }}>
           <motion.div
             initial={{ opacity: 0, scale: 0.95 }}
