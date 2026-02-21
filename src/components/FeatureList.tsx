@@ -8,7 +8,7 @@ interface FeatureListProps {
 
 export default function FeatureList({ items }: FeatureListProps) {
   return (
-    <ul className="space-y-4 my-6">
+    <ul className="space-y-4 my-6 max-w-2xl mx-auto">
       {items.map((item, i) => (
         <motion.li
           key={i}

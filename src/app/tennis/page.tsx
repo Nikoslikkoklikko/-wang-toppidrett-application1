@@ -45,7 +45,7 @@ export default function TennisPage() {
             className="glass rounded-2xl p-8"
             style={{ borderLeft: "4px solid var(--accent)" }}
           >
-            <h2 className="font-serif text-3xl md:text-4xl text-[var(--text-primary)] mb-20">
+            <h2 className="font-serif text-3xl md:text-4xl text-[var(--text-primary)] mb-16 text-center">
               Anbefaling fra Tomo - Nordstrand Tennisklubb (NTK)
             </h2>
 
@@ -116,7 +116,7 @@ export default function TennisPage() {
 
           {/* Journey section */}
           <ContentBlock>
-            <h2 className="font-serif text-3xl md:text-4xl text-[var(--text-primary)] mb-20">
+            <h2 className="font-serif text-3xl md:text-4xl text-[var(--text-primary)] mb-16 text-center">
               Bakgrunn
             </h2>
             <p className="text-lg md:text-xl text-[var(--text-secondary)] leading-loose">
@@ -132,12 +132,12 @@ export default function TennisPage() {
           {/* Quote - dedication */}
           <QuoteBlock>
             Jeg kom alltid først på trening og dro sist. For mange ville et tilsvarende tilbakeslag medføre
-            motløshet, men for meg har det gitt enda bedre disiplin og mental styrke
+            motløshet, men for meg har det gitt enda bedre disiplin og mental styrke.
           </QuoteBlock>
 
           {/* Spain year section */}
           <ContentBlock delay={0.2}>
-            <h2 className="font-serif text-3xl md:text-4xl text-[var(--text-primary)] mb-20">
+            <h2 className="font-serif text-3xl md:text-4xl text-[var(--text-primary)] mb-16 text-center">
               Året på Soto Tennisakademi
             </h2>
 
@@ -156,17 +156,18 @@ export default function TennisPage() {
               </p>
             </motion.div>
 
-            <p className="text-lg md:text-xl text-[var(--text-secondary)] leading-loose mb-4">
-              Året på Soto Tennisakademi har vært avgjørende for min utvikling. Opplegget er fullstendig og omfatter
-              teknisk trening, fysisk trening, konkurransetrening og mental trening. Opplegget er omfattende hva angår
-              treningsmengde og intensitet. Jeg må disponere mine dager godt, og sørge for nok næring og hvile.
-              Jeg organiserer dagene selv og må forvalte døgnet på en så optimal måte som mulig. Det er i tillegg
-              mye reising i forbindelse med turneringer, der vi er på nye steder, og må dele rom og leiligheter,
-              sørge for mat og logistikk.
+            <p className="text-lg md:text-xl text-[var(--text-secondary)] leading-loose mb-4 text-center">
+              Året på Soto Tennisakademi har vært avgjørende for min utvikling. Opplegget er fullstendig
+              og omfatter teknisk trening, fysisk trening, konkurransetrening og mental trening. Opplegget
+              er omfattende hva angår treningsmengde og intensitet. Jeg må disponerer mine dager godt,
+              og sørge for nok næring og hvile. Jeg organiserer dagene selv og må forvalte døgnet på en
+              så optimal måte som mulig. Det er i tillegg mye reising i forbindelse med turneringer, der vi er
+              på nye steder, og må dele rom og leiligheter, sørge for mat og logistikk.
             </p>
-            <p className="text-lg md:text-xl text-[var(--text-secondary)] leading-loose mb-6">
-              Min hovedtrener i Soto mener jeg har et ekstremt høyt potensiale, noe jeg etter tiden i Soto ser at er riktig.
-              Tennis er like mye en mental som en fysisk idrett, der det mentale nok er en styrke hos meg.
+            <p className="text-lg md:text-xl text-[var(--text-secondary)] leading-loose mb-6 text-center">
+              Min hovedtrener i Soto mener jeg har et ekstremt høyt potensiale, noe jeg etter tiden i Soto
+              ser at er riktig. Tennis er like mye en mental som en fysisk idrett, der det mentale nok er en
+              styrke hos meg.
             </p>
             <FeatureList
               items={[
@@ -223,7 +224,7 @@ export default function TennisPage() {
 
           {/* Video section */}
           <ContentBlock delay={0.6}>
-            <h2 className="font-serif text-3xl md:text-4xl text-[var(--text-primary)] mb-20">
+            <h2 className="font-serif text-3xl md:text-4xl text-[var(--text-primary)] mb-16 text-center">
               Se meg spille
             </h2>
             <p className="text-lg md:text-xl text-[var(--text-secondary)] leading-loose mb-6">

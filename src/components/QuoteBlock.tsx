@@ -15,7 +15,7 @@ export default function QuoteBlock({ children }: QuoteBlockProps) {
         borderLeft: "3px solid var(--accent)",
       }}
     >
-      <p className="font-serif text-lg md:text-xl italic text-[var(--text-primary)] leading-relaxed">
+      <p className="font-serif text-lg md:text-xl italic text-[var(--text-primary)] leading-relaxed text-center">
         {children}
       </p>
     </div>
