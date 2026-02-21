@@ -222,19 +222,6 @@ export default function TennisPage() {
             </p>
           </ContentBlock>
 
-          {/* Video section */}
-          <ContentBlock delay={0.6}>
-            <h2 className="font-serif text-3xl md:text-4xl text-[var(--text-primary)] mb-20 text-center">
-              Se meg spille
-            </h2>
-            <p className="text-lg md:text-xl text-[var(--text-secondary)] leading-loose text-center mb-6">
-              Her kan dere se meg i aksjon på tennisbanen. Videoene viser min spillestil, teknikk og kampmentalitet.
-            </p>
-            <VideoPlayer src="/tennis-video-1.mp4" caption="Trening i Spania 2026" />
-            <p className="text-sm italic text-[var(--text-secondary)] mt-6 text-center">
-              Flere videoer kommer snart...
-            </p>
-          </ContentBlock>
         </div>
       </section>
     </main>

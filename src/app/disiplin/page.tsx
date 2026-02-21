@@ -204,12 +204,12 @@ export default function DisiplinPage() {
             whileInView={{ opacity: 1, scale: 1 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
-            className="glass-strong rounded-2xl p-10 text-center"
+            className="glass-strong rounded-2xl p-10 text-center flex flex-col items-center justify-center"
           >
             <h2 className="font-serif text-4xl md:text-5xl text-[var(--text-primary)] mb-4 text-center">
               Gi aldri opp
             </h2>
-            <p className="text-[var(--text-secondary)] text-lg leading-relaxed max-w-xl mx-auto text-center">
+            <p className="text-[var(--text-secondary)] text-lg leading-relaxed max-w-xl text-center">
               Det er lett å være motivert når alt går bra. Den virkelige testen kommer når ting er vanskelig.
               Og det er da disiplinen tar over der motivasjonen svikter.
             </p>
