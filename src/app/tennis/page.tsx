@@ -36,7 +36,7 @@ export default function TennisPage() {
       </HeroSection>
 
       {/* Coach Recommendation Section */}
-      <section className="relative z-10 px-6" style={{ paddingTop: "16rem", paddingBottom: "16rem" }}>
+      <section className="relative z-10 px-6" style={{ paddingTop: "8rem", paddingBottom: "8rem" }}>
         <div style={{ maxWidth: "64rem", marginLeft: "auto", marginRight: "auto" }}>
           <motion.div
             initial={{ opacity: 0, y: 20 }}
