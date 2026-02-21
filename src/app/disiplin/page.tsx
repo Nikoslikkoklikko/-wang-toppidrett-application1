@@ -92,10 +92,10 @@ export default function DisiplinPage() {
             <p className="text-lg md:text-xl text-[var(--text-secondary)] leading-loose text-center mb-8">
               Det har aldri vært problematisk for meg å stå opp tidligere enn andre for å trene før skolen.
               Før jeg flyttet til Spania trente jeg ofte både før og etter skolen, med dager som startet kl. 06
-              og varte til kl. 21. I Spania starter vi med fysisk trening før solen står opp, og jeg har i tillegg
-              også ofte økter med mental trening før oppstart av fysisk trening. Mine dager i Spania er krevende,
-              men gir meg det som skal til for å bli stadig bedre. Jeg har svært god disiplin, er meget hardt
-              arbeidende og jeg presser mine egne grenser hver eneste dag.
+              og varte til kl. 21. I Spania stater vi med fysisk trening før solen står opp, og jeg har i tillegg
+              også ofte økter med mental trening før oppstart av fysisk trening. Mine dager i Spania er
+              krevende, men gir meg det som skal til for å bli stadig bedre. Jeg har svært god disiplin, er
+              meget hardt arbeidende og jeg presser mine egne grenser hver eneste dag.
             </p>
           </ContentBlock>
 
