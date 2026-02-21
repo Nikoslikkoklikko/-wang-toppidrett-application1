@@ -65,7 +65,7 @@ export default function DisiplinPage() {
         title="Disiplin"
         subtitle="Det som skiller drømmer fra resultater"
       >
-        <p className="text-lg md:text-xl text-[var(--text-secondary)] leading-loose">
+        <p className="text-lg md:text-xl text-[var(--text-secondary)] leading-loose text-center">
           Talent er ikke nok. Det er de daglige valgene, de tidlige morgenene,
           og viljen til å gjøre det som må gjøres – selv når ingen ser på.
         </p>
@@ -89,7 +89,7 @@ export default function DisiplinPage() {
             <h2 className="font-serif text-3xl md:text-4xl text-[var(--text-primary)] mb-16 text-center">
               En typisk dag
             </h2>
-            <p className="text-lg md:text-xl text-[var(--text-secondary)] leading-loose mb-8">
+            <p className="text-lg md:text-xl text-[var(--text-secondary)] leading-loose text-center mb-8">
               Det har aldri vært problematisk for meg å stå opp tidligere enn andre for å trene før skolen.
               Før jeg flyttet til Spania trente jeg ofte både før og etter skolen, med dager som startet kl. 06
               og varte til kl. 21. I Spania starter vi med fysisk trening før solen står opp, og jeg har i tillegg
@@ -153,7 +153,7 @@ export default function DisiplinPage() {
             <h2 className="font-serif text-3xl md:text-4xl text-[var(--text-primary)] mb-16 text-center">
               Hva disiplin betyr for meg
             </h2>
-            <p className="text-lg md:text-xl text-[var(--text-secondary)] leading-loose mb-6">
+            <p className="text-lg md:text-xl text-[var(--text-secondary)] leading-loose text-center mb-6">
               Disiplin handler ikke om å tvinge seg selv til å gjøre noe man hater.
               Det handler om å bygge vaner som bringer deg nærmere målet ditt, dag etter dag.
             </p>
@@ -164,7 +164,7 @@ export default function DisiplinPage() {
           </QuoteBlock>
 
           <ContentBlock delay={0.2}>
-            <p className="text-lg md:text-xl text-[var(--text-secondary)] leading-loose mb-6">
+            <p className="text-lg md:text-xl text-[var(--text-secondary)] leading-loose text-center mb-6">
               Når andre tar snarveier, velger jeg den lange veien. Når andre gir opp etter et tap,
               bruker jeg det som motivasjon til å trene hardere. Dette er ikke noe jeg gjør for å imponere andre –
               det er hvem jeg er.

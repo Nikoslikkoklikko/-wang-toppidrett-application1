@@ -30,7 +30,7 @@ export default function TennisPage() {
         title="Min tennisreise"
         subtitle="Fra utfordringer til utvikling"
       >
-        <p className="text-lg md:text-xl text-[var(--text-secondary)] leading-loose">
+        <p className="text-lg md:text-xl text-[var(--text-secondary)] leading-loose text-center">
           Tennisreisen min har ikke vært enkel, men den har gjort meg til spilleren jeg er i dag.
         </p>
       </HeroSection>
@@ -119,7 +119,7 @@ export default function TennisPage() {
             <h2 className="font-serif text-3xl md:text-4xl text-[var(--text-primary)] mb-16 text-center">
               Bakgrunn
             </h2>
-            <p className="text-lg md:text-xl text-[var(--text-secondary)] leading-loose">
+            <p className="text-lg md:text-xl text-[var(--text-secondary)] leading-loose text-center">
               Min tennisreise har på mange måter vært utfordrende. Etter skaden i ryggen tapte jeg mange
               kamper både i turneringer og på trening. Men i stedet for å gi opp valgte jeg å bruke
               opptreningen som drivkraft. Jeg krummet nakken og bestemte meg for å klare å komme
@@ -156,7 +156,7 @@ export default function TennisPage() {
               </p>
             </motion.div>
 
-            <p className="text-lg md:text-xl text-[var(--text-secondary)] leading-loose mb-4 text-center">
+            <p className="text-lg md:text-xl text-[var(--text-secondary)] leading-loose text-center mb-4 text-center">
               Året på Soto Tennisakademi har vært avgjørende for min utvikling. Opplegget er fullstendig
               og omfatter teknisk trening, fysisk trening, konkurransetrening og mental trening. Opplegget
               er omfattende hva angår treningsmengde og intensitet. Jeg må disponerer mine dager godt,
@@ -164,7 +164,7 @@ export default function TennisPage() {
               så optimal måte som mulig. Det er i tillegg mye reising i forbindelse med turneringer, der vi er
               på nye steder, og må dele rom og leiligheter, sørge for mat og logistikk.
             </p>
-            <p className="text-lg md:text-xl text-[var(--text-secondary)] leading-loose mb-6 text-center">
+            <p className="text-lg md:text-xl text-[var(--text-secondary)] leading-loose text-center mb-6 text-center">
               Min hovedtrener i Soto mener jeg har et ekstremt høyt potensiale, noe jeg etter tiden i Soto
               ser at er riktig. Tennis er like mye en mental som en fysisk idrett, der det mentale nok er en
               styrke hos meg.
@@ -184,7 +184,7 @@ export default function TennisPage() {
             <h2 className="font-serif text-3xl md:text-4xl text-[var(--text-primary)] mb-8">
               Arbeidskapasitet og disiplin
             </h2>
-            <p className="text-lg md:text-xl text-[var(--text-secondary)] leading-loose mb-16">
+            <p className="text-lg md:text-xl text-[var(--text-secondary)] leading-loose text-center mb-16">
               Suksess kommer ikke av talent alene. Jeg kompenserer for det jeg mangler i naturlig talent med
               ekstrem arbeidsvilje og disiplin. Selv når jeg taper - én kamp eller hundre - går jeg tilbake
               til grunnarbeidet og fortsetter å jobbe.
@@ -227,7 +227,7 @@ export default function TennisPage() {
             <h2 className="font-serif text-3xl md:text-4xl text-[var(--text-primary)] mb-16 text-center">
               Se meg spille
             </h2>
-            <p className="text-lg md:text-xl text-[var(--text-secondary)] leading-loose mb-6">
+            <p className="text-lg md:text-xl text-[var(--text-secondary)] leading-loose text-center mb-6">
               Her kan dere se meg i aksjon på tennisbanen. Videoene viser min spillestil, teknikk og kampmentalitet.
             </p>
             <VideoPlayer src="/tennis-video-1.mp4" caption="Trening i Spania 2026" />

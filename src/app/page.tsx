@@ -125,11 +125,11 @@ export default function Home() {
             transition={{ duration: 0.8, delay: 0.6 }}
             className="max-w-2xl mx-auto"
           >
-            <p className="text-lg md:text-xl text-[var(--text-secondary)] leading-loose mb-6">
+            <p className="text-lg md:text-xl text-[var(--text-secondary)] leading-loose text-center mb-6">
               Mitt navn er Nikolai Tingstad, og jeg søker opptak til Wang Toppidrett. Tennis er min lidenskap,
               og jeg ønsker å kombinere seriøs satsing på tennis med god akademisk utvikling.
             </p>
-            <p className="text-lg md:text-xl text-[var(--text-secondary)] leading-loose">
+            <p className="text-lg md:text-xl text-[var(--text-secondary)] leading-loose text-center">
               Jeg har brukt det siste året som elev ved Sotogrande Tennisakademi, der jeg har trent tennis på fulltid.
               Jeg har i løpet av perioden her utviklet meg svært mye både som tennisspiller og menneske.
               <span className="text-[var(--accent)] font-semibold text-glow">Nå er jeg klar for å vise at jeg har det som trengs</span>.
@@ -195,7 +195,7 @@ export default function Home() {
             <h2 className="font-serif text-3xl md:text-4xl text-[var(--text-primary)] mb-4">
               Min utvikling i tall
             </h2>
-            <p className="text-lg md:text-xl text-[var(--text-secondary)] leading-loose" style={{ maxWidth: "36rem", marginLeft: "auto", marginRight: "auto" }}>
+            <p className="text-lg md:text-xl text-[var(--text-secondary)] leading-loose text-center" style={{ maxWidth: "36rem", marginLeft: "auto", marginRight: "auto" }}>
               Fra 4.2 til 5.0 i snitt, fra 2 til 5 timer daglig trening. Se min progresjon visualisert.
             </p>
           </motion.div>
@@ -244,7 +244,7 @@ export default function Home() {
             <h2 className="font-serif text-4xl md:text-5xl mb-12 text-gradient">
               Utforsk min historie
             </h2>
-            <p className="text-lg md:text-xl text-[var(--text-secondary)] leading-loose mb-16 max-w-xl text-center">
+            <p className="text-lg md:text-xl text-[var(--text-secondary)] leading-loose text-center mb-16 max-w-xl text-center">
               Bruk menyen i øvre høyre hjørne for å navigere gjennom min reise, fra tennis til akademiske prestasjoner.
             </p>
             <div className="flex items-center justify-center gap-3 text-[var(--text-secondary)]">
