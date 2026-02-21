@@ -159,28 +159,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Stats Section */}
-      <section className="relative z-10 px-8 md:px-16" style={{ paddingTop: "10rem", paddingBottom: "10rem" }}>
-        <div style={{ maxWidth: "56rem", marginLeft: "auto", marginRight: "auto" }}>
-          <motion.h2
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.6 }}
-            className="font-serif text-3xl md:text-4xl text-center text-[var(--text-primary)]"
-            style={{ marginBottom: "4rem" }}
-          >
-            I tall
-          </motion.h2>
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-6 md:gap-8">
-            <StatCard value="5.0" label="Karaktersnitt" />
-            <StatCard value="4-6" label="Timer daglig" suffix="t" />
-            <StatCard value="8" label="Anmerkninger" />
-            <StatCard value="10" label="År med skole" />
-          </div>
-        </div>
-      </section>
-
       {/* Charts Section - Spectacular data visualization */}
       <section className="relative z-10 px-8 md:px-16" style={{ paddingTop: "10rem", paddingBottom: "10rem" }}>
         <div style={{ maxWidth: "64rem", marginLeft: "auto", marginRight: "auto" }}>

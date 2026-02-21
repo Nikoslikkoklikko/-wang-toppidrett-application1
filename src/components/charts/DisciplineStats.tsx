@@ -18,7 +18,7 @@ const stats: StatItem[] = [
     label: "Anmerkninger",
     suffix: " totalt",
     icon: "📝",
-    description: "Gjennom hele ungdomsskolen",
+    description: "Alle for småforstyrrelser i timen",
     color: "#22c55e",
   },
   {

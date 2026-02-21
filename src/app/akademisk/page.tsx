@@ -52,11 +52,14 @@ export default function AkademiskPage() {
             <h2 className="font-serif text-3xl md:text-4xl text-[var(--text-primary)] mb-16 text-center">
               Mine styrker som elev
             </h2>
-            <div className="grid grid-cols-2 md:grid-cols-3 gap-4 mb-8">
+            <div className="grid grid-cols-2 md:grid-cols-3 gap-4 mb-4">
               <StatCard value="5.0" label="Karaktersnitt" />
               <StatCard value="8" label="Anmerkninger" />
               <StatCard value="0" label="Skulking" />
             </div>
+            <p className="text-sm text-[var(--text-secondary)] text-center italic mb-8">
+              Alle 8 anmerkninger er for småforstyrrelser i timen
+            </p>
             <p className="text-lg md:text-xl text-[var(--text-secondary)] leading-loose text-center mb-4">
               Dette har lært meg viktigheten av å prioritere og fokusere når jeg er på skolen.
             </p>
@@ -111,7 +114,7 @@ export default function AkademiskPage() {
               items={[
                 "Karaktersnitt på 5.0 fra ungdomsskolen (opp fra 4.2)",
                 "Aldri skulket eller kommet for sent",
-                "Kun 8 anmerkninger gjennom hele ungdomsskolen",
+                "Kun 8 anmerkninger gjennom hele ungdomsskolen (alle for småforstyrrelser)",
                 "Aldri hatt en negativ foreldresamtale på 10 år",
                 "Prestert godt til tross for uoppdaget dysleksi",
                 "Balanserer 4-6 timer daglig trening med skolearbeid",

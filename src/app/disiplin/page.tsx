@@ -74,11 +74,24 @@ export default function DisiplinPage() {
       {/* Stats Section */}
       <section className="relative z-10 px-6" style={{ paddingTop: "8rem", paddingBottom: "8rem" }}>
         <div style={{ maxWidth: "64rem", marginLeft: "auto", marginRight: "auto" }}>
-          <div className="grid grid-cols-2 md:grid-cols-3 gap-4 mb-12">
+          <motion.h2
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6 }}
+            className="font-serif text-3xl md:text-4xl text-center text-[var(--text-primary)] mb-16"
+          >
+            Disiplin i tall
+          </motion.h2>
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-6 md:gap-8 mb-8">
+            <StatCard value="5.0" label="Karaktersnitt" />
             <StatCard value="4-6" label="Timer daglig" suffix="t" />
-            <StatCard value="6" label="Dager i uken" />
-            <StatCard value="365" label="Dager i året" />
+            <StatCard value="8" label="Anmerkninger" />
+            <StatCard value="10" label="År med skole" />
           </div>
+          <p className="text-sm text-[var(--text-secondary)] text-center italic">
+            Alle 8 anmerkninger er for småforstyrrelser i timen
+          </p>
         </div>
       </section>
 
@@ -193,10 +206,10 @@ export default function DisiplinPage() {
             transition={{ duration: 0.6 }}
             className="glass-strong rounded-2xl p-10 text-center"
           >
-            <h2 className="font-serif text-4xl md:text-5xl text-[var(--text-primary)] mb-4">
+            <h2 className="font-serif text-4xl md:text-5xl text-[var(--text-primary)] mb-4 text-center">
               Gi aldri opp
             </h2>
-            <p className="text-[var(--text-secondary)] text-lg leading-relaxed max-w-xl mx-auto">
+            <p className="text-[var(--text-secondary)] text-lg leading-relaxed max-w-xl mx-auto text-center">
               Det er lett å være motivert når alt går bra. Den virkelige testen kommer når ting er vanskelig.
               Og det er da disiplinen tar over der motivasjonen svikter.
             </p>
