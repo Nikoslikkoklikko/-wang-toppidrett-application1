@@ -102,8 +102,8 @@ export default function TennisPage() {
         </div>
       </section>
 
-      <section className="relative z-10 px-6" style={{ paddingTop: "16rem", paddingBottom: "16rem" }}>
-        <div style={{ maxWidth: "64rem", marginLeft: "auto", marginRight: "auto" }} className="space-y-40">
+      <section className="relative z-10 px-6" style={{ paddingTop: "24rem", paddingBottom: "24rem" }}>
+        <div style={{ maxWidth: "64rem", marginLeft: "auto", marginRight: "auto" }} className="space-y-56">
           {/* Interactive Journey Timeline */}
           <motion.div
             initial={{ opacity: 0 }}
