@@ -34,6 +34,29 @@ export default function AkademiskPage() {
         </p>
       </HeroSection>
 
+      {/* Video Section */}
+      <section className="relative z-10 px-6" style={{ paddingTop: "8rem", paddingBottom: "8rem" }}>
+        <div style={{ maxWidth: "56rem", marginLeft: "auto", marginRight: "auto" }}>
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6 }}
+            className="glass rounded-2xl overflow-hidden"
+          >
+            <div className="relative w-full" style={{ paddingBottom: "56.25%" }}>
+              <iframe
+                className="absolute top-0 left-0 w-full h-full"
+                src="https://www.youtube.com/embed/04bAFoGkxI4"
+                title="Video om akademisk utvikling"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+              />
+            </div>
+          </motion.div>
+        </div>
+      </section>
+
       <section className="relative z-10 px-6" style={{ paddingTop: "24rem", paddingBottom: "24rem" }}>
         <div style={{ maxWidth: "64rem", marginLeft: "auto", marginRight: "auto" }} className="space-y-56">
           {/* Interactive Charts Section */}
