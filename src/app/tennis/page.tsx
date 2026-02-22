@@ -8,6 +8,7 @@ import VideoPlayer from "@/components/VideoPlayer";
 import JourneyTimeline from "@/components/charts/JourneyTimeline";
 import DailyScheduleChart from "@/components/charts/DailyScheduleChart";
 import DisciplineStats from "@/components/charts/DisciplineStats";
+import PageNavigation from "@/components/PageNavigation";
 import { motion } from "framer-motion";
 
 export default function TennisPage() {
@@ -30,13 +31,36 @@ export default function TennisPage() {
         title="Min tennisreise"
         subtitle="Fra utfordringer til utvikling"
       >
-        <p className="text-lg md:text-xl text-[var(--text-secondary)] leading-loose text-center">
+        <p className="text-lg md:text-xl text-[var(--text-secondary)] leading-relaxed text-left">
           Tennisreisen min har ikke vært enkel, men den har gjort meg til spilleren jeg er i dag.
         </p>
       </HeroSection>
 
+      {/* Video Section */}
+      <section className="relative z-10 px-6" style={{ paddingTop: "4rem", paddingBottom: "4rem" }}>
+        <div style={{ maxWidth: "56rem", marginLeft: "auto", marginRight: "auto" }}>
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6 }}
+            className="glass rounded-2xl overflow-hidden"
+          >
+            <div className="relative w-full" style={{ paddingBottom: "56.25%" }}>
+              <div className="absolute inset-0 flex flex-col items-center justify-center bg-[var(--bg-secondary)]">
+                <svg xmlns="http://www.w3.org/2000/svg" className="w-16 h-16 text-[var(--text-muted)] mb-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M15.91 11.672a.375.375 0 010 .656l-5.603 3.113a.375.375 0 01-.557-.328V8.887c0-.286.307-.466.557-.327l5.603 3.112z" />
+                </svg>
+                <p className="text-[var(--text-muted)] text-lg font-medium">Video kommer snart</p>
+              </div>
+            </div>
+          </motion.div>
+        </div>
+      </section>
+
       {/* Coach Recommendation Section */}
-      <section className="relative z-10 px-6" style={{ paddingTop: "8rem", paddingBottom: "8rem" }}>
+      <section className="relative z-10 px-6" style={{ paddingTop: "4rem", paddingBottom: "4rem" }}>
         <div style={{ maxWidth: "64rem", marginLeft: "auto", marginRight: "auto" }}>
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -45,7 +69,7 @@ export default function TennisPage() {
             className="glass rounded-2xl p-8"
             style={{ borderLeft: "4px solid var(--accent)" }}
           >
-            <h2 className="font-serif text-3xl md:text-4xl text-[var(--text-primary)] mt-20 mb-24 text-center">
+            <h2 className="font-serif text-3xl md:text-4xl text-[var(--text-primary)] mb-6 text-center">
               Anbefaling fra Tomo - Nordstrand Tennisklubb (NTK)
             </h2>
 
@@ -102,8 +126,8 @@ export default function TennisPage() {
         </div>
       </section>
 
-      <section className="relative z-10 px-6" style={{ paddingTop: "24rem", paddingBottom: "24rem" }}>
-        <div style={{ maxWidth: "64rem", marginLeft: "auto", marginRight: "auto" }} className="space-y-56">
+      <section className="relative z-10 px-6" style={{ paddingTop: "4rem", paddingBottom: "4rem" }}>
+        <div style={{ maxWidth: "64rem", marginLeft: "auto", marginRight: "auto" }} className="space-y-24">
           {/* Interactive Journey Timeline */}
           <motion.div
             initial={{ opacity: 0 }}
@@ -116,10 +140,10 @@ export default function TennisPage() {
 
           {/* Journey section */}
           <ContentBlock>
-            <h2 className="font-serif text-3xl md:text-4xl text-[var(--text-primary)] mt-20 mb-24 text-center">
+            <h2 className="font-serif text-3xl md:text-4xl text-[var(--text-primary)] mb-6 text-center">
               Bakgrunn
             </h2>
-            <p className="text-lg md:text-xl text-[var(--text-secondary)] leading-loose text-center">
+            <p className="text-lg md:text-xl text-[var(--text-secondary)] leading-relaxed text-left">
               Min tennisreise har på mange måter vært utfordrende. Etter skaden i ryggen tapte jeg mange
               kamper både i turneringer og på trening. Men i stedet for å gi opp valgte jeg å bruke
               opptreningen som drivkraft. Jeg krummet nakken og bestemte meg for å klare å komme
@@ -137,7 +161,7 @@ export default function TennisPage() {
 
           {/* Spain year section */}
           <ContentBlock delay={0.2}>
-            <h2 className="font-serif text-3xl md:text-4xl text-[var(--text-primary)] mt-20 mb-24 text-center">
+            <h2 className="font-serif text-3xl md:text-4xl text-[var(--text-primary)] mb-6 text-center">
               Året på Soto Tennisakademi
             </h2>
 
@@ -156,7 +180,7 @@ export default function TennisPage() {
               </p>
             </motion.div>
 
-            <p className="text-lg md:text-xl text-[var(--text-secondary)] leading-loose text-center mb-8 text-center">
+            <p className="text-lg md:text-xl text-[var(--text-secondary)] leading-relaxed text-left mb-4">
               Året på Soto Tennisakademi har vært avgjørende for min utvikling. Opplegget er fullstendig
               og omfatter teknisk trening, fysisk trening, konkurransetrening og mental trening. Opplegget
               er omfattende hva angår treningsmengde og intensitet. Jeg må disponerer mine dager godt,
@@ -164,7 +188,7 @@ export default function TennisPage() {
               så optimal måte som mulig. Det er i tillegg mye reising i forbindelse med turneringer, der vi er
               på nye steder, og må dele rom og leiligheter, sørge for mat og logistikk.
             </p>
-            <p className="text-lg md:text-xl text-[var(--text-secondary)] leading-loose text-center mb-10 text-center">
+            <p className="text-lg md:text-xl text-[var(--text-secondary)] leading-relaxed text-left mb-6">
               Min hovedtrener i Soto mener jeg har et ekstremt høyt potensiale, noe jeg etter tiden i Soto
               ser at er riktig. Tennis er like mye en mental som en fysisk idrett, der det mentale nok er en
               styrke hos meg.
@@ -181,10 +205,10 @@ export default function TennisPage() {
 
           {/* Work capacity and discipline */}
           <ContentBlock delay={0.4}>
-            <h2 className="font-serif text-3xl md:text-4xl text-[var(--text-primary)] mt-20 mb-24 text-center">
+            <h2 className="font-serif text-3xl md:text-4xl text-[var(--text-primary)] mb-6 text-center">
               Arbeidskapasitet og disiplin
             </h2>
-            <p className="text-lg md:text-xl text-[var(--text-secondary)] leading-loose text-center mb-16">
+            <p className="text-lg md:text-xl text-[var(--text-secondary)] leading-relaxed text-left mb-8">
               Suksess kommer ikke av talent alene. Jeg kompenserer for det jeg mangler i naturlig talent med
               ekstrem arbeidsvilje og disiplin. Selv når jeg taper - én kamp eller hundre - går jeg tilbake
               til grunnarbeidet og fortsetter å jobbe.
@@ -195,7 +219,7 @@ export default function TennisPage() {
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
-              style={{ marginBottom: "6rem" }}
+              style={{ marginBottom: "2rem" }}
             >
               <h3 className="font-serif text-2xl md:text-3xl text-[var(--text-primary)] mb-8 text-center">
                 Min hverdag - sammenlign Norge vs Spania
@@ -203,20 +227,17 @@ export default function TennisPage() {
               <DailyScheduleChart />
             </motion.div>
 
-            {/* Spacer between sections */}
-            <div style={{ height: "4rem" }} />
-
             {/* Discipline Stats */}
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
-              style={{ marginBottom: "6rem" }}
+              style={{ marginBottom: "2rem" }}
             >
               <DisciplineStats />
             </motion.div>
 
-            <p className="text-lg md:text-xl text-[var(--text-secondary)] leading-loose text-center mt-16">
+            <p className="text-lg md:text-xl text-[var(--text-secondary)] leading-relaxed text-left mt-8">
               Jeg søker ett år senere fordi jeg lyttet til rådet om å bli bedre først. Jeg har brukt dette året
               på å utvikle meg, få bedre kontroll på skadene mine, og bevise at jeg har den disiplinen som kreves.
             </p>
@@ -224,6 +245,8 @@ export default function TennisPage() {
 
         </div>
       </section>
+
+      <PageNavigation currentPath="/tennis" />
     </main>
   );
 }

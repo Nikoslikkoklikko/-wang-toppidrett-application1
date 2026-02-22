@@ -125,42 +125,43 @@ export default function Home() {
             transition={{ duration: 0.8, delay: 0.6 }}
             className="max-w-2xl mx-auto"
           >
-            <p className="text-lg md:text-xl text-[var(--text-secondary)] leading-loose text-center mb-6">
+            <p className="text-lg md:text-xl text-[var(--text-secondary)] leading-relaxed text-left mb-6">
               Mitt navn er Nikolai Tingstad, og jeg søker opptak til Wang Toppidrett. Tennis er min lidenskap,
               og jeg ønsker å kombinere seriøs satsing på tennis med god akademisk utvikling.
             </p>
-            <p className="text-lg md:text-xl text-[var(--text-secondary)] leading-loose text-center">
+            <p className="text-lg md:text-xl text-[var(--text-secondary)] leading-relaxed text-left">
               Jeg har brukt det siste året som elev ved Sotogrande Tennisakademi, der jeg har trent tennis på fulltid.
               Jeg har i løpet av perioden her utviklet meg svært mye både som tennisspiller og menneske.
               <span className="text-[var(--accent)] font-semibold text-glow">Nå er jeg klar for å vise at jeg har det som trengs</span>.
             </p>
           </motion.div>
 
-          {/* Scroll indicator */}
-          <motion.div
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ delay: 1.5 }}
-            className="absolute bottom-12 left-1/2 -translate-x-1/2"
-          >
-            <motion.div
-              animate={{ y: [0, 8, 0] }}
-              transition={{ duration: 1.5, repeat: Infinity }}
-              className="w-6 h-10 rounded-full border-2 border-[var(--accent)] flex justify-center pt-2"
-              style={{ boxShadow: "0 0 15px var(--glow-primary)" }}
-            >
-              <motion.div
-                animate={{ opacity: [1, 0, 1], y: [0, 6, 0] }}
-                transition={{ duration: 1.5, repeat: Infinity }}
-                className="w-1 h-2 bg-[var(--accent)] rounded-full"
-              />
-            </motion.div>
-          </motion.div>
         </div>
       </section>
 
+      {/* Scroll indicator */}
+      <motion.div
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ delay: 1.5 }}
+        className="flex justify-center py-12"
+      >
+        <motion.div
+          animate={{ y: [0, 8, 0] }}
+          transition={{ duration: 1.5, repeat: Infinity }}
+          className="w-6 h-10 rounded-full border-2 border-[var(--accent)] flex justify-center pt-2"
+          style={{ boxShadow: "0 0 15px var(--glow-primary)" }}
+        >
+          <motion.div
+            animate={{ opacity: [1, 0, 1], y: [0, 6, 0] }}
+            transition={{ duration: 1.5, repeat: Infinity }}
+            className="w-1 h-2 bg-[var(--accent)] rounded-full"
+          />
+        </motion.div>
+      </motion.div>
+
       {/* Stats Section */}
-      <section className="relative z-10 px-8 md:px-16" style={{ paddingTop: "8rem", paddingBottom: "8rem" }}>
+      <section className="relative z-10 px-8 md:px-16" style={{ paddingTop: "4rem", paddingBottom: "4rem" }}>
         <div style={{ maxWidth: "56rem", marginLeft: "auto", marginRight: "auto" }}>
           <motion.h2
             initial={{ opacity: 0, y: 20 }}
@@ -182,7 +183,7 @@ export default function Home() {
       </section>
 
       {/* Charts Section - Spectacular data visualization */}
-      <section className="relative z-10 px-8 md:px-16" style={{ paddingTop: "8rem", paddingBottom: "8rem" }}>
+      <section className="relative z-10 px-8 md:px-16" style={{ paddingTop: "4rem", paddingBottom: "4rem" }}>
         <div style={{ maxWidth: "64rem", marginLeft: "auto", marginRight: "auto" }}>
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -195,7 +196,7 @@ export default function Home() {
             <h2 className="font-serif text-3xl md:text-4xl text-[var(--text-primary)] mb-4">
               Min utvikling i tall
             </h2>
-            <p className="text-lg md:text-xl text-[var(--text-secondary)] leading-loose text-center" style={{ maxWidth: "36rem", marginLeft: "auto", marginRight: "auto" }}>
+            <p className="text-lg md:text-xl text-[var(--text-secondary)] leading-relaxed text-center" style={{ maxWidth: "36rem", marginLeft: "auto", marginRight: "auto" }}>
               Fra 4.2 til 5.0 i snitt, fra 2 til 5 timer daglig trening. Se min progresjon visualisert.
             </p>
           </motion.div>
@@ -207,23 +208,23 @@ export default function Home() {
 
           {/* Highlight cards */}
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6" style={{ marginTop: "6rem" }}>
-            <GlassCard glow className="p-6 text-center">
+            <GlassCard className="p-6 text-center">
               <div className="text-3xl mb-2">🧠</div>
               <div className="text-2xl font-bold text-[var(--accent)]">95%</div>
               <div className="text-xs text-[var(--text-secondary)]">Mental styrke</div>
             </GlassCard>
-            <GlassCard glow className="p-6 text-center">
+            <GlassCard className="p-6 text-center">
               <div className="text-3xl mb-2">📊</div>
               <div className="text-2xl font-bold text-[var(--accent)]">98%</div>
               <div className="text-xs text-[var(--text-secondary)]">Disiplin</div>
             </GlassCard>
-            <GlassCard glow className="p-6 text-center">
+            <GlassCard className="p-6 text-center">
               <div className="text-3xl mb-2">📚</div>
               <div className="text-2xl font-bold text-[var(--accent)]">5.0</div>
               <div className="text-xs text-[var(--text-secondary)]">Karaktersnitt</div>
             </GlassCard>
-            <GlassCard glow className="p-6 text-center">
-              <div className="text-3xl mb-2">🇪🇸</div>
+            <GlassCard className="p-6 text-center">
+              <div className="text-3xl mb-2">✈️</div>
               <div className="text-2xl font-bold text-[var(--accent)]">5t</div>
               <div className="text-xs text-[var(--text-secondary)]">Daglig trening</div>
             </GlassCard>
@@ -232,7 +233,7 @@ export default function Home() {
       </section>
 
       {/* Navigation hint */}
-      <section className="relative z-10 px-8 md:px-16" style={{ paddingTop: "10rem", paddingBottom: "10rem" }}>
+      <section className="relative z-10 px-8 md:px-16" style={{ paddingTop: "4rem", paddingBottom: "4rem" }}>
         <div className="flex flex-col items-center justify-center text-center" style={{ maxWidth: "48rem", marginLeft: "auto", marginRight: "auto" }}>
           <motion.div
             initial={{ opacity: 0, y: 40 }}
@@ -244,7 +245,7 @@ export default function Home() {
             <h2 className="font-serif text-4xl md:text-5xl mb-12 text-gradient">
               Utforsk min historie
             </h2>
-            <p className="text-lg md:text-xl text-[var(--text-secondary)] leading-loose text-center mb-16 max-w-xl text-center">
+            <p className="text-lg md:text-xl text-[var(--text-secondary)] leading-relaxed text-left mb-8 max-w-xl">
               Bruk menyen i øvre høyre hjørne for å navigere gjennom min reise, fra tennis til akademiske prestasjoner.
             </p>
             <div className="flex items-center justify-center gap-3 text-[var(--text-secondary)]">

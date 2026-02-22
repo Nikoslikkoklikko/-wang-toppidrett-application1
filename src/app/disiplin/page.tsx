@@ -5,6 +5,7 @@ import ContentBlock from "@/components/ContentBlock";
 import QuoteBlock from "@/components/QuoteBlock";
 import FeatureList from "@/components/FeatureList";
 import StatCard from "@/components/StatCard";
+import PageNavigation from "@/components/PageNavigation";
 import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
 
@@ -65,14 +66,37 @@ export default function DisiplinPage() {
         title="Disiplin"
         subtitle="Det som skiller drømmer fra resultater"
       >
-        <p className="text-lg md:text-xl text-[var(--text-secondary)] leading-loose text-center">
+        <p className="text-lg md:text-xl text-[var(--text-secondary)] leading-relaxed text-left">
           Talent er ikke nok. Det er de daglige valgene, de tidlige morgenene,
           og viljen til å gjøre det som må gjøres – selv når ingen ser på.
         </p>
       </HeroSection>
 
+      {/* Video Section */}
+      <section className="relative z-10 px-6" style={{ paddingTop: "4rem", paddingBottom: "4rem" }}>
+        <div style={{ maxWidth: "56rem", marginLeft: "auto", marginRight: "auto" }}>
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6 }}
+            className="glass rounded-2xl overflow-hidden"
+          >
+            <div className="relative w-full" style={{ paddingBottom: "56.25%" }}>
+              <div className="absolute inset-0 flex flex-col items-center justify-center bg-[var(--bg-secondary)]">
+                <svg xmlns="http://www.w3.org/2000/svg" className="w-16 h-16 text-[var(--text-muted)] mb-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M15.91 11.672a.375.375 0 010 .656l-5.603 3.113a.375.375 0 01-.557-.328V8.887c0-.286.307-.466.557-.327l5.603 3.112z" />
+                </svg>
+                <p className="text-[var(--text-muted)] text-lg font-medium">Video kommer snart</p>
+              </div>
+            </div>
+          </motion.div>
+        </div>
+      </section>
+
       {/* Stats Section */}
-      <section className="relative z-10 px-6" style={{ paddingTop: "6rem", paddingBottom: "6rem" }}>
+      <section className="relative z-10 px-6" style={{ paddingTop: "4rem", paddingBottom: "4rem" }}>
         <div style={{ maxWidth: "64rem", marginLeft: "auto", marginRight: "auto" }}>
           <motion.h2
             initial={{ opacity: 0, y: 20 }}
@@ -96,13 +120,13 @@ export default function DisiplinPage() {
       </section>
 
       {/* Training Routine */}
-      <section className="relative z-10 px-6" style={{ paddingTop: "6rem", paddingBottom: "6rem" }}>
+      <section className="relative z-10 px-6" style={{ paddingTop: "4rem", paddingBottom: "4rem" }}>
         <div style={{ maxWidth: "64rem", marginLeft: "auto", marginRight: "auto" }}>
           <ContentBlock>
             <h2 className="font-serif text-3xl md:text-4xl text-[var(--text-primary)] mb-6 text-center">
               En typisk dag
             </h2>
-            <p className="text-lg md:text-xl text-[var(--text-secondary)] leading-loose text-center mb-4">
+            <p className="text-lg md:text-xl text-[var(--text-secondary)] leading-relaxed text-left mb-4">
               Det har aldri vært problematisk for meg å stå opp tidligere enn andre for å trene før skolen.
               Før jeg flyttet til Spania trente jeg ofte både før og etter skolen, med dager som startet kl. 06
               og varte til kl. 21. I Spania stater vi med fysisk trening før solen står opp, og jeg har i tillegg
@@ -160,13 +184,13 @@ export default function DisiplinPage() {
       </section>
 
       {/* Discipline Philosophy */}
-      <section className="relative z-10 px-6" style={{ paddingTop: "6rem", paddingBottom: "6rem" }}>
+      <section className="relative z-10 px-6" style={{ paddingTop: "4rem", paddingBottom: "4rem" }}>
         <div style={{ maxWidth: "64rem", marginLeft: "auto", marginRight: "auto" }}>
           <ContentBlock>
             <h2 className="font-serif text-3xl md:text-4xl text-[var(--text-primary)] mb-6 text-center">
               Hva disiplin betyr for meg
             </h2>
-            <p className="text-lg md:text-xl text-[var(--text-secondary)] leading-loose text-center mb-6">
+            <p className="text-lg md:text-xl text-[var(--text-secondary)] leading-relaxed text-left mb-6">
               Disiplin handler ikke om å tvinge seg selv til å gjøre noe man hater.
               Det handler om å bygge vaner som bringer deg nærmere målet ditt, dag etter dag.
             </p>
@@ -177,7 +201,7 @@ export default function DisiplinPage() {
           </QuoteBlock>
 
           <ContentBlock delay={0.2}>
-            <p className="text-lg md:text-xl text-[var(--text-secondary)] leading-loose text-center mb-6">
+            <p className="text-lg md:text-xl text-[var(--text-secondary)] leading-relaxed text-left mb-6">
               Når andre tar snarveier, velger jeg den lange veien. Når andre gir opp etter et tap,
               bruker jeg det som motivasjon til å trene hardere. Dette er ikke noe jeg gjør for å imponere andre –
               det er hvem jeg er.
@@ -197,7 +221,7 @@ export default function DisiplinPage() {
       </section>
 
       {/* Never Give Up */}
-      <section className="relative z-10 px-6" style={{ paddingTop: "6rem", paddingBottom: "6rem" }}>
+      <section className="relative z-10 px-6" style={{ paddingTop: "4rem", paddingBottom: "4rem" }}>
         <div style={{ maxWidth: "64rem", marginLeft: "auto", marginRight: "auto" }}>
           <motion.div
             initial={{ opacity: 0, scale: 0.95 }}
@@ -216,6 +240,8 @@ export default function DisiplinPage() {
           </motion.div>
         </div>
       </section>
+
+      <PageNavigation currentPath="/disiplin" />
     </main>
   );
 }

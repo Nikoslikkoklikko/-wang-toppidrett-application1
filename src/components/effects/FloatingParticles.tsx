@@ -60,7 +60,7 @@ function DotParticle({ size }: { size: number }) {
         width: size,
         height: size,
         background: "var(--accent)",
-        opacity: 0.4,
+        opacity: 0.15,
         boxShadow: `0 0 ${size}px var(--glow-primary)`,
       }}
     />
@@ -116,7 +116,7 @@ export default function FloatingParticles() {
             y: [0, -100, -200, -100, 0],
             x: [0, 30, -20, 40, 0],
             rotate: particle.type === "ball" ? [0, 180, 360] : [0, 0, 0],
-            opacity: [0.3, 0.6, 0.8, 0.6, 0.3],
+            opacity: [0.15, 0.18, 0.2, 0.18, 0.15],
           }}
           transition={{
             duration: particle.duration,

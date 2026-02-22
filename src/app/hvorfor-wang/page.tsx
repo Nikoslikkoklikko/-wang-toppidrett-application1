@@ -7,6 +7,7 @@ import FeatureList from "@/components/FeatureList";
 import WangMatchDiagram from "@/components/charts/WangMatchDiagram";
 import ContributionShowcase from "@/components/charts/ContributionShowcase";
 import GoalsTimeline from "@/components/charts/GoalsTimeline";
+import PageNavigation from "@/components/PageNavigation";
 import { motion } from "framer-motion";
 
 export default function HvorforWangPage() {
@@ -36,19 +37,42 @@ export default function HvorforWangPage() {
         title="Hvorfor Wang?"
         subtitle="Min motivasjon"
       >
-        <p className="text-lg md:text-xl text-[var(--text-secondary)] leading-loose text-center">
+        <p className="text-lg md:text-xl text-[var(--text-secondary)] leading-relaxed text-left">
           Jeg er klar. Jeg er motivert. Jeg er dedikert.
         </p>
       </HeroSection>
 
-      <section className="relative z-10 px-6" style={{ paddingTop: "24rem", paddingBottom: "24rem" }}>
-        <div style={{ maxWidth: "64rem", marginLeft: "auto", marginRight: "auto" }} className="space-y-56">
+      {/* Video Section */}
+      <section className="relative z-10 px-6" style={{ paddingTop: "4rem", paddingBottom: "4rem" }}>
+        <div style={{ maxWidth: "56rem", marginLeft: "auto", marginRight: "auto" }}>
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6 }}
+            className="glass rounded-2xl overflow-hidden"
+          >
+            <div className="relative w-full" style={{ paddingBottom: "56.25%" }}>
+              <div className="absolute inset-0 flex flex-col items-center justify-center bg-[var(--bg-secondary)]">
+                <svg xmlns="http://www.w3.org/2000/svg" className="w-16 h-16 text-[var(--text-muted)] mb-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M15.91 11.672a.375.375 0 010 .656l-5.603 3.113a.375.375 0 01-.557-.328V8.887c0-.286.307-.466.557-.327l5.603 3.112z" />
+                </svg>
+                <p className="text-[var(--text-muted)] text-lg font-medium">Video kommer snart</p>
+              </div>
+            </div>
+          </motion.div>
+        </div>
+      </section>
+
+      <section className="relative z-10 px-6" style={{ paddingTop: "4rem", paddingBottom: "4rem" }}>
+        <div style={{ maxWidth: "64rem", marginLeft: "auto", marginRight: "auto" }} className="space-y-24">
           {/* Why Wang */}
           <ContentBlock>
-            <h2 className="font-serif text-3xl md:text-4xl text-[var(--text-primary)] mt-20 mb-24 text-center">
+            <h2 className="font-serif text-3xl md:text-4xl text-[var(--text-primary)] mb-6 text-center">
               Hvorfor Wang Toppidrett?
             </h2>
-            <p className="text-lg md:text-xl text-[var(--text-secondary)] leading-loose text-center mb-6">
+            <p className="text-lg md:text-xl text-[var(--text-secondary)] leading-relaxed text-left mb-6">
               Wang Toppidrett tilbyr nøyaktig det jeg leter etter: muligheten til å kombinere seriøs satsing på tennis
               med god akademisk utvikling, omgitt av andre som har den samme drivet og ambisjonen som meg.
             </p>
@@ -56,10 +80,10 @@ export default function HvorforWangPage() {
 
           {/* Match Diagram */}
           <ContentBlock delay={0.1}>
-            <h2 className="font-serif text-3xl md:text-4xl text-[var(--text-primary)] mt-20 mb-24 text-center">
+            <h2 className="font-serif text-3xl md:text-4xl text-[var(--text-primary)] mb-6 text-center">
               Perfekt match
             </h2>
-            <p className="text-lg md:text-xl text-[var(--text-secondary)] leading-loose text-center mb-8">
+            <p className="text-lg md:text-xl text-[var(--text-secondary)] leading-relaxed text-left mb-4">
               Se hvordan mine kvaliteter matcher med det Wang tilbyr.
             </p>
             <WangMatchDiagram />
@@ -73,10 +97,10 @@ export default function HvorforWangPage() {
 
           {/* Goals Timeline */}
           <ContentBlock delay={0.2}>
-            <h2 className="font-serif text-3xl md:text-4xl text-[var(--text-primary)] mt-20 mb-24 text-center">
+            <h2 className="font-serif text-3xl md:text-4xl text-[var(--text-primary)] mb-6 text-center">
               Mine mål på Wang
             </h2>
-            <p className="text-lg md:text-xl text-[var(--text-secondary)] leading-loose text-center mb-8">
+            <p className="text-lg md:text-xl text-[var(--text-secondary)] leading-relaxed text-left mb-4">
               En tydelig plan for hvert år på videregående.
             </p>
             <GoalsTimeline />
@@ -84,10 +108,10 @@ export default function HvorforWangPage() {
 
           {/* Contribution Showcase */}
           <ContentBlock delay={0.3}>
-            <h2 className="font-serif text-3xl md:text-4xl text-[var(--text-primary)] mt-20 mb-24 text-center">
+            <h2 className="font-serif text-3xl md:text-4xl text-[var(--text-primary)] mb-6 text-center">
               Hva jeg kan bidra med
             </h2>
-            <p className="text-lg md:text-xl text-[var(--text-secondary)] leading-loose text-center mb-8">
+            <p className="text-lg md:text-xl text-[var(--text-secondary)] leading-relaxed text-left mb-4">
               Alt jeg lærer på tennisbanen – presentasjonsangst, press og vilje – kan jeg overføre til skolen.
             </p>
             <ContributionShowcase />
@@ -95,15 +119,15 @@ export default function HvorforWangPage() {
 
           {/* Why Wang specifically */}
           <ContentBlock delay={0.4}>
-            <h2 className="font-serif text-3xl md:text-4xl text-[var(--text-primary)] mt-20 mb-24 text-center">
+            <h2 className="font-serif text-3xl md:text-4xl text-[var(--text-primary)] mb-6 text-center">
               Hvorfor akkurat Wang Toppidrett?
             </h2>
-            <p className="text-lg md:text-xl text-[var(--text-secondary)] leading-loose text-center mb-4">
+            <p className="text-lg md:text-xl text-[var(--text-secondary)] leading-relaxed text-left mb-4">
               Jeg søker Wang fordi jeg vil omgi meg med folk som tenker likt – som vil noe,
               og som er villige til å jobbe for det. Jeg trenger et miljø som forstår balansen
               mellom idrett og akademia.
             </p>
-            <p className="text-lg md:text-xl text-[var(--text-secondary)] leading-loose text-center mb-6">
+            <p className="text-lg md:text-xl text-[var(--text-secondary)] leading-relaxed text-left mb-6">
               Wang Toppidrett representerer alt jeg søker: et sterkt akademisk miljø kombinert med
               forståelse for kravene til toppidrett. Her kan jeg utvikle meg både som student og som atlet.
             </p>
@@ -126,7 +150,7 @@ export default function HvorforWangPage() {
             transition={{ duration: 0.6 }}
             className="glass-strong rounded-2xl p-10 text-center flex flex-col items-center justify-center"
           >
-            <h2 className="font-serif text-4xl md:text-5xl text-[var(--text-primary)] mt-20 mb-24 text-center">
+            <h2 className="font-serif text-4xl md:text-5xl text-[var(--text-primary)] mb-6 text-center">
               Avslutning
             </h2>
             <p className="text-[var(--text-secondary)] text-lg leading-relaxed max-w-xl text-center mb-6">
@@ -143,6 +167,8 @@ export default function HvorforWangPage() {
           </motion.div>
         </div>
       </section>
+
+      <PageNavigation currentPath="/hvorfor-wang" />
     </main>
   );
 }

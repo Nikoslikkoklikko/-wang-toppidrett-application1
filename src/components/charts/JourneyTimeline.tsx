@@ -47,7 +47,7 @@ const milestones: Milestone[] = [
     age: 16,
     title: "Flyttet til Spania",
     description: "Tok det store steget og flyttet alene til Spania for å satse på tennis på heltid. Trener nå 4-6 timer daglig på internasjonalt nivå.",
-    icon: "🇪🇸",
+    icon: "✈️",
     highlight: true,
   },
   {

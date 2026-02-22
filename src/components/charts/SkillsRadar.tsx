@@ -49,6 +49,7 @@ export default function SkillsRadar() {
       viewport={{ once: true }}
       transition={{ duration: 0.8 }}
       className="chart-container"
+      aria-label="Radardiagram som viser styrkenivå innen mental styrke, disiplin, akademisk, fysisk, tennis teknikk og selvstendighet"
     >
       <h3 className="font-serif text-2xl text-[var(--text-primary)] mb-2">
         Mine styrker

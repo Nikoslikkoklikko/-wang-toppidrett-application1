@@ -6,37 +6,42 @@ import { useRef, useState, useEffect } from "react";
 function AnimatedCounter({ value, suffix = "" }: { value: string; suffix?: string }) {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true });
-  const [displayValue, setDisplayValue] = useState("0");
+  const finalValue = value.replace(/[^0-9.-]/g, "");
+  const [displayValue, setDisplayValue] = useState(finalValue);
+  const hasAnimated = useRef(false);
 
   useEffect(() => {
-    if (isInView) {
-      const numericValue = parseFloat(value.replace(/[^0-9.]/g, ""));
-      const duration = 2000;
-      const steps = 60;
-      const stepDuration = duration / steps;
-      let currentStep = 0;
+    if (!isInView || hasAnimated.current) return;
+    hasAnimated.current = true;
 
-      const timer = setInterval(() => {
-        currentStep++;
-        const progress = currentStep / steps;
-        const easeOut = 1 - Math.pow(1 - progress, 3);
-        const current = numericValue * easeOut;
+    const numericValue = parseFloat(value.replace(/[^0-9.]/g, ""));
+    const duration = 2000;
+    const steps = 60;
+    const stepDuration = duration / steps;
+    let currentStep = 0;
 
-        if (value.includes(".")) {
-          setDisplayValue(current.toFixed(1));
-        } else {
-          setDisplayValue(Math.floor(current).toString());
-        }
+    setDisplayValue("0");
 
-        if (currentStep >= steps) {
-          clearInterval(timer);
-          setDisplayValue(value.replace(/[^0-9.-]/g, ""));
-        }
-      }, stepDuration);
+    const timer = setInterval(() => {
+      currentStep++;
+      const progress = currentStep / steps;
+      const easeOut = 1 - Math.pow(1 - progress, 3);
+      const current = numericValue * easeOut;
 
-      return () => clearInterval(timer);
-    }
-  }, [isInView, value]);
+      if (value.includes(".")) {
+        setDisplayValue(current.toFixed(1));
+      } else {
+        setDisplayValue(Math.floor(current).toString());
+      }
+
+      if (currentStep >= steps) {
+        clearInterval(timer);
+        setDisplayValue(finalValue);
+      }
+    }, stepDuration);
+
+    return () => clearInterval(timer);
+  }, [isInView, value, finalValue]);
 
   return (
     <span ref={ref} className="tabular-nums">

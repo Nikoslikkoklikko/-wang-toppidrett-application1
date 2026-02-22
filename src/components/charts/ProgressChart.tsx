@@ -55,6 +55,7 @@ export default function ProgressChart() {
       viewport={{ once: true }}
       transition={{ duration: 0.8 }}
       className="chart-container"
+      aria-label="Linjediagram som viser utvikling i karaktersnitt og treningstimer over tid"
     >
       <h3 className="font-serif text-2xl text-[var(--text-primary)] mb-2">
         Min utvikling
