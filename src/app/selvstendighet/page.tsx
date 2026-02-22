@@ -44,7 +44,7 @@ export default function SelvstendighetPage() {
         <div style={{ maxWidth: "64rem", marginLeft: "auto", marginRight: "auto" }} className="space-y-56">
           {/* Living alone section */}
           <ContentBlock>
-            <h2 className="font-serif text-3xl md:text-4xl text-[var(--text-primary)] mt-16 mb-16 text-center">
+            <h2 className="font-serif text-3xl md:text-4xl text-[var(--text-primary)] mt-20 mb-24 text-center">
               Selvstendighet og personlig utvikling
             </h2>
             <p className="text-lg md:text-xl text-[var(--text-secondary)] leading-loose text-center mb-8">
@@ -73,7 +73,7 @@ export default function SelvstendighetPage() {
 
           {/* Growth Chart Section */}
           <ContentBlock delay={0.1}>
-            <h2 className="font-serif text-3xl md:text-4xl text-[var(--text-primary)] mt-16 mb-16 text-center">
+            <h2 className="font-serif text-3xl md:text-4xl text-[var(--text-primary)] mt-20 mb-24 text-center">
               Min vekst i tall
             </h2>
             <p className="text-lg md:text-xl text-[var(--text-secondary)] leading-loose text-center mb-8">
@@ -90,7 +90,7 @@ export default function SelvstendighetPage() {
 
           {/* Responsibility Wheel Section */}
           <ContentBlock delay={0.2}>
-            <h2 className="font-serif text-3xl md:text-4xl text-[var(--text-primary)] mt-16 mb-16 text-center">
+            <h2 className="font-serif text-3xl md:text-4xl text-[var(--text-primary)] mt-20 mb-24 text-center">
               Mitt ukentlige ansvar
             </h2>
             <p className="text-lg md:text-xl text-[var(--text-secondary)] leading-loose text-center mb-8">
@@ -101,7 +101,7 @@ export default function SelvstendighetPage() {
 
           {/* What I've learned section */}
           <ContentBlock delay={0.3}>
-            <h2 className="font-serif text-3xl md:text-4xl text-[var(--text-primary)] mt-16 mb-16 text-center">
+            <h2 className="font-serif text-3xl md:text-4xl text-[var(--text-primary)] mt-20 mb-24 text-center">
               Hva jeg har lært
             </h2>
             <p className="text-lg md:text-xl text-[var(--text-secondary)] leading-loose text-center mb-8">
@@ -127,7 +127,7 @@ export default function SelvstendighetPage() {
 
           {/* Skills Transfer Section */}
           <ContentBlock delay={0.4}>
-            <h2 className="font-serif text-3xl md:text-4xl text-[var(--text-primary)] mt-16 mb-16 text-center">
+            <h2 className="font-serif text-3xl md:text-4xl text-[var(--text-primary)] mt-20 mb-24 text-center">
               Overførbare ferdigheter
             </h2>
             <p className="text-lg md:text-xl text-[var(--text-secondary)] leading-loose text-center mb-8">
@@ -138,7 +138,7 @@ export default function SelvstendighetPage() {
 
           {/* AI and future skills section */}
           <ContentBlock delay={0.5}>
-            <h2 className="font-serif text-3xl md:text-4xl text-[var(--text-primary)] mt-16 mb-16 text-center">
+            <h2 className="font-serif text-3xl md:text-4xl text-[var(--text-primary)] mt-20 mb-24 text-center">
               AI og fremtidige ferdigheter
             </h2>
             <p className="text-lg md:text-xl text-[var(--text-secondary)] leading-loose text-center mb-8">
