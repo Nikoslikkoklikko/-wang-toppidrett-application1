@@ -83,13 +83,13 @@ export default function DisiplinPage() {
             className="glass rounded-2xl overflow-hidden"
           >
             <div className="relative w-full" style={{ paddingBottom: "56.25%" }}>
-              <div className="absolute inset-0 flex flex-col items-center justify-center bg-[var(--bg-secondary)]">
-                <svg xmlns="http://www.w3.org/2000/svg" className="w-16 h-16 text-[var(--text-muted)] mb-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M15.91 11.672a.375.375 0 010 .656l-5.603 3.113a.375.375 0 01-.557-.328V8.887c0-.286.307-.466.557-.327l5.603 3.112z" />
-                </svg>
-                <p className="text-[var(--text-muted)] text-lg font-medium">Video kommer snart</p>
-              </div>
+              <iframe
+                className="absolute top-0 left-0 w-full h-full"
+                src="https://www.youtube.com/embed/16rtZLzMdFk"
+                title="Video om disiplin"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+              />
             </div>
           </motion.div>
         </div>
