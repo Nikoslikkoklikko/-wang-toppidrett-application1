@@ -91,7 +91,7 @@ export default function HvorforWangPage() {
 
           {/* Quote */}
           <QuoteBlock>
-            Jeg søker ett år senere enn planlagt fordi jeg ville bli bedre før jeg søkte på nytt.
+            Jeg har brukt det siste året på å bli bedre, og nå er jeg klar.
             Dette året har bevist at jeg har disiplinen, modenheten og drivet som kreves.
           </QuoteBlock>
 

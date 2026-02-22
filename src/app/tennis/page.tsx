@@ -238,8 +238,7 @@ export default function TennisPage() {
             </motion.div>
 
             <p className="text-lg md:text-xl text-[var(--text-secondary)] leading-relaxed text-left mt-8">
-              Jeg søker ett år senere fordi jeg lyttet til rådet om å bli bedre først. Jeg har brukt dette året
-              på å utvikle meg, få bedre kontroll på skadene mine, og bevise at jeg har den disiplinen som kreves.
+              Jeg har brukt dette året på å utvikle meg, få bedre kontroll på skadene mine, og bevise at jeg har den disiplinen som kreves.
             </p>
           </ContentBlock>
 

@@ -53,8 +53,8 @@ const milestones: Milestone[] = [
   {
     year: 2026,
     age: 16,
-    title: "Ny Wang-søknad",
-    description: "Søker på nytt til Wang Toppidrett - denne gangen med mer erfaring, bedre ferdigheter, og bevist disiplin og mental styrke.",
+    title: "Søknad til Wang Toppidrett",
+    description: "Søker opptak til Wang Toppidrett – med erfaring, sterke ferdigheter, og bevist disiplin og mental styrke.",
     icon: "🎯",
     highlight: true,
   },
