@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
+import Image from "next/image";
 import StatCard from "@/components/StatCard";
 import FloatingParticles from "@/components/effects/FloatingParticles";
 import SkillsRadar from "@/components/charts/SkillsRadar";
@@ -159,6 +160,37 @@ export default function Home() {
           />
         </motion.div>
       </motion.div>
+
+      {/* Player of the Week */}
+      <section className="relative z-10 px-8 md:px-16" style={{ paddingTop: "4rem", paddingBottom: "4rem" }}>
+        <div style={{ maxWidth: "40rem", marginLeft: "auto", marginRight: "auto" }}>
+          <motion.div
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.8 }}
+            className="glass rounded-2xl overflow-hidden"
+          >
+            <div className="relative w-full aspect-[3/4]">
+              <Image
+                src="/player-of-the-week.jpeg"
+                alt="Nikolai Tingstad - Player of the Week ved Soto Tennis Academy"
+                fill
+                className="object-cover"
+                priority
+              />
+            </div>
+            <div className="p-6 text-center">
+              <h3 className="font-serif text-2xl md:text-3xl text-[var(--text-primary)] mb-2">
+                🏆 Player of the Week 🏆
+              </h3>
+              <p className="text-lg text-[var(--text-secondary)] leading-relaxed">
+                Kåret til <span className="text-[var(--accent)] font-semibold">Player of the Week</span> ved Soto Tennis Academy – 2 ganger
+              </p>
+            </div>
+          </motion.div>
+        </div>
+      </section>
 
       {/* Stats Section */}
       <section className="relative z-10 px-8 md:px-16" style={{ paddingTop: "4rem", paddingBottom: "4rem" }}>
