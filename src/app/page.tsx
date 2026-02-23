@@ -184,9 +184,17 @@ export default function Home() {
               <h3 className="font-serif text-2xl md:text-3xl text-[var(--text-primary)] mb-2">
                 🏆 Player of the Week 🏆
               </h3>
-              <p className="text-lg text-[var(--text-secondary)] leading-relaxed">
+              <p className="text-lg text-[var(--text-secondary)] leading-relaxed mb-3">
                 Kåret til <span className="text-[var(--accent)] font-semibold">Player of the Week</span> ved Soto Tennis Academy – 2 ganger
               </p>
+              <a
+                href="https://www.instagram.com/p/DTU-TdwjSJZ/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 text-[var(--accent)] hover:underline font-medium"
+              >
+                Se innlegget på Instagram →
+              </a>
             </div>
           </motion.div>
         </div>
