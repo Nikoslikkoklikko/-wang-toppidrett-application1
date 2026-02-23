@@ -48,7 +48,7 @@ export default function AkademiskPage() {
             <div className="relative w-full" style={{ paddingBottom: "56.25%" }}>
               <iframe
                 className="absolute top-0 left-0 w-full h-full"
-                src="https://www.youtube.com/embed/04bAFoGkxI4"
+                src="https://www.youtube.com/embed/r39qlilmyR4"
                 title="Video om akademisk utvikling"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen
