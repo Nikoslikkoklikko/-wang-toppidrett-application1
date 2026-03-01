@@ -11,7 +11,7 @@ const menuItems = [
   { href: "/disiplin", label: "Disiplin" },
   { href: "/akademisk", label: "Akademisk" },
   { href: "/selvstendighet", label: "Selvstendighet" },
-  { href: "/hvorfor-wang", label: "Hvorfor Wang?" },
+  { href: "/hvorfor-lambertseter", label: "Hvorfor Lambertseter?" },
 ];
 
 export default function Navigation() {

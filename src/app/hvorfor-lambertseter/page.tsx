@@ -4,13 +4,13 @@ import HeroSection from "@/components/HeroSection";
 import ContentBlock from "@/components/ContentBlock";
 import QuoteBlock from "@/components/QuoteBlock";
 import FeatureList from "@/components/FeatureList";
-import WangMatchDiagram from "@/components/charts/WangMatchDiagram";
+import LambertseterMatchDiagram from "@/components/charts/LambertseterMatchDiagram";
 import ContributionShowcase from "@/components/charts/ContributionShowcase";
 import GoalsTimeline from "@/components/charts/GoalsTimeline";
 import PageNavigation from "@/components/PageNavigation";
 import { motion } from "framer-motion";
 
-export default function HvorforWangPage() {
+export default function HvorforLambertseterPage() {
   return (
     <main className="relative min-h-screen">
       {/* Background effects - dark theme */}
@@ -34,7 +34,7 @@ export default function HvorforWangPage() {
 
       <HeroSection
         icon="🎯"
-        title="Hvorfor Wang?"
+        title="Hvorfor Lambertseter?"
         subtitle="Min motivasjon"
       >
         <p className="text-lg md:text-xl text-[var(--text-secondary)] leading-relaxed text-left">
@@ -56,7 +56,7 @@ export default function HvorforWangPage() {
               <iframe
                 className="absolute top-0 left-0 w-full h-full"
                 src="https://www.youtube.com/embed/kIeWYcLJKWY"
-                title="Video om hvorfor Wang"
+                title="Video om hvorfor Lambertseter"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen
               />
@@ -67,13 +67,13 @@ export default function HvorforWangPage() {
 
       <section className="relative z-10 px-6" style={{ paddingTop: "4rem", paddingBottom: "4rem" }}>
         <div style={{ maxWidth: "64rem", marginLeft: "auto", marginRight: "auto" }} className="space-y-24">
-          {/* Why Wang */}
+          {/* Why Lambertseter */}
           <ContentBlock>
             <h2 className="font-serif text-3xl md:text-4xl text-[var(--text-primary)] mb-6 text-center">
-              Hvorfor Wang Toppidrett?
+              Hvorfor Lambertseter Toppidrett?
             </h2>
             <p className="text-lg md:text-xl text-[var(--text-secondary)] leading-relaxed text-left mb-6">
-              Wang Toppidrett tilbyr nøyaktig det jeg leter etter: muligheten til å kombinere seriøs satsing på tennis
+              Lambertseter Toppidrett tilbyr nøyaktig det jeg leter etter: muligheten til å kombinere seriøs satsing på tennis
               med god akademisk utvikling, omgitt av andre som har den samme drivet og ambisjonen som meg.
             </p>
           </ContentBlock>
@@ -84,9 +84,9 @@ export default function HvorforWangPage() {
               Perfekt match
             </h2>
             <p className="text-lg md:text-xl text-[var(--text-secondary)] leading-relaxed text-left mb-4">
-              Se hvordan mine kvaliteter matcher med det Wang tilbyr.
+              Se hvordan mine kvaliteter matcher med det Lambertseter tilbyr.
             </p>
-            <WangMatchDiagram />
+            <LambertseterMatchDiagram />
           </ContentBlock>
 
           {/* Quote */}
@@ -98,7 +98,7 @@ export default function HvorforWangPage() {
           {/* Goals Timeline */}
           <ContentBlock delay={0.2}>
             <h2 className="font-serif text-3xl md:text-4xl text-[var(--text-primary)] mb-6 text-center">
-              Mine mål på Wang
+              Mine mål på Lambertseter
             </h2>
             <p className="text-lg md:text-xl text-[var(--text-secondary)] leading-relaxed text-left mb-4">
               En tydelig plan for hvert år på videregående.
@@ -117,18 +117,18 @@ export default function HvorforWangPage() {
             <ContributionShowcase />
           </ContentBlock>
 
-          {/* Why Wang specifically */}
+          {/* Why Lambertseter specifically */}
           <ContentBlock delay={0.4}>
             <h2 className="font-serif text-3xl md:text-4xl text-[var(--text-primary)] mb-6 text-center">
-              Hvorfor akkurat Wang Toppidrett?
+              Hvorfor akkurat Lambertseter Toppidrett?
             </h2>
             <p className="text-lg md:text-xl text-[var(--text-secondary)] leading-relaxed text-left mb-4">
-              Jeg søker Wang fordi jeg vil omgi meg med folk som tenker likt – som vil noe,
+              Jeg søker Lambertseter fordi jeg vil omgi meg med folk som tenker likt – som vil noe,
               og som er villige til å jobbe for det. Jeg trenger et miljø som forstår balansen
               mellom idrett og akademia.
             </p>
             <p className="text-lg md:text-xl text-[var(--text-secondary)] leading-relaxed text-left mb-6">
-              Wang Toppidrett representerer alt jeg søker: et sterkt akademisk miljø kombinert med
+              Lambertseter Toppidrett representerer alt jeg søker: et sterkt akademisk miljø kombinert med
               forståelse for kravene til toppidrett. Her kan jeg utvikle meg både som student og som atlet.
             </p>
             <FeatureList
@@ -156,7 +156,7 @@ export default function HvorforWangPage() {
             <p className="text-[var(--text-secondary)] text-lg leading-relaxed max-w-xl text-center mb-6">
               Jeg er klar til å ta steget opp på et høyere nivå, både sportslig og akademisk. Året i Spania har vist
               meg hva jeg er kapabel til når jeg virkelig satser, og jeg er motivert til å fortsette denne utviklingen
-              på Wang Toppidrett.
+              på Lambertseter Toppidrett.
             </p>
             <p className="text-[var(--text-secondary)] text-lg leading-relaxed max-w-xl text-center mb-6">
               For referanser kan dere gjerne kontakte <span className="text-[var(--accent)] font-semibold">Nordseter skole</span>, som var min ungdomsskole.
@@ -168,7 +168,7 @@ export default function HvorforWangPage() {
         </div>
       </section>
 
-      <PageNavigation currentPath="/hvorfor-wang" />
+      <PageNavigation currentPath="/hvorfor-lambertseter" />
     </main>
   );
 }

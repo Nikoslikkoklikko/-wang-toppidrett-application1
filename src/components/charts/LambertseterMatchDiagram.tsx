@@ -57,7 +57,7 @@ const matchItems: MatchItem[] = [
 
 const averageMatch = Math.round(matchItems.reduce((acc, item) => acc + item.matchScore, 0) / matchItems.length);
 
-export default function WangMatchDiagram() {
+export default function LambertseterMatchDiagram() {
   const containerRef = useRef(null);
   const isInView = useInView(containerRef, { once: true });
   const [hoveredIndex, setHoveredIndex] = useState<number | null>(null);
@@ -119,7 +119,7 @@ export default function WangMatchDiagram() {
           transition={{ delay: 0.5 }}
           className="text-sm text-[var(--text-secondary)] mt-4"
         >
-          Kompatibilitet mellom meg og Wang Toppidrett
+          Kompatibilitet mellom meg og Lambertseter Toppidrett
         </motion.p>
       </div>
 
@@ -174,13 +174,13 @@ export default function WangMatchDiagram() {
                   <div className="text-[10px] text-[var(--text-secondary)] mt-1">%</div>
                 </div>
 
-                {/* Wang offers */}
+                {/* Lambertseter offers */}
                 <div className="flex-1 text-right">
                   <div className="flex items-center justify-end gap-2">
                     <span className="text-sm font-medium text-[var(--text-primary)]">{item.wangOffers}</span>
                     <span className="text-xl">{item.wangIcon}</span>
                   </div>
-                  <div className="text-xs text-[var(--text-secondary)] mt-1">Wang</div>
+                  <div className="text-xs text-[var(--text-secondary)] mt-1">Lambertseter</div>
                 </div>
               </div>
 
@@ -208,7 +208,7 @@ export default function WangMatchDiagram() {
       >
         <p className="text-sm text-[var(--text-secondary)]">
           <span className="text-[var(--accent)] font-bold">5 av 5</span> nøkkelkvaliteter matcher
-          {" "}med Wang Toppidrett sine verdier
+          {" "}med Lambertseter Toppidrett sine verdier
         </p>
       </motion.div>
     </div>
