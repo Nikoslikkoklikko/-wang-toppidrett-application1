@@ -117,7 +117,7 @@ export default function Home() {
             transition={{ duration: 0.8, delay: 0.4 }}
             className="text-sm md:text-base uppercase tracking-[0.3em] text-[var(--text-secondary)] mb-12"
           >
-            Søknad til Lambertseter Toppidrett
+            Søknad til Lambertseter og Wang Toppidrett
           </motion.p>
 
           <motion.div
@@ -127,7 +127,7 @@ export default function Home() {
             className="max-w-2xl mx-auto"
           >
             <p className="text-lg md:text-xl text-[var(--text-secondary)] leading-relaxed text-left mb-6">
-              Mitt navn er Nikolai Tingstad, og jeg søker opptak til Lambertseter Toppidrett. Tennis er min lidenskap,
+              Mitt navn er Nikolai Tingstad, og jeg søker opptak til Lambertseter og Wang Toppidrett. Tennis er min lidenskap,
               og jeg ønsker å kombinere seriøs satsing på tennis med god akademisk utvikling.
             </p>
             <p className="text-lg md:text-xl text-[var(--text-secondary)] leading-relaxed text-left">

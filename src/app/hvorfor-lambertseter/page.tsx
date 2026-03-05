@@ -34,7 +34,7 @@ export default function HvorforLambertseterPage() {
 
       <HeroSection
         icon="🎯"
-        title="Hvorfor Lambertseter?"
+        title="Hvorfor Toppidrett?"
         subtitle="Min motivasjon"
       >
         <p className="text-lg md:text-xl text-[var(--text-secondary)] leading-relaxed text-left">
@@ -56,7 +56,7 @@ export default function HvorforLambertseterPage() {
               <iframe
                 className="absolute top-0 left-0 w-full h-full"
                 src="https://www.youtube.com/embed/kIeWYcLJKWY"
-                title="Video om hvorfor Lambertseter"
+                title="Video om hvorfor Toppidrett"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen
               />
@@ -70,10 +70,10 @@ export default function HvorforLambertseterPage() {
           {/* Why Lambertseter */}
           <ContentBlock>
             <h2 className="font-serif text-3xl md:text-4xl text-[var(--text-primary)] mb-6 text-center">
-              Hvorfor Lambertseter Toppidrett?
+              Hvorfor Lambertseter og Wang Toppidrett?
             </h2>
             <p className="text-lg md:text-xl text-[var(--text-secondary)] leading-relaxed text-left mb-6">
-              Lambertseter Toppidrett tilbyr nøyaktig det jeg leter etter: muligheten til å kombinere seriøs satsing på tennis
+              Lambertseter og Wang Toppidrett tilbyr nøyaktig det jeg leter etter: muligheten til å kombinere seriøs satsing på tennis
               med god akademisk utvikling, omgitt av andre som har den samme drivet og ambisjonen som meg.
             </p>
           </ContentBlock>
@@ -84,7 +84,7 @@ export default function HvorforLambertseterPage() {
               Perfekt match
             </h2>
             <p className="text-lg md:text-xl text-[var(--text-secondary)] leading-relaxed text-left mb-4">
-              Se hvordan mine kvaliteter matcher med det Lambertseter tilbyr.
+              Se hvordan mine kvaliteter matcher med det skolene tilbyr.
             </p>
             <LambertseterMatchDiagram />
           </ContentBlock>
@@ -98,7 +98,7 @@ export default function HvorforLambertseterPage() {
           {/* Goals Timeline */}
           <ContentBlock delay={0.2}>
             <h2 className="font-serif text-3xl md:text-4xl text-[var(--text-primary)] mb-6 text-center">
-              Mine mål på Lambertseter
+              Mine mål på Toppidrett
             </h2>
             <p className="text-lg md:text-xl text-[var(--text-secondary)] leading-relaxed text-left mb-4">
               En tydelig plan for hvert år på videregående.
@@ -120,15 +120,15 @@ export default function HvorforLambertseterPage() {
           {/* Why Lambertseter specifically */}
           <ContentBlock delay={0.4}>
             <h2 className="font-serif text-3xl md:text-4xl text-[var(--text-primary)] mb-6 text-center">
-              Hvorfor akkurat Lambertseter Toppidrett?
+              Hvorfor akkurat Lambertseter og Wang Toppidrett?
             </h2>
             <p className="text-lg md:text-xl text-[var(--text-secondary)] leading-relaxed text-left mb-4">
-              Jeg søker Lambertseter fordi jeg vil omgi meg med folk som tenker likt – som vil noe,
+              Jeg søker Lambertseter og Wang fordi jeg vil omgi meg med folk som tenker likt – som vil noe,
               og som er villige til å jobbe for det. Jeg trenger et miljø som forstår balansen
               mellom idrett og akademia.
             </p>
             <p className="text-lg md:text-xl text-[var(--text-secondary)] leading-relaxed text-left mb-6">
-              Lambertseter Toppidrett representerer alt jeg søker: et sterkt akademisk miljø kombinert med
+              Lambertseter og Wang Toppidrett representerer alt jeg søker: et sterkt akademisk miljø kombinert med
               forståelse for kravene til toppidrett. Her kan jeg utvikle meg både som student og som atlet.
             </p>
             <FeatureList
@@ -156,7 +156,7 @@ export default function HvorforLambertseterPage() {
             <p className="text-[var(--text-secondary)] text-lg leading-relaxed max-w-xl text-center mb-6">
               Jeg er klar til å ta steget opp på et høyere nivå, både sportslig og akademisk. Året i Spania har vist
               meg hva jeg er kapabel til når jeg virkelig satser, og jeg er motivert til å fortsette denne utviklingen
-              på Lambertseter Toppidrett.
+              på Lambertseter og Wang Toppidrett.
             </p>
             <p className="text-[var(--text-secondary)] text-lg leading-relaxed max-w-xl text-center mb-6">
               For referanser kan dere gjerne kontakte <span className="text-[var(--accent)] font-semibold">Nordseter skole</span>, som var min ungdomsskole.

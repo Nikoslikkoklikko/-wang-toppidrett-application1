@@ -119,7 +119,7 @@ export default function LambertseterMatchDiagram() {
           transition={{ delay: 0.5 }}
           className="text-sm text-[var(--text-secondary)] mt-4"
         >
-          Kompatibilitet mellom meg og Lambertseter Toppidrett
+          Kompatibilitet mellom meg og Toppidrett-skolene
         </motion.p>
       </div>
 
@@ -180,7 +180,7 @@ export default function LambertseterMatchDiagram() {
                     <span className="text-sm font-medium text-[var(--text-primary)]">{item.wangOffers}</span>
                     <span className="text-xl">{item.wangIcon}</span>
                   </div>
-                  <div className="text-xs text-[var(--text-secondary)] mt-1">Lambertseter</div>
+                  <div className="text-xs text-[var(--text-secondary)] mt-1">Skolen</div>
                 </div>
               </div>
 
@@ -208,7 +208,7 @@ export default function LambertseterMatchDiagram() {
       >
         <p className="text-sm text-[var(--text-secondary)]">
           <span className="text-[var(--accent)] font-bold">5 av 5</span> nøkkelkvaliteter matcher
-          {" "}med Lambertseter Toppidrett sine verdier
+          {" "}med Toppidrett-skolenes verdier
         </p>
       </motion.div>
     </div>

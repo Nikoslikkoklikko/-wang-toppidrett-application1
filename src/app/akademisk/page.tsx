@@ -97,7 +97,7 @@ export default function AkademiskPage() {
               ]}
             />
             <p className="text-lg md:text-xl text-[var(--text-secondary)] leading-relaxed text-left mt-6">
-              Jeg vet at timeplanen på Lambertseter Toppidrett er krevende, men det har jeg erfaring med. Når jeg er på skolen,
+              Jeg vet at timeplanen på Lambertseter og Wang Toppidrett er krevende, men det har jeg erfaring med. Når jeg er på skolen,
               fokuserer jeg 100% på skolearbeidet. Jeg tar ansvar for min egen læring og ber om hjelp når jeg trenger det.
             </p>
           </ContentBlock>

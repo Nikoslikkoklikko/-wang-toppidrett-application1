@@ -82,7 +82,7 @@ export default function ContributionShowcase() {
           className="inline-flex items-center gap-2 glass rounded-full px-4 py-2 mb-3"
         >
           <span className="text-lg">🎁</span>
-          <span className="text-sm text-[var(--text-secondary)]">Hva jeg bringer til Lambertseter</span>
+          <span className="text-sm text-[var(--text-secondary)]">Hva jeg bringer til skolen</span>
         </motion.div>
       </div>
 
@@ -204,7 +204,7 @@ export default function ContributionShowcase() {
           <div className="text-2xl text-[var(--text-secondary)]">×</div>
           <div>
             <div className="text-4xl font-bold text-[var(--text-primary)]">3 år</div>
-            <div className="text-xs text-[var(--text-secondary)]">på Lambertseter</div>
+            <div className="text-xs text-[var(--text-secondary)]">på skolen</div>
           </div>
           <div className="text-2xl text-[var(--text-secondary)]">=</div>
           <div>

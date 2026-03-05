@@ -16,7 +16,7 @@ const goals: Goal[] = [
   {
     period: "VG1",
     title: "Etablere fundament",
-    description: "Tilpasse meg Lambertseter-miljøet og vise at jeg fortjener plassen min",
+    description: "Tilpasse meg skolemiljøet og vise at jeg fortjener plassen min",
     icon: "🌱",
     color: "#00d4aa",
     milestones: [

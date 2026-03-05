@@ -11,7 +11,7 @@ const menuItems = [
   { href: "/disiplin", label: "Disiplin" },
   { href: "/akademisk", label: "Akademisk" },
   { href: "/selvstendighet", label: "Selvstendighet" },
-  { href: "/hvorfor-lambertseter", label: "Hvorfor Lambertseter?" },
+  { href: "/hvorfor-lambertseter", label: "Hvorfor Toppidrett?" },
 ];
 
 export default function Navigation() {

@@ -5,8 +5,8 @@ import Footer from "@/components/Footer";
 import PageTransition from "@/components/PageTransition";
 
 export const metadata: Metadata = {
-  title: "Nikolai Tingstad | Lambertseter Toppidrett Søknad",
-  description: "Søknad til Lambertseter Toppidrett - Tennis",
+  title: "Nikolai Tingstad | Lambertseter og Wang Toppidrett Søknad",
+  description: "Søknad til Lambertseter og Wang Toppidrett - Tennis",
   icons: {
     icon: "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎾</text></svg>",
   },
